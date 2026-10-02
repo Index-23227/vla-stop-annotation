@@ -1,680 +1,680 @@
-clip,model,episode,subtask_index,subtask,verdict,held_end,lead_frames,wait_frames,wait_s,work_speed_median,after_speed_median,ratio_after_over_work,still_frac,max_burst_0p5s
-sft_ep0000_s0,sft,0,0,rotate_blue_block_right,slow,0,60,260,8.67,3.096,2.683,0.867,0.109,5.869
-sft_ep0000_s1,sft,0,1,move_slider_right,slow,1,60,198,6.6,7.49,5.249,0.701,0.02,6.908
-sft_ep0000_s2,sft,0,2,lift_red_block_slider,moving,0,60,162,5.4,5.047,6.915,1.37,0.0,8.432
-sft_ep0001_s0,sft,1,0,turn_off_led,slow,0,60,104,3.47,4.547,2.929,0.644,0.096,4.533
-sft_ep0002_s0,sft,2,0,lift_pink_block_slider,slow,0,60,38,1.27,5.548,6.26,1.128,0.0,5.77
-sft_ep0003_s0,sft,3,0,rotate_blue_block_right,slow,1,60,66,2.2,3.118,5.681,1.822,0.03,6.051
-sft_ep0003_s1,sft,3,1,lift_pink_block_table,slow,1,42,248,8.27,6.526,3.019,0.463,0.04,4.364
-sft_ep0003_s2,sft,3,2,place_in_slider,moving,1,18,202,6.73,4.143,7.427,1.793,0.05,11.815
-sft_ep0003_s3,sft,3,3,move_slider_left,moving,1,60,278,9.27,6.749,9.069,1.344,0.007,12.782
-sft_ep0003_s4,sft,3,4,open_drawer,moving,1,60,160,5.33,5.179,7.173,1.385,0.0,12.05
-sft_ep0004_s0,sft,4,0,open_drawer,moving,1,54,190,6.33,6.927,6.822,0.985,0.0,9.532
-sft_ep0004_s1,sft,4,1,lift_pink_block_table,moving,0,48,294,9.8,5.999,7.292,1.216,0.014,9.777
-sft_ep0004_s2,sft,4,2,place_in_slider,moving,1,60,224,7.47,7.645,5.914,0.774,0.018,11.951
-sft_ep0004_s3,sft,4,3,turn_on_lightbulb,slow,0,52,196,6.53,7.76,2.76,0.356,0.031,5.505
-sft_ep0005_s0,sft,5,0,push_blue_block_left,moving,1,60,176,5.87,5.868,5.244,0.894,0.0,8.721
-sft_ep0005_s1,sft,5,1,close_drawer,moving,1,60,284,9.47,7.008,7.399,1.056,0.014,11.959
-sft_ep0005_s2,sft,5,2,lift_red_block_slider,slow,0,58,96,3.2,7.361,2.746,0.373,0.106,4.575
-sft_ep0005_s3,sft,5,3,place_in_slider,moving,1,38,250,8.33,6.886,4.872,0.707,0.065,13.646
-sft_ep0005_s4,sft,5,4,turn_off_lightbulb,slow,0,60,208,6.93,9.015,4.902,0.544,0.039,6.642
-sft_ep0006_s0,sft,6,0,open_drawer,slow,1,58,18,0.6,6.258,12.05,1.925,0.0,
-sft_ep0006_s1,sft,6,1,rotate_red_block_right,slow,0,60,128,4.27,3.146,2.124,0.675,0.219,5.245
-sft_ep0006_s2,sft,6,2,turn_on_led,slow,1,50,262,8.73,6.449,2.386,0.37,0.177,4.007
-sft_ep0006_s3,sft,6,3,lift_pink_block_table,slow,0,60,174,5.8,4.812,3.768,0.783,0.034,5.318
-sft_ep0006_s4,sft,6,4,stack_block,slow,1,60,26,0.87,5.242,5.205,0.993,0.0,
-sft_ep0007_s0,sft,7,0,push_pink_block_right,moving,0,60,234,7.8,3.791,3.144,0.829,0.034,7.011
-sft_ep0007_s1,sft,7,1,lift_pink_block_table,moving,0,22,226,7.53,2.938,7.355,2.503,0.009,8.959
-sft_ep0007_s2,sft,7,2,place_in_slider,moving,1,60,258,8.6,8.02,7.479,0.933,0.008,11.998
-sft_ep0008_s0,sft,8,0,open_drawer,moving,1,60,42,1.4,6.125,11.801,1.927,0.0,13.013
-sft_ep0008_s1,sft,8,1,push_red_block_right,moving,1,60,262,8.73,5.233,4.473,0.855,0.015,7.835
-sft_ep0008_s2,sft,8,2,move_slider_left,slow,1,60,22,0.73,5.678,7.741,1.363,0.0,
-sft_ep0009_s0,sft,9,0,push_red_block_left,slow,1,60,38,1.27,3.514,3.406,0.969,0.0,4.844
-sft_ep0009_s1,sft,9,1,lift_blue_block_table,moving,1,58,102,3.4,5.86,10.299,1.757,0.02,13.708
-sft_ep0009_s2,sft,9,2,place_in_slider,moving,1,38,154,5.13,7.621,3.922,0.515,0.158,7.02
-sft_ep0009_s3,sft,9,3,turn_on_lightbulb,moving,1,60,136,4.53,7.559,5.213,0.69,0.0,7.224
-sft_ep0009_s4,sft,9,4,move_slider_right,slow,1,60,132,4.4,7.378,4.931,0.668,0.015,6.993
-sft_ep0010_s0,sft,10,0,rotate_blue_block_left,slow,1,60,24,0.8,1.722,3.576,2.077,0.0,
-sft_ep0010_s1,sft,10,1,lift_blue_block_table,slow,1,48,18,0.6,4.013,11.868,2.957,0.0,
-sft_ep0010_s2,sft,10,2,place_in_drawer,moving,1,52,52,1.73,8.233,8.454,1.027,0.0,8.315
-sft_ep0010_s3,sft,10,3,move_slider_right,slow,1,48,18,0.6,10.149,6.357,0.626,0.0,
-sft_ep0010_s4,sft,10,4,turn_off_lightbulb,slow,1,60,208,6.93,4.749,4.055,0.854,0.019,5.107
-sft_ep0011_s0,sft,11,0,lift_pink_block_slider,slow,0,60,166,5.53,6.326,4.41,0.697,0.024,6.123
-sft_ep0012_s0,sft,12,0,move_slider_left,moving,1,56,90,3.0,6.729,5.552,0.825,0.0,11.213
-sft_ep0012_s1,sft,12,1,rotate_red_block_left,slow,0,60,192,6.4,2.244,2.188,0.975,0.083,3.407
-sft_ep0012_s2,sft,12,2,turn_off_led,slow,0,60,234,7.8,3.099,3.218,1.038,0.214,5.708
-sft_ep0012_s3,sft,12,3,lift_pink_block_table,slow,1,60,126,4.2,3.566,1.819,0.51,0.081,3.941
-sft_ep0013_s0,sft,13,0,turn_on_led,slow,1,60,302,10.07,4.236,2.936,0.693,0.093,5.511
-sft_ep0013_s1,sft,13,1,close_drawer,moving,1,60,246,8.2,4.603,6.433,1.398,0.0,9.903
-sft_ep0014_s0,sft,14,0,lift_red_block_slider,moving,0,60,124,4.13,6.014,4.925,0.819,0.016,7.461
-sft_ep0014_s1,sft,14,1,stack_block,moving,1,44,212,7.07,5.97,5.621,0.942,0.009,8.127
-sft_ep0014_s2,sft,14,2,move_slider_left,moving,1,44,288,9.6,8.235,8.592,1.043,0.0,11.197
-sft_ep0014_s3,sft,14,3,turn_off_led,slow,1,26,204,6.8,4.387,2.255,0.514,0.208,4.962
-sft_ep0014_s4,sft,14,4,open_drawer,moving,1,60,256,8.53,4.996,6.567,1.314,0.008,11.871
-sft_ep0015_s0,sft,15,0,move_slider_left,moving,1,52,214,7.13,7.884,7.529,0.955,0.019,12.122
-sft_ep0015_s1,sft,15,1,push_pink_block_left,slow,1,60,218,7.27,4.646,2.455,0.528,0.12,5.28
-sft_ep0015_s2,sft,15,2,open_drawer,moving,1,60,128,4.27,5.667,7.073,1.248,0.0,8.34
-sft_ep0015_s3,sft,15,3,turn_on_lightbulb,slow,1,52,266,8.87,7.891,3.707,0.47,0.03,5.242
-sft_ep0015_s4,sft,15,4,lift_blue_block_table,slow,0,60,54,1.8,2.982,2.125,0.713,0.259,2.993
-sft_ep0016_s0,sft,16,0,push_red_block_left,slow,1,60,182,6.07,4.62,4.646,1.006,0.0,6.201
-sft_ep0016_s1,sft,16,1,lift_pink_block_slider,moving,0,46,224,7.47,6.352,4.763,0.75,0.054,8.62
-sft_ep0017_s0,sft,17,0,push_red_block_left,slow,1,60,166,5.53,5.119,3.274,0.64,0.072,5.219
-sft_ep0017_s1,sft,17,1,move_slider_right,slow,1,60,124,4.13,8.568,4.806,0.561,0.0,6.239
-sft_ep0017_s2,sft,17,2,lift_blue_block_slider,slow,0,60,104,3.47,5.045,3.921,0.777,0.096,4.939
-sft_ep0018_s0,sft,18,0,turn_on_lightbulb,moving,0,60,154,5.13,7.749,5.056,0.653,0.0,7.055
-sft_ep0019_s0,sft,19,0,move_slider_left,moving,1,52,270,9.0,7.149,7.966,1.114,0.022,10.592
-sft_ep0019_s1,sft,19,1,lift_red_block_table,slow,0,60,36,1.2,7.477,3.023,0.404,0.056,3.173
-sft_ep0020_s0,sft,20,0,open_drawer,moving,1,60,168,5.6,6.551,9.317,1.422,0.0,11.619
-sft_ep0020_s1,sft,20,1,turn_on_lightbulb,moving,1,60,118,3.93,6.452,5.405,0.838,0.0,7.205
-sft_ep0020_s2,sft,20,2,push_red_block_left,slow,1,60,208,6.93,4.28,4.056,0.948,0.0,6.334
-sft_ep0020_s3,sft,20,3,move_slider_left,moving,1,52,180,6.0,5.465,10.383,1.9,0.0,11.878
-sft_ep0020_s4,sft,20,4,push_into_drawer,slow,1,60,88,2.93,3.494,5.971,1.709,0.0,6.986
-sft_ep0021_s0,sft,21,0,move_slider_right,moving,1,60,108,3.6,8.766,4.537,0.518,0.037,7.417
-sft_ep0021_s1,sft,21,1,turn_off_lightbulb,moving,1,60,222,7.4,7.476,5.429,0.726,0.0,8.522
-sft_ep0021_s2,sft,21,2,lift_pink_block_table,moving,0,60,186,6.2,5.636,6.471,1.148,0.0,7.92
-sft_ep0021_s3,sft,21,3,place_in_drawer,moving,1,20,162,5.4,6.787,8.423,1.241,0.0,11.967
-sft_ep0021_s4,sft,21,4,lift_pink_block_drawer,moving,0,50,112,3.73,8.719,10.527,1.207,0.018,12.747
-sft_ep0023_s0,sft,23,0,turn_on_led,slow,1,60,128,4.27,4.842,3.496,0.722,0.094,5.063
-sft_ep0023_s1,sft,23,1,move_slider_left,moving,1,60,110,3.67,6.818,10.214,1.498,0.0,10.593
-sft_ep0023_s2,sft,23,2,lift_blue_block_table,moving,1,58,272,9.07,5.727,4.702,0.821,0.037,9.243
-sft_ep0023_s3,sft,23,3,stack_block,moving,1,28,92,3.07,4.843,4.008,0.828,0.0,7.107
-sft_ep0023_s4,sft,23,4,unstack_block,moving,1,26,80,2.67,2.112,7.159,3.39,0.0,8.854
-sft_ep0024_s0,sft,24,0,rotate_blue_block_right,slow,0,60,220,7.33,3.847,2.743,0.713,0.127,4.853
-sft_ep0024_s1,sft,24,1,open_drawer,moving,1,60,194,6.47,5.478,8.409,1.535,0.0,10.698
-sft_ep0024_s2,sft,24,2,turn_off_led,slow,1,42,30,1.0,6.179,1.062,0.172,0.429,
-sft_ep0024_s3,sft,24,3,lift_blue_block_table,slow,1,60,40,1.33,5.324,2.165,0.407,0.3,2.395
-sft_ep0024_s4,sft,24,4,place_in_slider,moving,0,60,124,4.13,3.05,7.575,2.484,0.0,9.803
-sft_ep0025_s0,sft,25,0,lift_blue_block_slider,moving,0,60,254,8.47,5.141,5.387,1.048,0.008,9.515
-sft_ep0025_s1,sft,25,1,stack_block,slow,1,60,130,4.33,4.452,4.423,0.993,0.015,5.709
-sft_ep0025_s2,sft,25,2,turn_off_led,slow,1,60,242,8.07,4.76,3.308,0.695,0.033,4.657
-sft_ep0025_s3,sft,25,3,unstack_block,slow,1,50,106,3.53,5.29,3.543,0.67,0.057,4.634
-sft_ep0026_s0,sft,26,0,push_blue_block_right,moving,1,60,242,8.07,4.624,5.961,1.289,0.058,8.69
-sft_ep0026_s1,sft,26,1,open_drawer,moving,1,60,266,8.87,5.965,10.062,1.687,0.0,11.711
-sft_ep0026_s2,sft,26,2,lift_pink_block_slider,moving,1,60,38,1.27,6.733,6.629,0.985,0.0,7.753
-sft_ep0026_s3,sft,26,3,place_in_slider,slow,1,60,32,1.07,1.97,1.815,0.921,0.0,1.971
-sft_ep0028_s0,sft,28,0,turn_off_lightbulb,moving,1,60,180,6.0,8.733,5.238,0.6,0.011,7.045
-sft_ep0028_s1,sft,28,1,rotate_blue_block_left,slow,1,60,58,1.93,3.049,5.137,1.685,0.0,5.336
-sft_ep0028_s2,sft,28,2,move_slider_left,moving,1,60,262,8.73,5.796,7.204,1.243,0.023,10.409
-sft_ep0028_s3,sft,28,3,open_drawer,moving,1,60,144,4.8,5.062,9.537,1.884,0.0,12.199
-sft_ep0028_s4,sft,28,4,lift_red_block_table,moving,0,30,272,9.07,6.531,7.69,1.177,0.0,8.756
-sft_ep0029_s0,sft,29,0,lift_red_block_table,slow,0,42,244,8.13,5.684,3.123,0.549,0.058,6.06
-sft_ep0029_s1,sft,29,1,stack_block,slow,0,60,218,7.27,3.439,3.796,1.104,0.019,5.355
-sft_ep0030_s0,sft,30,0,lift_blue_block_table,slow,0,40,236,7.87,6.367,3.59,0.564,0.034,5.155
-sft_ep0031_s0,sft,31,0,lift_pink_block_table,slow,0,56,180,6.0,5.493,2.7,0.491,0.056,3.79
-sft_ep0032_s0,sft,32,0,rotate_pink_block_left,slow,0,60,302,10.07,2.099,2.902,1.382,0.113,6.329
-sft_ep0032_s1,sft,32,1,lift_pink_block_table,moving,0,60,72,2.4,2.54,7.64,3.008,0.0,10.037
-sft_ep0032_s2,sft,32,2,stack_block,moving,1,60,286,9.53,1.801,6.446,3.58,0.014,8.319
-sft_ep0032_s3,sft,32,3,unstack_block,slow,1,40,42,1.4,5.476,2.688,0.491,0.2,2.509
-sft_ep0032_s4,sft,32,4,turn_off_led,slow,1,58,196,6.53,8.393,3.095,0.369,0.103,6.053
-sft_ep0033_s0,sft,33,0,turn_off_led,slow,0,60,182,6.07,4.193,3.071,0.732,0.156,5.602
-sft_ep0033_s1,sft,33,1,open_drawer,moving,1,60,274,9.13,8.66,7.7,0.889,0.0,10.375
-sft_ep0033_s2,sft,33,2,push_pink_block_left,slow,0,60,102,3.4,4.728,2.527,0.534,0.06,3.851
-sft_ep0033_s3,sft,33,3,lift_blue_block_table,moving,0,60,274,9.13,6.62,6.818,1.03,0.015,11.587
-sft_ep0034_s0,sft,34,0,move_slider_right,moving,1,60,270,9.0,8.869,5.325,0.6,0.0,14.796
-sft_ep0034_s1,sft,34,1,push_blue_block_left,slow,1,60,74,2.47,6.203,3.803,0.613,0.056,4.338
-sft_ep0034_s2,sft,34,2,open_drawer,moving,1,60,232,7.73,7.598,6.012,0.791,0.026,9.562
-sft_ep0034_s3,sft,34,3,lift_red_block_table,moving,0,30,286,9.53,5.685,4.679,0.823,0.07,12.15
-sft_ep0034_s4,sft,34,4,stack_block,slow,1,60,30,1.0,8.416,3.914,0.465,0.0,
-sft_ep0035_s0,sft,35,0,lift_red_block_slider,moving,1,60,120,4.0,7.405,8.832,1.193,0.0,9.95
-sft_ep0035_s1,sft,35,1,place_in_slider,moving,1,52,198,6.6,9.808,4.889,0.498,0.03,8.645
-sft_ep0036_s0,sft,36,0,move_slider_right,slow,1,60,162,5.4,7.343,4.869,0.663,0.013,6.335
-sft_ep0036_s1,sft,36,1,turn_off_lightbulb,moving,1,60,196,6.53,4.896,1.134,0.232,0.423,7.801
-sft_ep0037_s0,sft,37,0,turn_off_lightbulb,moving,1,52,282,9.4,9.777,4.906,0.502,0.014,7.31
-sft_ep0037_s1,sft,37,1,push_red_block_right,slow,1,60,134,4.47,5.411,3.577,0.661,0.045,4.291
-sft_ep0037_s2,sft,37,2,push_into_drawer,moving,1,60,142,4.73,4.587,2.86,0.623,0.114,8.46
-sft_ep0037_s3,sft,37,3,move_slider_left,moving,1,50,152,5.07,8.557,8.409,0.983,0.0,13.171
-sft_ep0037_s4,sft,37,4,close_drawer,moving,1,60,290,9.67,6.773,6.536,0.965,0.014,10.08
-sft_ep0038_s0,sft,38,0,open_drawer,moving,1,54,72,2.4,7.403,8.441,1.14,0.0,10.767
-sft_ep0038_s1,sft,38,1,move_slider_right,slow,1,60,158,5.27,9.198,4.379,0.476,0.127,5.911
-sft_ep0039_s0,sft,39,0,turn_on_led,slow,0,42,138,4.6,4.758,3.53,0.742,0.088,5.7
-sft_ep0039_s1,sft,39,1,rotate_pink_block_right,slow,1,60,286,9.53,3.588,3.199,0.892,0.042,6.125
-sft_ep0039_s2,sft,39,2,move_slider_right,moving,1,60,194,6.47,9.243,20.326,2.199,0.0,29.901
-sft_ep0040_s0,sft,40,0,move_slider_right,slow,1,60,300,10.0,9.527,4.728,0.496,0.007,6.601
-sft_ep0040_s1,sft,40,1,close_drawer,moving,1,60,188,6.27,7.756,8.22,1.06,0.021,9.934
-sft_ep0040_s2,sft,40,2,push_pink_block_left,moving,1,60,288,9.6,6.601,7.613,1.153,0.0,9.007
-sft_ep0040_s3,sft,40,3,lift_pink_block_table,slow,1,44,22,0.73,6.523,6.927,1.062,0.0,
-sft_ep0040_s4,sft,40,4,place_in_slider,moving,0,20,148,4.93,3.568,10.42,2.921,0.041,14.19
-sft_ep0041_s0,sft,41,0,move_slider_right,moving,1,60,254,8.47,7.497,4.429,0.591,0.031,10.584
-sft_ep0042_s0,sft,42,0,move_slider_left,moving,1,54,134,4.47,7.46,9.21,1.234,0.0,13.371
-sft_ep0042_s1,sft,42,1,push_pink_block_left,moving,1,60,158,5.27,5.225,5.862,1.122,0.013,10.605
-sft_ep0042_s2,sft,42,2,lift_blue_block_slider,slow,0,60,136,4.53,6.946,3.117,0.449,0.015,4.665
-sft_ep0043_s0,sft,43,0,rotate_pink_block_right,slow,1,60,82,2.73,2.388,5.215,2.184,0.0,6.042
-sft_ep0043_s1,sft,43,1,lift_pink_block_table,moving,1,60,240,8.0,3.319,2.59,0.78,0.158,7.255
-sft_ep0043_s2,sft,43,2,place_in_slider,moving,1,60,38,1.27,3.705,9.144,2.468,0.158,10.517
-sft_ep0044_s0,sft,44,0,lift_blue_block_table,moving,1,50,98,3.27,8.237,10.581,1.285,0.042,10.881
-sft_ep0044_s1,sft,44,1,place_in_slider,moving,1,40,226,7.53,9.081,6.629,0.73,0.027,9.839
-sft_ep0044_s2,sft,44,2,turn_on_led,slow,0,60,230,7.67,4.71,3.465,0.736,0.052,5.512
-sft_ep0047_s0,sft,47,0,lift_red_block_slider,moving,0,60,68,2.27,6.738,8.321,1.235,0.0,8.736
-sft_ep0048_s0,sft,48,0,rotate_blue_block_left,slow,1,60,54,1.8,2.255,2.676,1.187,0.0,4.268
-sft_ep0048_s1,sft,48,1,move_slider_left,moving,1,46,224,7.47,6.78,10.157,1.498,0.0,11.939
-sft_ep0048_s2,sft,48,2,open_drawer,moving,1,60,294,9.8,3.593,8.579,2.387,0.007,10.365
-sft_ep0048_s3,sft,48,3,lift_red_block_slider,moving,0,60,282,9.4,8.086,6.824,0.844,0.007,10.214
-sft_ep0048_s4,sft,48,4,place_in_drawer,moving,1,8,208,6.93,4.036,8.488,2.103,0.01,11.258
-sft_ep0049_s0,sft,49,0,lift_red_block_table,moving,1,48,294,9.8,7.328,8.574,1.17,0.0,10.985
-sft_ep0049_s1,sft,49,1,place_in_drawer,moving,1,26,266,8.87,5.663,6.087,1.075,0.023,9.923
-sft_ep0049_s2,sft,49,2,rotate_blue_block_right,slow,1,60,20,0.67,3.115,3.988,1.28,0.0,
-sft_ep0049_s3,sft,49,3,lift_pink_block_slider,moving,1,60,50,1.67,5.71,10.349,1.812,0.0,13.071
-sft_ep0050_s0,sft,50,0,open_drawer,moving,1,60,40,1.33,6.042,13.973,2.313,0.0,14.618
-sft_ep0050_s1,sft,50,1,push_blue_block_right,moving,1,60,296,9.87,6.416,4.362,0.68,0.027,7.123
-sft_ep0050_s2,sft,50,2,move_slider_left,moving,1,44,252,8.4,6.524,8.084,1.239,0.016,11.991
-sft_ep0050_s3,sft,50,3,push_into_drawer,moving,1,60,290,9.67,3.993,6.44,1.613,0.021,8.367
-sft_ep0050_s4,sft,50,4,lift_blue_block_drawer,slow,0,56,120,4.0,8.788,3.394,0.386,0.034,4.598
-sft_ep0051_s0,sft,51,0,rotate_red_block_right,slow,1,60,58,1.93,2.801,2.46,0.878,0.172,4.009
-sft_ep0051_s1,sft,51,1,lift_pink_block_slider,slow,0,60,164,5.47,8.113,5.566,0.686,0.012,6.869
-sft_ep0052_s0,sft,52,0,turn_on_led,slow,1,38,122,4.07,5.605,2.587,0.461,0.133,3.545
-sft_ep0052_s1,sft,52,1,push_pink_block_left,moving,1,60,270,9.0,8.028,5.448,0.679,0.037,9.28
-sft_ep0053_s0,sft,53,0,turn_on_led,slow,0,42,252,8.4,5.203,3.369,0.648,0.096,5.589
-sft_ep0053_s1,sft,53,1,open_drawer,moving,1,60,82,2.73,6.293,8.126,1.291,0.0,9.626
-sft_ep0053_s2,sft,53,2,rotate_pink_block_left,slow,1,58,154,5.13,3.013,3.04,1.009,0.092,4.434
-sft_ep0053_s3,sft,53,3,lift_blue_block_table,slow,0,60,110,3.67,4.452,2.872,0.645,0.111,4.297
-sft_ep0054_s0,sft,54,0,turn_off_led,slow,0,38,272,9.07,5.304,3.207,0.605,0.178,6.717
-sft_ep0054_s1,sft,54,1,close_drawer,moving,1,60,246,8.2,5.761,5.077,0.881,0.0,9.627
-sft_ep0054_s2,sft,54,2,move_slider_left,moving,1,58,56,1.87,8.382,6.409,0.765,0.0,7.981
-sft_ep0055_s0,sft,55,0,close_drawer,moving,1,60,294,9.8,5.784,6.473,1.119,0.007,11.0
-sft_ep0055_s1,sft,55,1,push_red_block_left,slow,1,60,92,3.07,4.377,2.825,0.645,0.022,3.819
-sft_ep0055_s2,sft,55,2,lift_red_block_table,slow,0,60,138,4.6,3.368,3.021,0.897,0.029,6.262
-sft_ep0055_s3,sft,55,3,stack_block,moving,1,44,170,5.67,4.254,4.33,1.018,0.047,7.797
-sft_ep0056_s0,sft,56,0,move_slider_right,slow,1,60,142,4.73,6.76,4.555,0.674,0.0,6.92
-sft_ep0056_s1,sft,56,1,push_into_drawer,moving,1,60,58,1.93,2.959,4.933,1.667,0.034,7.331
-sft_ep0056_s2,sft,56,2,lift_red_block_slider,moving,0,60,282,9.4,5.323,9.155,1.72,0.007,11.796
-sft_ep0057_s0,sft,57,0,push_blue_block_left,slow,1,60,28,0.93,6.437,3.719,0.578,0.0,
-sft_ep0057_s1,sft,57,1,push_into_drawer,slow,1,60,248,8.27,7.754,3.492,0.45,0.04,6.48
-sft_ep0057_s2,sft,57,2,lift_blue_block_drawer,moving,0,34,226,7.53,6.539,4.048,0.619,0.018,7.285
-sft_ep0058_s0,sft,58,0,move_slider_right,slow,1,60,192,6.4,5.981,4.949,0.827,0.0,6.575
-sft_ep0058_s1,sft,58,1,turn_off_lightbulb,slow,1,44,160,5.33,6.473,3.945,0.609,0.025,5.45
-sft_ep0058_s2,sft,58,2,close_drawer,slow,1,60,24,0.8,6.239,7.09,1.136,0.0,
-sft_ep0058_s3,sft,58,3,rotate_blue_block_right,moving,0,60,282,9.4,3.527,3.141,0.89,0.071,7.253
-sft_ep0059_s0,sft,59,0,turn_off_lightbulb,slow,1,60,104,3.47,6.968,4.973,0.714,0.038,6.19
-sft_ep0060_s0,sft,60,0,turn_on_lightbulb,slow,1,60,42,1.4,6.987,3.443,0.493,0.0,4.3
-sft_ep0060_s1,sft,60,1,move_slider_left,moving,1,60,232,7.73,5.119,11.144,2.177,0.0,14.137
-sft_ep0062_s0,sft,62,0,rotate_pink_block_left,slow,1,60,274,9.13,2.314,2.66,1.149,0.11,4.267
-sft_ep0062_s1,sft,62,1,turn_on_led,slow,1,50,282,9.4,4.523,3.607,0.798,0.071,6.064
-sft_ep0062_s2,sft,62,2,lift_red_block_slider,slow,0,60,92,3.07,4.596,2.376,0.517,0.196,3.317
-sft_ep0062_s3,sft,62,3,stack_block,slow,1,60,34,1.13,5.628,3.511,0.624,0.0,4.192
-sft_ep0062_s4,sft,62,4,close_drawer,moving,1,60,158,5.27,5.545,6.123,1.104,0.0,9.596
-sft_ep0063_s0,sft,63,0,move_slider_right,moving,1,60,256,8.53,8.406,4.023,0.479,0.023,11.479
-sft_ep0063_s1,sft,63,1,lift_red_block_slider,moving,1,60,194,6.47,2.905,5.744,1.977,0.01,8.411
-sft_ep0063_s2,sft,63,2,place_in_slider,slow,1,60,36,1.2,5.147,1.866,0.363,0.059,2.048
-sft_ep0063_s3,sft,63,3,open_drawer,moving,1,60,202,6.73,4.513,8.779,1.945,0.0,12.353
-sft_ep0063_s4,sft,63,4,turn_on_led,slow,1,42,116,3.87,6.622,3.228,0.487,0.105,4.612
-sft_ep0064_s0,sft,64,0,open_drawer,moving,1,56,80,2.67,6.424,8.019,1.248,0.0,9.179
-sft_ep0065_s0,sft,65,0,open_drawer,moving,1,52,266,8.87,7.01,8.844,1.262,0.015,10.346
-sft_ep0065_s1,sft,65,1,turn_on_led,slow,0,34,294,9.8,8.358,3.137,0.375,0.096,4.795
-sft_ep0065_s2,sft,65,2,move_slider_right,moving,1,50,58,1.93,7.873,6.747,0.857,0.0,7.2
-sft_ep0065_s3,sft,65,3,lift_pink_block_table,moving,0,60,176,5.87,4.966,6.564,1.322,0.0,8.147
-sft_ep0066_s0,sft,66,0,rotate_pink_block_right,slow,1,60,90,3.0,1.932,2.029,1.05,0.111,2.859
-sft_ep0067_s0,sft,67,0,lift_pink_block_table,slow,0,52,86,2.87,6.855,4.324,0.631,0.024,6.83
-sft_ep0067_s1,sft,67,1,stack_block,slow,1,56,76,2.53,7.724,5.138,0.665,0.0,5.959
-sft_ep0067_s2,sft,67,2,unstack_block,slow,1,60,270,9.0,4.726,2.68,0.567,0.052,6.694
-sft_ep0067_s3,sft,67,3,turn_on_lightbulb,slow,0,46,78,2.6,5.895,3.393,0.576,0.0,4.215
-sft_ep0067_s4,sft,67,4,push_red_block_left,slow,1,60,80,2.67,3.332,3.031,0.91,0.0,5.098
-sft_ep0068_s0,sft,68,0,push_pink_block_left,slow,0,60,52,1.73,4.571,3.241,0.709,0.0,3.471
-sft_ep0068_s1,sft,68,1,lift_blue_block_table,moving,1,60,52,1.73,6.527,10.908,1.671,0.04,10.201
-sft_ep0068_s2,sft,68,2,place_in_drawer,moving,1,32,240,8.0,10.709,8.731,0.815,0.008,12.407
-sft_ep0068_s3,sft,68,3,close_drawer,moving,1,58,98,3.27,6.828,6.665,0.976,0.0,8.942
-sft_ep0068_s4,sft,68,4,move_slider_right,moving,1,48,246,8.2,8.451,3.912,0.463,0.025,7.354
-sft_ep0069_s0,sft,69,0,open_drawer,moving,1,54,184,6.13,7.022,7.895,1.124,0.011,9.79
-sft_ep0069_s1,sft,69,1,turn_off_led,slow,0,44,262,8.73,8.297,2.656,0.32,0.131,4.449
-sft_ep0069_s2,sft,69,2,push_pink_block_left,moving,1,60,174,5.8,5.427,4.652,0.857,0.0,8.004
-sft_ep0069_s3,sft,69,3,move_slider_left,moving,1,50,236,7.87,6.336,6.709,1.059,0.009,11.549
-sft_ep0069_s4,sft,69,4,lift_pink_block_table,slow,0,48,248,8.27,4.683,3.909,0.835,0.057,5.935
-sft_ep0070_s0,sft,70,0,close_drawer,moving,1,60,34,1.13,6.096,8.077,1.325,0.0,7.867
-sft_ep0070_s1,sft,70,1,rotate_blue_block_right,slow,1,60,176,5.87,2.378,3.78,1.59,0.102,5.748
-sft_ep0070_s2,sft,70,2,turn_off_led,slow,0,60,146,4.87,2.439,3.558,1.459,0.137,4.433
-sft_ep0070_s3,sft,70,3,move_slider_right,slow,1,56,98,3.27,6.065,1.243,0.205,0.388,3.471
-sft_ep0071_s0,sft,71,0,open_drawer,moving,1,60,134,4.47,5.846,8.276,1.416,0.03,8.65
-sft_ep0071_s1,sft,71,1,push_red_block_left,slow,1,60,156,5.2,3.844,3.659,0.952,0.013,5.139
-sft_ep0071_s2,sft,71,2,turn_off_lightbulb,slow,1,60,250,8.33,7.587,4.453,0.587,0.0,6.981
-sft_ep0071_s3,sft,71,3,lift_pink_block_slider,moving,0,60,252,8.4,7.276,8.729,1.2,0.008,10.286
-sft_ep0072_s0,sft,72,0,move_slider_right,moving,1,60,220,7.33,8.449,4.599,0.544,0.018,7.508
-sft_ep0072_s1,sft,72,1,push_pink_block_left,moving,1,60,290,9.67,4.925,5.194,1.055,0.014,8.878
-sft_ep0072_s2,sft,72,2,lift_blue_block_slider,moving,0,60,198,6.6,7.4,5.591,0.756,0.01,10.035
-sft_ep0072_s3,sft,72,3,place_in_drawer,moving,1,26,122,4.07,4.648,6.311,1.358,0.05,10.15
-sft_ep0072_s4,sft,72,4,turn_off_led,slow,0,38,40,1.33,8.763,1.349,0.154,0.316,2.643
-sft_ep0074_s0,sft,74,0,turn_off_lightbulb,moving,1,60,82,2.73,7.998,6.78,0.848,0.0,8.952
-sft_ep0074_s1,sft,74,1,move_slider_right,slow,1,60,186,6.2,7.119,3.172,0.446,0.022,5.566
-sft_ep0074_s2,sft,74,2,rotate_blue_block_right,slow,1,60,24,0.8,2.998,3.203,1.068,0.0,
-sft_ep0074_s3,sft,74,3,lift_blue_block_table,moving,1,34,258,8.6,4.517,6.834,1.513,0.008,12.707
-sft_ep0074_s4,sft,74,4,stack_block,moving,1,60,286,9.53,4.565,4.568,1.001,0.007,9.232
-sft_ep0075_s0,sft,75,0,move_slider_right,moving,1,60,58,1.93,8.909,8.786,0.986,0.0,10.109
-sft_ep0076_s0,sft,76,0,rotate_blue_block_left,slow,0,60,132,4.4,2.067,1.842,0.891,0.212,5.752
-sft_ep0077_s0,sft,77,0,turn_off_led,slow,0,40,278,9.27,5.189,2.752,0.53,0.109,4.596
-sft_ep0077_s1,sft,77,1,move_slider_left,moving,1,60,286,9.53,7.323,8.448,1.154,0.0,9.709
-sft_ep0077_s2,sft,77,2,open_drawer,slow,1,60,28,0.93,3.54,13.047,3.686,0.0,
-sft_ep0077_s3,sft,77,3,rotate_blue_block_right,slow,1,60,186,6.2,3.392,2.405,0.709,0.185,4.625
-sft_ep0077_s4,sft,77,4,lift_blue_block_table,moving,0,60,252,8.4,2.165,3.047,1.407,0.04,11.742
-sft_ep0078_s0,sft,78,0,lift_blue_block_slider,slow,0,60,242,8.07,5.909,3.593,0.608,0.05,6.308
-sft_ep0079_s0,sft,79,0,rotate_red_block_left,slow,0,60,262,8.73,3.311,2.776,0.839,0.154,6.104
-sft_ep0079_s1,sft,79,1,lift_pink_block_table,moving,1,50,254,8.47,4.62,3.667,0.794,0.008,7.941
-sft_ep0080_s0,sft,80,0,push_pink_block_left,slow,1,60,18,0.6,5.032,10.765,2.139,0.0,
-sft_ep0080_s1,sft,80,1,turn_on_lightbulb,slow,1,60,46,1.53,8.456,4.119,0.487,0.0,4.822
-sft_ep0080_s2,sft,80,2,lift_pink_block_table,moving,0,60,120,4.0,8.01,6.474,0.808,0.117,9.46
-sft_ep0081_s0,sft,81,0,open_drawer,moving,1,60,38,1.27,6.597,11.348,1.72,0.0,11.546
-sft_ep0081_s1,sft,81,1,move_slider_right,moving,1,60,90,3.0,7.015,4.765,0.679,0.0,7.749
-sft_ep0081_s2,sft,81,2,lift_red_block_slider,moving,0,60,202,6.73,4.45,4.53,1.018,0.02,9.192
-sft_ep0082_s0,sft,82,0,lift_red_block_slider,moving,0,60,94,3.13,6.806,4.087,0.6,0.043,7.115
-sft_ep0083_s0,sft,83,0,push_into_drawer,moving,1,60,216,7.2,5.738,6.047,1.054,0.0,12.184
-sft_ep0084_s0,sft,84,0,move_slider_right,moving,1,60,286,9.53,6.451,4.773,0.74,0.099,7.632
-sft_ep0084_s1,sft,84,1,push_red_block_left,slow,1,60,240,8.0,4.913,2.89,0.588,0.017,5.244
-sft_ep0084_s2,sft,84,2,turn_off_lightbulb,slow,1,60,52,1.73,5.185,1.448,0.279,0.385,4.186
-sft_ep0084_s3,sft,84,3,lift_blue_block_slider,slow,1,60,26,0.87,6.71,9.26,1.38,0.0,
-sft_ep0084_s4,sft,84,4,stack_block,moving,0,26,264,8.8,7.392,5.671,0.767,0.008,11.936
-sft_ep0085_s0,sft,85,0,lift_pink_block_slider,moving,0,60,132,4.4,4.853,7.004,1.443,0.0,9.609
-sft_ep0086_s0,sft,86,0,move_slider_right,slow,1,60,152,5.07,7.742,4.241,0.548,0.026,6.77
-sft_ep0086_s1,sft,86,1,turn_on_led,slow,1,46,124,4.13,4.632,2.742,0.592,0.129,4.546
-sft_ep0086_s2,sft,86,2,lift_pink_block_slider,moving,0,58,140,4.67,6.416,5.696,0.888,0.0,7.531
-sft_ep0088_s0,sft,88,0,push_blue_block_left,moving,1,60,156,5.2,5.819,5.712,0.982,0.0,8.436
-sft_ep0088_s1,sft,88,1,close_drawer,moving,1,60,156,5.2,5.943,7.841,1.319,0.0,11.383
-sft_ep0088_s2,sft,88,2,turn_off_lightbulb,moving,1,50,296,9.87,9.097,4.169,0.458,0.007,8.552
-sft_ep0088_s3,sft,88,3,lift_blue_block_table,slow,1,60,214,7.13,4.308,2.178,0.506,0.056,4.204
-sft_ep0089_s0,sft,89,0,close_drawer,slow,1,60,18,0.6,5.527,5.06,0.916,0.0,
-sft_ep0089_s1,sft,89,1,lift_red_block_slider,moving,0,60,104,3.47,7.174,4.417,0.616,0.058,7.297
-sft_ep0090_s0,sft,90,0,rotate_blue_block_left,slow,0,60,94,3.13,2.918,3.942,1.351,0.022,4.773
-sft_ep0090_s1,sft,90,1,turn_off_lightbulb,slow,1,60,162,5.4,3.608,2.666,0.739,0.1,3.375
-sft_ep0090_s2,sft,90,2,move_slider_right,slow,1,60,262,8.73,10.216,4.301,0.421,0.031,6.76
-sft_ep0090_s3,sft,90,3,open_drawer,moving,1,60,198,6.6,5.263,10.093,1.918,0.0,12.729
-sft_ep0090_s4,sft,90,4,lift_red_block_slider,slow,0,60,268,8.93,7.321,4.542,0.62,0.03,6.123
-sft_ep0091_s0,sft,91,0,turn_on_led,slow,0,44,64,2.13,3.983,2.631,0.66,0.097,3.675
-sft_ep0091_s1,sft,91,1,rotate_blue_block_right,slow,1,60,162,5.4,2.526,2.304,0.912,0.123,4.854
-sft_ep0091_s2,sft,91,2,lift_blue_block_table,moving,0,32,198,6.6,4.343,8.115,1.869,0.0,9.917
-sft_ep0091_s3,sft,91,3,stack_block,slow,0,38,114,3.8,5.898,4.547,0.771,0.0,5.325
-sft_ep0091_s4,sft,91,4,lift_red_block_slider,moving,0,60,180,6.0,5.793,5.656,0.976,0.078,7.777
-sft_ep0092_s0,sft,92,0,open_drawer,moving,1,56,302,10.07,6.485,8.447,1.303,0.02,10.963
-sft_ep0092_s1,sft,92,1,turn_off_led,slow,1,50,228,7.6,5.659,2.934,0.518,0.133,5.876
-sft_ep0092_s2,sft,92,2,push_pink_block_right,slow,1,60,106,3.53,4.316,4.447,1.03,0.057,6.117
-sft_ep0092_s3,sft,92,3,move_slider_right,slow,1,60,34,1.13,8.865,3.362,0.379,0.294,3.081
-sft_ep0092_s4,sft,92,4,push_into_drawer,moving,1,60,68,2.27,4.585,7.334,1.6,0.0,9.196
-sft_ep0094_s0,sft,94,0,rotate_pink_block_right,slow,0,60,268,8.93,2.198,4.108,1.869,0.045,5.173
-sft_ep0094_s1,sft,94,1,move_slider_left,moving,1,40,94,3.13,6.607,8.957,1.356,0.022,9.744
-sft_ep0094_s2,sft,94,2,close_drawer,moving,1,60,248,8.27,7.554,8.867,1.174,0.0,10.584
-sft_ep0094_s3,sft,94,3,turn_off_led,slow,1,40,96,3.2,4.895,2.613,0.534,0.34,4.441
-sft_ep0094_s4,sft,94,4,lift_pink_block_table,moving,0,54,208,6.93,6.43,5.702,0.887,0.039,11.543
-sft_ep0095_s0,sft,95,0,close_drawer,moving,1,60,166,5.53,6.134,7.68,1.252,0.024,9.622
-sft_ep0095_s1,sft,95,1,move_slider_right,slow,1,58,292,9.73,8.818,4.54,0.515,0.069,6.842
-sft_ep0095_s2,sft,95,2,turn_on_led,slow,1,60,178,5.93,5.155,3.357,0.651,0.091,4.805
-sft_ep0095_s3,sft,95,3,rotate_red_block_left,slow,0,60,280,9.33,2.986,2.991,1.002,0.179,6.027
-sft_ep0096_s0,sft,96,0,lift_pink_block_table,moving,1,54,230,7.67,6.715,9.561,1.424,0.035,11.871
-sft_ep0096_s1,sft,96,1,stack_block,moving,1,60,196,6.53,4.776,4.385,0.918,0.052,7.86
-sft_ep0096_s2,sft,96,2,turn_on_lightbulb,slow,0,60,262,8.73,9.472,4.322,0.456,0.015,6.41
-sft_ep0096_s3,sft,96,3,unstack_block,moving,1,60,300,10.0,8.735,1.289,0.148,0.467,9.931
-sft_ep0097_s0,sft,97,0,close_drawer,moving,1,60,176,5.87,6.057,8.227,1.358,0.0,11.123
-sft_ep0097_s1,sft,97,1,move_slider_left,moving,1,54,58,1.93,6.962,10.878,1.563,0.0,10.873
-sft_ep0097_s2,sft,97,2,rotate_pink_block_left,slow,1,60,46,1.53,2.547,3.58,1.406,0.0,4.104
-sft_ep0097_s3,sft,97,3,turn_on_led,slow,0,42,208,6.93,5.286,3.305,0.625,0.058,4.959
-sft_ep0097_s4,sft,97,4,lift_red_block_slider,slow,1,60,30,1.0,6.138,9.782,1.594,0.0,
-sft_ep0098_s0,sft,98,0,move_slider_left,moving,1,52,220,7.33,7.878,9.558,1.213,0.0,12.545
-sft_ep0098_s1,sft,98,1,push_red_block_right,slow,1,60,250,8.33,3.773,3.468,0.919,0.016,5.64
-sft_ep0098_s2,sft,98,2,push_into_drawer,slow,1,56,64,2.13,5.041,5.339,1.059,0.0,6.855
-sft_ep0098_s3,sft,98,3,turn_on_led,slow,0,42,212,7.07,5.447,3.099,0.569,0.057,5.557
-sft_ep0098_s4,sft,98,4,close_drawer,slow,1,60,130,4.33,6.021,3.804,0.632,0.062,6.796
-sft_ep0099_s0,sft,99,0,rotate_red_block_right,slow,0,60,272,9.07,3.521,2.934,0.833,0.111,4.917
-sft_ep0099_s1,sft,99,1,turn_on_lightbulb,moving,1,32,276,9.2,4.997,4.112,0.823,0.014,7.988
-sft_ep0099_s2,sft,99,2,move_slider_right,moving,1,60,182,6.07,8.248,3.662,0.444,0.044,7.088
-sft_ep0099_s3,sft,99,3,open_drawer,moving,1,60,176,5.87,5.499,6.413,1.166,0.0,10.524
-sft_ep0099_s4,sft,99,4,lift_blue_block_table,moving,1,48,220,7.33,5.672,5.751,1.014,0.101,12.696
-rl_ep0000_s0,rl,0,0,rotate_blue_block_right,moving,0,52,260,8.67,3.291,4.52,1.373,0.039,9.018
-rl_ep0000_s1,rl,0,1,move_slider_right,moving,1,60,198,6.6,11.918,6.026,0.506,0.141,13.34
-rl_ep0000_s2,rl,0,2,lift_red_block_slider,moving,1,60,162,5.4,7.041,8.058,1.144,0.025,13.515
-rl_ep0000_s3,rl,0,3,place_in_slider,moving,1,48,94,3.13,13.039,15.745,1.207,0.0,20.521
-rl_ep0000_s4,rl,0,4,turn_off_lightbulb,moving,1,60,104,3.47,10.666,8.997,0.844,0.0,10.446
-rl_ep0001_s0,rl,1,0,turn_off_led,slow,1,26,28,0.93,8.498,5.613,0.66,0.0,
-rl_ep0001_s1,rl,1,1,push_into_drawer,moving,1,60,38,1.27,8.253,11.963,1.449,0.0,11.404
-rl_ep0001_s2,rl,1,2,lift_blue_block_drawer,slow,1,40,20,0.67,9.038,11.987,1.326,0.0,
-rl_ep0001_s3,rl,1,3,place_in_slider,slow,1,44,66,2.2,7.035,5.404,0.768,0.0,6.587
-rl_ep0001_s4,rl,1,4,close_drawer,moving,1,60,248,8.27,9.513,8.721,0.917,0.0,12.881
-rl_ep0002_s0,rl,2,0,lift_pink_block_slider,moving,0,52,202,6.73,8.434,7.588,0.9,0.01,11.99
-rl_ep0003_s0,rl,3,0,rotate_blue_block_right,slow,0,60,160,5.33,3.463,3.698,1.068,0.013,5.819
-rl_ep0003_s1,rl,3,1,lift_pink_block_table,moving,1,36,190,6.33,7.761,9.361,1.206,0.011,15.218
-rl_ep0004_s0,rl,4,0,open_drawer,moving,1,36,226,7.53,9.618,12.11,1.259,0.0,15.745
-rl_ep0004_s1,rl,4,1,lift_pink_block_table,moving,0,30,196,6.53,9.316,11.386,1.222,0.0,13.447
-rl_ep0005_s0,rl,5,0,push_blue_block_left,moving,0,46,176,5.87,11.08,4.04,0.365,0.045,12.008
-rl_ep0006_s0,rl,6,0,open_drawer,moving,1,44,96,3.2,8.761,12.553,1.433,0.0,13.698
-rl_ep0006_s1,rl,6,1,rotate_red_block_right,slow,0,60,250,8.33,3.061,4.006,1.309,0.008,6.333
-rl_ep0006_s2,rl,6,2,turn_on_led,moving,1,52,208,6.93,9.613,5.338,0.555,0.039,7.829
-rl_ep0006_s3,rl,6,3,lift_pink_block_table,slow,1,34,18,0.6,10.046,12.506,1.245,0.0,
-rl_ep0006_s4,rl,6,4,stack_block,slow,1,32,130,4.33,10.778,4.258,0.395,0.047,6.184
-rl_ep0007_s0,rl,7,0,push_pink_block_right,moving,1,60,262,8.73,5.334,4.581,0.859,0.015,8.611
-rl_ep0007_s1,rl,7,1,lift_pink_block_table,moving,0,42,174,5.8,5.685,8.541,1.502,0.0,10.9
-rl_ep0008_s0,rl,8,0,open_drawer,moving,1,44,234,7.8,8.37,9.055,1.082,0.009,14.916
-rl_ep0008_s1,rl,8,1,push_red_block_right,moving,1,50,226,7.53,7.415,3.021,0.407,0.062,12.482
-rl_ep0008_s2,rl,8,2,move_slider_left,moving,1,60,258,8.6,9.33,6.441,0.69,0.116,13.835
-rl_ep0008_s3,rl,8,3,lift_pink_block_slider,moving,1,44,68,2.27,8.068,9.666,1.198,0.0,11.488
-rl_ep0009_s0,rl,9,0,push_red_block_left,moving,1,56,264,8.8,9.899,7.2,0.727,0.008,11.297
-rl_ep0009_s1,rl,9,1,lift_blue_block_table,slow,1,56,22,0.73,12.665,9.631,0.76,0.0,
-rl_ep0009_s2,rl,9,2,place_in_slider,moving,1,6,172,5.73,4.561,8.917,1.955,0.0,12.745
-rl_ep0009_s3,rl,9,3,turn_on_lightbulb,moving,0,32,38,1.27,9.531,6.482,0.68,0.0,7.571
-rl_ep0009_s4,rl,9,4,move_slider_right,slow,1,52,102,3.4,13.824,1.097,0.079,0.46,3.665
-rl_ep0010_s0,rl,10,0,rotate_blue_block_left,slow,0,56,154,5.13,1.66,2.58,1.554,0.197,6.531
-rl_ep0011_s0,rl,11,0,lift_pink_block_slider,moving,1,58,132,4.4,8.305,8.536,1.028,0.0,11.272
-rl_ep0011_s1,rl,11,1,place_in_slider,slow,1,48,26,0.87,11.105,12.94,1.165,0.0,
-rl_ep0011_s2,rl,11,2,turn_on_lightbulb,slow,1,46,18,0.6,11.295,13.465,1.192,0.0,
-rl_ep0011_s3,rl,11,3,rotate_blue_block_right,slow,1,60,52,1.73,3.988,1.864,0.467,0.28,4.679
-rl_ep0011_s4,rl,11,4,open_drawer,slow,1,52,20,0.67,8.48,15.681,1.849,0.0,
-rl_ep0012_s0,rl,12,0,move_slider_left,moving,1,34,208,6.93,12.269,4.841,0.395,0.0,7.981
-rl_ep0012_s1,rl,12,1,rotate_red_block_left,slow,0,60,166,5.53,3.942,3.234,0.82,0.084,6.394
-rl_ep0012_s2,rl,12,2,turn_off_led,slow,1,60,202,6.73,4.084,4.099,1.004,0.05,6.638
-rl_ep0012_s3,rl,12,3,lift_pink_block_table,moving,1,30,90,3.0,8.1,9.856,1.217,0.023,10.797
-rl_ep0012_s4,rl,12,4,place_in_slider,moving,0,40,192,6.4,5.438,8.262,1.519,0.062,10.891
-rl_ep0013_s0,rl,13,0,turn_on_led,moving,1,20,236,7.87,10.956,5.041,0.46,0.068,7.317
-rl_ep0013_s1,rl,13,1,close_drawer,moving,1,60,126,4.2,8.632,7.436,0.861,0.0,12.189
-rl_ep0013_s2,rl,13,2,push_red_block_right,moving,1,60,148,4.93,5.04,4.23,0.839,0.0,7.49
-rl_ep0013_s3,rl,13,3,lift_red_block_table,moving,0,32,302,10.07,4.138,4.813,1.163,0.007,10.167
-rl_ep0014_s0,rl,14,0,lift_red_block_slider,moving,0,56,298,9.93,7.717,9.012,1.168,0.007,14.975
-rl_ep0015_s0,rl,15,0,move_slider_left,moving,1,36,212,7.07,11.827,6.113,0.517,0.047,8.586
-rl_ep0015_s1,rl,15,1,push_pink_block_left,moving,1,60,288,9.6,14.318,5.512,0.385,0.028,11.645
-rl_ep0016_s0,rl,16,0,push_red_block_left,moving,1,60,256,8.53,5.709,3.776,0.661,0.047,11.599
-rl_ep0016_s1,rl,16,1,lift_pink_block_slider,moving,0,44,214,7.13,8.618,4.929,0.572,0.057,8.728
-rl_ep0016_s2,rl,16,2,stack_block,moving,0,60,218,7.27,7.694,4.164,0.541,0.102,9.382
-rl_ep0017_s0,rl,17,0,push_red_block_left,moving,1,60,266,8.87,5.855,4.911,0.839,0.045,16.591
-rl_ep0017_s1,rl,17,1,move_slider_right,moving,1,40,54,1.8,6.962,6.639,0.954,0.0,8.906
-rl_ep0017_s2,rl,17,2,lift_blue_block_slider,moving,1,46,182,6.07,7.991,4.774,0.597,0.033,9.807
-rl_ep0017_s3,rl,17,3,place_in_slider,moving,1,48,222,7.4,13.733,5.631,0.41,0.0,7.408
-rl_ep0017_s4,rl,17,4,turn_on_lightbulb,moving,0,60,258,8.6,9.631,7.022,0.729,0.0,12.189
-rl_ep0018_s0,rl,18,0,turn_on_lightbulb,moving,0,42,168,5.6,12.374,7.41,0.599,0.0,10.146
-rl_ep0018_s1,rl,18,1,push_red_block_right,moving,0,60,124,4.13,6.706,9.077,1.353,0.0,12.287
-rl_ep0018_s2,rl,18,2,move_slider_left,moving,1,38,106,3.53,9.366,7.622,0.814,0.0,9.873
-rl_ep0019_s0,rl,19,0,move_slider_left,moving,1,38,154,5.13,10.095,6.954,0.689,0.0,10.444
-rl_ep0019_s1,rl,19,1,lift_red_block_table,moving,0,44,222,7.4,12.063,10.111,0.838,0.009,12.462
-rl_ep0019_s2,rl,19,2,place_in_slider,moving,1,46,270,9.0,12.125,6.882,0.568,0.015,11.086
-rl_ep0019_s3,rl,19,3,turn_on_lightbulb,slow,0,32,38,1.27,10.62,6.012,0.566,0.0,6.477
-rl_ep0019_s4,rl,19,4,close_drawer,moving,1,60,284,9.47,8.11,6.809,0.84,0.007,13.31
-rl_ep0020_s0,rl,20,0,open_drawer,moving,1,46,168,5.6,8.198,11.765,1.435,0.0,16.137
-rl_ep0020_s1,rl,20,1,turn_on_lightbulb,moving,0,56,120,4.0,12.417,7.585,0.611,0.0,10.162
-rl_ep0020_s2,rl,20,2,push_red_block_left,moving,0,54,208,6.93,5.525,5.375,0.973,0.038,14.319
-rl_ep0020_s3,rl,20,3,move_slider_left,moving,0,52,180,6.0,11.039,5.973,0.541,0.0,10.178
-rl_ep0020_s4,rl,20,4,push_into_drawer,slow,1,60,88,2.93,11.902,5.086,0.427,0.023,5.675
-rl_ep0021_s0,rl,21,0,move_slider_right,slow,1,52,110,3.67,9.486,4.241,0.447,0.056,6.934
-rl_ep0021_s1,rl,21,1,turn_off_lightbulb,moving,1,42,222,7.4,10.928,6.306,0.577,0.0,9.965
-rl_ep0021_s2,rl,21,2,lift_pink_block_table,moving,1,30,186,6.2,9.847,10.082,1.024,0.0,10.76
-rl_ep0021_s3,rl,21,3,place_in_drawer,moving,1,26,162,5.4,6.113,10.527,1.722,0.0,17.033
-rl_ep0021_s4,rl,21,4,lift_pink_block_drawer,moving,0,60,112,3.73,6.467,5.825,0.901,0.0,9.657
-rl_ep0022_s0,rl,22,0,rotate_pink_block_right,moving,0,56,234,7.8,2.636,5.048,1.915,0.0,12.027
-rl_ep0022_s1,rl,22,1,open_drawer,moving,1,60,128,4.27,10.06,14.341,1.426,0.031,15.463
-rl_ep0022_s2,rl,22,2,lift_blue_block_table,moving,0,42,110,3.67,9.323,6.484,0.695,0.0,11.14
-rl_ep0022_s3,rl,22,3,place_in_slider,slow,1,42,270,9.0,11.91,2.751,0.231,0.037,4.839
-rl_ep0022_s4,rl,22,4,turn_off_lightbulb,moving,1,60,92,3.07,7.121,7.91,1.111,0.0,11.192
-rl_ep0023_s0,rl,23,0,turn_on_led,slow,1,44,80,2.67,6.973,3.675,0.527,0.125,5.313
-rl_ep0023_s1,rl,23,1,move_slider_left,moving,1,40,220,7.33,10.125,5.469,0.54,0.009,8.689
-rl_ep0023_s2,rl,23,2,lift_blue_block_table,moving,1,60,194,6.47,10.287,5.33,0.518,0.041,12.74
-rl_ep0024_s0,rl,24,0,rotate_blue_block_right,slow,1,60,40,1.33,2.748,5.578,2.03,0.0,5.885
-rl_ep0024_s1,rl,24,1,open_drawer,moving,1,46,124,4.13,8.453,10.567,1.25,0.0,14.722
-rl_ep0024_s2,rl,24,2,turn_off_led,moving,1,20,256,8.53,8.102,4.743,0.585,0.094,7.533
-rl_ep0024_s3,rl,24,3,lift_blue_block_table,moving,0,40,130,4.33,11.489,8.355,0.727,0.0,11.354
-rl_ep0024_s4,rl,24,4,place_in_slider,moving,1,40,242,8.07,13.189,7.808,0.592,0.008,10.475
-rl_ep0025_s0,rl,25,0,lift_blue_block_slider,moving,1,58,106,3.53,7.618,8.453,1.11,0.019,13.524
-rl_ep0025_s1,rl,25,1,stack_block,moving,0,20,86,2.87,7.657,6.683,0.873,0.0,9.399
-rl_ep0025_s2,rl,25,2,turn_off_led,moving,1,60,242,8.07,7.712,5.304,0.688,0.041,13.556
-rl_ep0026_s0,rl,26,0,push_blue_block_right,slow,1,40,38,1.27,7.103,4.827,0.68,0.0,4.83
-rl_ep0026_s1,rl,26,1,open_drawer,moving,1,48,32,1.07,10.17,8.701,0.856,0.0,11.618
-rl_ep0026_s2,rl,26,2,lift_pink_block_slider,moving,0,56,208,6.93,10.742,5.568,0.518,0.0,11.353
-rl_ep0026_s3,rl,26,3,place_in_slider,moving,1,58,112,3.73,14.662,14.881,1.015,0.0,17.391
-rl_ep0027_s0,rl,27,0,push_red_block_right,moving,1,60,58,1.93,6.538,8.48,1.297,0.0,10.071
-rl_ep0027_s1,rl,27,1,turn_on_lightbulb,moving,0,28,262,8.73,6.452,6.898,1.069,0.0,10.383
-rl_ep0027_s2,rl,27,2,push_into_drawer,moving,1,60,144,4.8,7.145,5.306,0.743,0.0,9.086
-rl_ep0027_s3,rl,27,3,move_slider_left,moving,1,42,272,9.07,12.54,6.049,0.482,0.052,9.411
-rl_ep0027_s4,rl,27,4,close_drawer,moving,1,60,244,8.13,9.19,5.855,0.637,0.0,12.043
-rl_ep0028_s0,rl,28,0,turn_off_lightbulb,moving,1,60,218,7.27,11.268,7.655,0.679,0.019,12.156
-rl_ep0028_s1,rl,28,1,rotate_blue_block_left,slow,1,60,82,2.73,4.29,1.636,0.381,0.325,3.195
-rl_ep0028_s2,rl,28,2,move_slider_left,moving,1,36,236,7.87,7.305,6.879,0.942,0.0,11.026
-rl_ep0029_s0,rl,29,0,lift_red_block_table,moving,0,28,180,6.0,7.876,5.125,0.651,0.022,9.205
-rl_ep0029_s1,rl,29,1,stack_block,moving,1,60,132,4.4,7.003,5.703,0.814,0.046,7.206
-rl_ep0029_s2,rl,29,2,unstack_block,moving,1,18,302,10.07,5.244,3.566,0.68,0.093,8.668
-rl_ep0029_s3,rl,29,3,open_drawer,moving,1,60,72,2.4,8.033,10.986,1.368,0.0,11.313
-rl_ep0029_s4,rl,29,4,turn_on_led,moving,1,34,286,9.53,7.941,5.933,0.747,0.014,7.905
-rl_ep0030_s0,rl,30,0,lift_blue_block_table,moving,1,26,42,1.4,8.791,8.83,1.004,0.0,11.455
-rl_ep0030_s1,rl,30,1,place_in_drawer,moving,1,30,196,6.53,12.114,8.796,0.726,0.0,12.787
-rl_ep0031_s0,rl,31,0,lift_pink_block_table,moving,1,34,274,9.13,10.396,8.995,0.865,0.0,13.024
-rl_ep0031_s1,rl,31,1,place_in_slider,moving,1,44,102,3.4,12.664,9.542,0.753,0.0,13.712
-rl_ep0032_s0,rl,32,0,rotate_pink_block_left,slow,0,60,208,6.93,2.944,2.658,0.903,0.038,5.578
-rl_ep0032_s1,rl,32,1,lift_pink_block_table,moving,0,60,270,9.0,3.538,5.146,1.454,0.059,8.638
-rl_ep0032_s2,rl,32,2,stack_block,slow,0,60,74,2.47,5.887,3.271,0.556,0.0,5.226
-rl_ep0033_s0,rl,33,0,turn_off_led,moving,1,24,286,9.53,7.707,5.762,0.748,0.063,7.763
-rl_ep0033_s1,rl,33,1,open_drawer,slow,1,52,30,1.0,10.604,18.562,1.751,0.0,
-rl_ep0033_s2,rl,33,2,push_pink_block_left,moving,1,46,120,4.0,10.546,8.229,0.78,0.033,12.263
-rl_ep0033_s3,rl,33,3,lift_blue_block_table,moving,0,48,200,6.67,12.971,9.068,0.699,0.0,13.619
-rl_ep0033_s4,rl,33,4,place_in_slider,moving,1,56,48,1.6,12.014,6.164,0.513,0.0,8.624
-rl_ep0034_s0,rl,34,0,move_slider_right,moving,1,42,162,5.4,12.401,5.902,0.476,0.05,16.283
-rl_ep0034_s1,rl,34,1,push_blue_block_left,moving,1,60,196,6.53,7.018,3.653,0.521,0.0,9.007
-rl_ep0035_s0,rl,35,0,lift_red_block_slider,moving,0,44,282,9.4,9.167,7.076,0.772,0.007,12.063
-rl_ep0035_s1,rl,35,1,place_in_slider,moving,1,58,134,4.47,12.308,11.445,0.93,0.0,12.899
-rl_ep0035_s2,rl,35,2,move_slider_right,moving,1,30,142,4.73,7.453,8.121,1.09,0.0,10.575
-rl_ep0036_s0,rl,36,0,move_slider_right,moving,1,42,290,9.67,12.977,2.281,0.176,0.292,40.25
-rl_ep0037_s0,rl,37,0,turn_off_lightbulb,moving,0,42,158,5.27,12.332,6.59,0.534,0.0,9.653
-rl_ep0037_s1,rl,37,1,push_red_block_right,moving,1,52,32,1.07,9.664,6.279,0.65,0.0,7.759
-rl_ep0038_s0,rl,38,0,open_drawer,moving,1,42,286,9.53,9.64,11.369,1.179,0.007,14.284
-rl_ep0038_s1,rl,38,1,move_slider_right,moving,1,54,194,6.47,9.816,5.845,0.595,0.0,11.457
-rl_ep0038_s2,rl,38,2,push_blue_block_right,moving,1,60,116,3.87,5.036,6.855,1.361,0.0,7.973
-rl_ep0038_s3,rl,38,3,lift_blue_block_table,moving,1,34,302,10.07,5.242,9.762,1.862,0.013,16.295
-rl_ep0038_s4,rl,38,4,place_in_slider,moving,1,42,190,6.33,10.547,4.94,0.468,0.011,9.308
-rl_ep0039_s0,rl,39,0,turn_on_led,moving,0,56,288,9.6,5.895,4.287,0.727,0.126,10.733
-rl_ep0039_s1,rl,39,1,rotate_pink_block_right,slow,1,60,20,0.67,3.808,7.471,1.962,0.0,
-rl_ep0039_s2,rl,39,2,move_slider_right,moving,1,52,148,4.93,14.271,8.016,0.562,0.0,26.121
-rl_ep0039_s3,rl,39,3,close_drawer,moving,1,60,254,8.47,7.51,7.359,0.98,0.0,13.349
-rl_ep0040_s0,rl,40,0,move_slider_right,moving,1,50,134,4.47,10.745,6.194,0.576,0.0,10.103
-rl_ep0040_s1,rl,40,1,close_drawer,moving,1,60,158,5.27,9.339,9.022,0.966,0.0,13.275
-rl_ep0040_s2,rl,40,2,push_pink_block_left,moving,1,60,136,4.53,11.124,6.331,0.569,0.0,13.606
-rl_ep0040_s3,rl,40,3,lift_pink_block_table,moving,1,16,168,5.6,6.603,6.144,0.93,0.0,8.139
-rl_ep0040_s4,rl,40,4,place_in_slider,moving,1,16,82,2.73,5.128,15.541,3.03,0.0,18.664
-rl_ep0041_s0,rl,41,0,move_slider_right,moving,1,44,242,8.07,10.153,6.475,0.638,0.083,19.02
-rl_ep0041_s1,rl,41,1,push_into_drawer,moving,1,60,38,1.27,6.248,11.041,1.767,0.0,13.492
-rl_ep0041_s2,rl,41,2,turn_off_led,moving,1,12,136,4.53,4.423,5.537,1.252,0.03,7.549
-rl_ep0041_s3,rl,41,3,lift_pink_block_drawer,slow,0,44,96,3.2,13.295,3.355,0.252,0.083,4.472
-rl_ep0042_s0,rl,42,0,move_slider_left,moving,1,36,232,7.73,10.036,5.936,0.591,0.0,9.015
-rl_ep0042_s1,rl,42,1,push_pink_block_left,moving,1,60,220,7.33,5.665,3.249,0.573,0.092,9.419
-rl_ep0042_s2,rl,42,2,lift_blue_block_slider,moving,0,48,280,9.33,10.072,8.387,0.833,0.014,13.119
-rl_ep0043_s0,rl,43,0,rotate_pink_block_right,slow,1,60,68,2.27,3.106,5.007,1.612,0.0,5.946
-rl_ep0043_s1,rl,43,1,lift_pink_block_table,moving,1,60,48,1.6,4.32,12.246,2.835,0.042,10.797
-rl_ep0043_s2,rl,43,2,place_in_slider,moving,1,20,54,1.8,11.709,11.961,1.021,0.0,11.741
-rl_ep0043_s3,rl,43,3,open_drawer,moving,1,46,226,7.53,7.428,9.302,1.252,0.009,11.117
-rl_ep0043_s4,rl,43,4,lift_blue_block_slider,moving,0,54,294,9.8,9.014,6.338,0.703,0.007,12.897
-rl_ep0044_s0,rl,44,0,lift_blue_block_table,moving,1,42,282,9.4,8.706,10.032,1.152,0.007,11.86
-rl_ep0044_s1,rl,44,1,place_in_slider,moving,1,44,208,6.93,10.749,5.579,0.519,0.058,10.425
-rl_ep0044_s2,rl,44,2,turn_on_led,moving,1,32,292,9.73,9.687,4.816,0.497,0.103,8.425
-rl_ep0045_s0,rl,45,0,rotate_pink_block_right,slow,1,60,20,0.67,2.23,5.272,2.365,0.0,
-rl_ep0045_s1,rl,45,1,turn_off_led,slow,1,24,50,1.67,8.261,4.411,0.534,0.04,4.467
-rl_ep0045_s2,rl,45,2,lift_pink_block_table,moving,1,60,264,8.8,3.069,8.114,2.644,0.0,12.781
-rl_ep0045_s3,rl,45,3,place_in_slider,moving,1,12,40,1.33,13.973,8.406,0.602,0.0,9.572
-rl_ep0046_s0,rl,46,0,turn_off_lightbulb,moving,0,42,252,8.4,12.338,7.151,0.58,0.008,12.265
-rl_ep0046_s1,rl,46,1,push_pink_block_left,moving,1,60,290,9.67,9.353,5.51,0.589,0.014,13.64
-rl_ep0046_s2,rl,46,2,move_slider_left,moving,1,56,120,4.0,13.036,4.395,0.337,0.0,7.556
-rl_ep0046_s3,rl,46,3,open_drawer,moving,1,60,58,1.93,8.837,12.184,1.379,0.0,12.615
-rl_ep0047_s0,rl,47,0,lift_red_block_slider,moving,0,56,296,9.87,9.793,7.348,0.75,0.0,12.716
-rl_ep0047_s1,rl,47,1,stack_block,moving,1,24,122,4.07,8.452,6.671,0.789,0.083,9.762
-rl_ep0047_s2,rl,47,2,turn_on_led,moving,0,56,272,9.07,12.113,4.202,0.347,0.126,7.97
-rl_ep0048_s0,rl,48,0,rotate_blue_block_left,moving,0,58,252,8.4,2.468,2.103,0.852,0.136,7.462
-rl_ep0048_s1,rl,48,1,move_slider_left,moving,1,52,82,2.73,7.251,5.184,0.715,0.025,8.284
-rl_ep0048_s2,rl,48,2,open_drawer,moving,1,60,154,5.13,9.106,12.811,1.407,0.0,13.718
-rl_ep0048_s3,rl,48,3,lift_red_block_slider,moving,0,52,110,3.67,9.142,8.919,0.976,0.037,11.064
-rl_ep0048_s4,rl,48,4,place_in_drawer,moving,1,8,82,2.73,6.021,4.015,0.667,0.049,13.341
-rl_ep0049_s0,rl,49,0,lift_red_block_table,moving,0,34,272,9.07,10.991,10.937,0.995,0.007,17.196
-rl_ep0049_s1,rl,49,1,place_in_drawer,moving,1,14,246,8.2,6.865,10.576,1.541,0.0,19.205
-rl_ep0049_s2,rl,49,2,rotate_blue_block_right,slow,0,60,56,1.87,3.031,2.062,0.68,0.296,3.581
-rl_ep0050_s0,rl,50,0,open_drawer,moving,1,44,294,9.8,9.106,11.171,1.227,0.0,13.104
-rl_ep0050_s1,rl,50,1,push_blue_block_right,moving,1,48,94,3.13,8.355,7.831,0.937,0.0,9.007
-rl_ep0050_s2,rl,50,2,move_slider_left,moving,1,38,138,4.6,10.164,5.475,0.539,0.029,9.394
-rl_ep0050_s3,rl,50,3,push_into_drawer,moving,1,60,170,5.67,12.192,7.819,0.641,0.047,14.222
-rl_ep0050_s4,rl,50,4,lift_blue_block_drawer,moving,0,44,204,6.8,11.043,3.758,0.34,0.069,8.013
-rl_ep0051_s0,rl,51,0,rotate_red_block_right,slow,1,60,142,4.73,3.979,4.057,1.019,0.042,6.028
-rl_ep0051_s1,rl,51,1,lift_pink_block_slider,moving,0,60,58,1.93,11.149,6.607,0.593,0.0,8.359
-rl_ep0051_s2,rl,51,2,stack_block,moving,0,42,284,9.47,6.792,6.578,0.968,0.028,16.783
-rl_ep0051_s3,rl,51,3,turn_on_led,moving,0,60,214,7.13,5.656,5.398,0.955,0.047,8.167
-rl_ep0051_s4,rl,51,4,open_drawer,slow,1,54,28,0.93,9.704,17.357,1.789,0.0,
-rl_ep0052_s0,rl,52,0,turn_on_led,moving,1,26,248,8.27,8.302,4.727,0.569,0.081,7.153
-rl_ep0052_s1,rl,52,1,push_pink_block_left,moving,0,60,226,7.53,5.998,10.664,1.778,0.027,17.721
-rl_ep0053_s0,rl,53,0,turn_on_led,moving,1,26,192,6.4,9.022,5.098,0.565,0.084,7.595
-rl_ep0053_s1,rl,53,1,open_drawer,moving,1,52,160,5.33,11.836,11.908,1.006,0.013,12.136
-rl_ep0053_s2,rl,53,2,rotate_pink_block_left,slow,1,58,26,0.87,2.04,4.899,2.402,0.0,
-rl_ep0053_s3,rl,53,3,lift_blue_block_table,moving,1,36,282,9.4,7.455,9.522,1.277,0.029,14.898
-rl_ep0053_s4,rl,53,4,place_in_drawer,moving,1,16,222,7.4,10.528,9.919,0.942,0.027,17.156
-rl_ep0054_s0,rl,54,0,turn_off_led,slow,1,22,106,3.53,8.951,3.884,0.434,0.077,5.523
-rl_ep0054_s1,rl,54,1,close_drawer,slow,1,60,20,0.67,8.149,6.757,0.829,0.0,
-rl_ep0054_s2,rl,54,2,move_slider_left,moving,1,58,44,1.47,8.481,13.36,1.575,0.0,12.53
-rl_ep0054_s3,rl,54,3,push_pink_block_right,moving,1,60,232,7.73,4.792,4.931,1.029,0.017,8.448
-rl_ep0054_s4,rl,54,4,lift_red_block_slider,slow,0,54,60,2.0,9.813,5.076,0.517,0.034,6.789
-rl_ep0055_s0,rl,55,0,close_drawer,moving,1,52,164,5.47,7.432,9.501,1.278,0.012,12.991
-rl_ep0055_s1,rl,55,1,push_red_block_left,moving,1,60,274,9.13,4.853,4.82,0.993,0.015,17.075
-rl_ep0055_s2,rl,55,2,lift_red_block_table,moving,0,36,282,9.4,6.286,1.183,0.188,0.436,12.979
-rl_ep0056_s0,rl,56,0,move_slider_right,moving,1,48,36,1.2,11.842,6.913,0.584,0.0,8.509
-rl_ep0056_s1,rl,56,1,push_into_drawer,moving,1,24,158,5.27,8.786,5.386,0.613,0.013,11.489
-rl_ep0056_s2,rl,56,2,lift_red_block_slider,moving,0,46,258,8.6,8.202,8.4,1.024,0.008,16.231
-rl_ep0057_s0,rl,57,0,push_blue_block_left,slow,0,28,36,1.2,11.554,3.573,0.309,0.0,3.871
-rl_ep0058_s0,rl,58,0,move_slider_right,slow,1,44,114,3.8,11.954,3.956,0.331,0.053,6.458
-rl_ep0058_s1,rl,58,1,turn_off_lightbulb,moving,0,60,80,2.67,7.489,7.524,1.005,0.0,10.909
-rl_ep0058_s2,rl,58,2,close_drawer,moving,1,60,140,4.67,10.622,7.951,0.749,0.058,10.355
-rl_ep0058_s3,rl,58,3,rotate_blue_block_right,slow,0,60,266,8.87,4.797,2.445,0.51,0.106,6.138
-rl_ep0058_s4,rl,58,4,lift_blue_block_table,moving,1,46,292,9.73,2.975,4.24,1.425,0.0,8.999
-rl_ep0059_s0,rl,59,0,turn_off_lightbulb,moving,0,44,58,1.93,10.774,9.549,0.886,0.0,13.154
-rl_ep0059_s1,rl,59,1,push_blue_block_left,slow,1,60,176,5.87,5.038,3.15,0.625,0.023,5.584
-rl_ep0060_s0,rl,60,0,turn_on_lightbulb,moving,0,38,90,3.0,11.799,5.239,0.444,0.0,8.716
-rl_ep0060_s1,rl,60,1,move_slider_left,moving,1,60,94,3.13,8.829,4.832,0.547,0.043,9.484
-rl_ep0060_s2,rl,60,2,push_blue_block_right,slow,1,56,86,2.87,5.61,4.52,0.806,0.0,5.261
-rl_ep0060_s3,rl,60,3,lift_blue_block_table,slow,0,60,76,2.53,3.878,5.219,1.346,0.0,5.682
-rl_ep0060_s4,rl,60,4,stack_block,moving,1,46,270,9.0,10.196,4.616,0.453,0.007,9.746
-rl_ep0061_s0,rl,61,0,push_blue_block_right,slow,1,42,80,2.67,6.156,3.945,0.641,0.0,6.33
-rl_ep0061_s1,rl,61,1,move_slider_right,slow,1,60,80,2.67,11.778,2.022,0.172,0.275,5.047
-rl_ep0061_s2,rl,61,2,turn_on_lightbulb,slow,1,60,52,1.73,7.846,3.87,0.493,0.0,6.377
-rl_ep0061_s3,rl,61,3,lift_red_block_table,moving,1,60,52,1.73,5.765,13.245,2.298,0.0,14.043
-rl_ep0062_s0,rl,62,0,rotate_pink_block_left,slow,1,60,98,3.27,1.469,4.169,2.838,0.0,5.176
-rl_ep0062_s1,rl,62,1,turn_on_led,moving,1,26,246,8.2,9.434,4.577,0.485,0.041,7.461
-rl_ep0062_s2,rl,62,2,lift_red_block_slider,moving,0,46,184,6.13,6.285,8.522,1.356,0.0,11.601
-rl_ep0062_s3,rl,62,3,stack_block,moving,1,34,262,8.73,10.611,5.607,0.528,0.015,11.858
-rl_ep0062_s4,rl,62,4,close_drawer,moving,1,60,174,5.8,7.369,12.447,1.689,0.023,15.017
-rl_ep0063_s0,rl,63,0,move_slider_right,moving,1,44,234,7.8,12.024,8.423,0.701,0.017,19.702
-rl_ep0063_s1,rl,63,1,lift_red_block_slider,moving,1,56,248,8.27,7.532,3.57,0.474,0.033,8.92
-rl_ep0063_s2,rl,63,2,place_in_slider,moving,1,38,34,1.13,14.902,18.103,1.215,0.0,17.708
-rl_ep0063_s3,rl,63,3,open_drawer,moving,1,44,178,5.93,8.092,11.978,1.48,0.0,15.652
-rl_ep0063_s4,rl,63,4,turn_on_led,moving,0,32,148,4.93,8.965,6.959,0.776,0.096,9.357
-rl_ep0064_s0,rl,64,0,open_drawer,moving,1,42,100,3.33,8.857,13.466,1.52,0.0,13.251
-rl_ep0064_s1,rl,64,1,push_pink_block_right,moving,1,44,146,4.87,7.386,6.675,0.904,0.014,9.415
-rl_ep0064_s2,rl,64,2,lift_red_block_table,moving,1,40,136,4.53,10.772,6.434,0.597,0.0,9.413
-rl_ep0065_s0,rl,65,0,open_drawer,moving,1,40,250,8.33,8.837,9.678,1.095,0.0,16.279
-rl_ep0065_s1,rl,65,1,turn_on_led,slow,1,52,252,8.4,7.109,4.72,0.664,0.063,6.901
-rl_ep0065_s2,rl,65,2,move_slider_right,moving,1,44,196,6.53,9.491,6.338,0.668,0.021,9.531
-rl_ep0065_s3,rl,65,3,lift_pink_block_table,moving,0,20,220,7.33,7.658,10.099,1.319,0.018,12.358
-rl_ep0065_s4,rl,65,4,place_in_drawer,moving,1,10,290,9.67,6.885,9.411,1.367,0.007,19.008
-rl_ep0066_s0,rl,66,0,rotate_pink_block_right,moving,0,46,198,6.6,2.478,5.73,2.312,0.0,8.654
-rl_ep0066_s1,rl,66,1,lift_pink_block_table,moving,1,60,122,4.07,4.764,6.055,1.271,0.017,10.429
-rl_ep0066_s2,rl,66,2,place_in_slider,slow,1,28,40,1.33,9.515,4.676,0.491,0.0,5.537
-rl_ep0066_s3,rl,66,3,move_slider_right,moving,1,44,176,5.87,13.098,5.183,0.396,0.023,10.018
-rl_ep0066_s4,rl,66,4,lift_blue_block_slider,moving,0,54,84,2.8,7.612,9.631,1.265,0.0,12.295
-rl_ep0067_s0,rl,67,0,lift_pink_block_table,slow,0,34,186,6.2,10.925,2.849,0.261,0.043,5.802
-rl_ep0068_s0,rl,68,0,push_pink_block_left,moving,1,48,258,8.6,11.703,6.592,0.563,0.039,12.874
-rl_ep0068_s1,rl,68,1,lift_blue_block_table,moving,0,56,286,9.53,13.169,9.11,0.692,0.0,13.056
-rl_ep0068_s2,rl,68,2,place_in_drawer,moving,1,12,58,1.93,9.03,10.921,1.209,0.0,15.185
-rl_ep0068_s3,rl,68,3,close_drawer,moving,1,60,250,8.33,9.741,10.121,1.039,0.008,14.935
-rl_ep0068_s4,rl,68,4,move_slider_right,moving,1,38,132,4.4,10.254,7.039,0.687,0.0,8.326
-rl_ep0069_s0,rl,69,0,open_drawer,slow,1,44,28,0.93,8.008,16.005,1.999,0.0,
-rl_ep0069_s1,rl,69,1,turn_off_led,moving,0,22,278,9.27,9.954,4.425,0.445,0.072,8.182
-rl_ep0069_s2,rl,69,2,push_pink_block_left,moving,1,60,286,9.53,11.837,3.954,0.334,0.063,14.209
-rl_ep0069_s3,rl,69,3,move_slider_left,slow,1,54,28,0.93,11.453,4.386,0.383,0.071,
-rl_ep0069_s4,rl,69,4,lift_pink_block_table,moving,0,38,186,6.2,9.627,8.187,0.85,0.0,10.654
-rl_ep0070_s0,rl,70,0,close_drawer,moving,1,52,252,8.4,7.518,10.987,1.461,0.008,15.18
-rl_ep0070_s1,rl,70,1,rotate_blue_block_right,moving,0,60,242,8.07,2.927,3.773,1.289,0.017,7.082
-rl_ep0070_s2,rl,70,2,turn_off_led,moving,0,44,136,4.53,10.906,4.716,0.432,0.075,7.288
-rl_ep0070_s3,rl,70,3,move_slider_right,moving,1,36,262,8.73,11.348,7.174,0.632,0.062,42.032
-rl_ep0071_s0,rl,71,0,open_drawer,moving,1,40,50,1.67,8.732,8.742,1.001,0.0,10.45
-rl_ep0071_s1,rl,71,1,push_red_block_left,slow,1,50,18,0.6,8.78,4.654,0.53,0.0,
-rl_ep0071_s2,rl,71,2,turn_off_lightbulb,moving,1,48,46,1.53,11.044,6.312,0.572,0.0,8.757
-rl_ep0071_s3,rl,71,3,lift_pink_block_slider,moving,0,60,120,4.0,11.908,9.287,0.78,0.033,12.742
-rl_ep0071_s4,rl,71,4,place_in_slider,moving,1,42,48,1.6,14.848,7.455,0.502,0.0,9.1
-rl_ep0072_s0,rl,72,0,move_slider_right,slow,1,44,38,1.27,11.209,4.058,0.362,0.0,5.068
-rl_ep0072_s1,rl,72,1,push_pink_block_left,slow,1,60,90,3.0,6.0,4.569,0.761,0.0,5.911
-rl_ep0072_s2,rl,72,2,lift_blue_block_slider,moving,0,54,204,6.8,8.888,8.15,0.917,0.0,12.643
-rl_ep0072_s3,rl,72,3,place_in_drawer,moving,1,14,166,5.53,7.145,7.98,1.117,0.0,16.659
-rl_ep0072_s4,rl,72,4,turn_off_led,slow,1,2,94,3.13,3.196,3.502,1.096,0.106,5.923
-rl_ep0073_s0,rl,73,0,push_red_block_left,moving,1,56,288,9.6,10.164,8.836,0.869,0.014,13.365
-rl_ep0073_s1,rl,73,1,turn_on_led,moving,1,22,216,7.2,9.332,4.824,0.517,0.056,8.104
-rl_ep0073_s2,rl,73,2,lift_pink_block_slider,moving,0,44,198,6.6,9.701,7.616,0.785,0.0,12.476
-rl_ep0073_s3,rl,73,3,place_in_drawer,moving,1,8,286,9.53,6.36,6.878,1.081,0.021,11.91
-rl_ep0073_s4,rl,73,4,move_slider_right,moving,1,38,242,8.07,9.648,2.91,0.302,0.225,45.968
-rl_ep0074_s0,rl,74,0,turn_off_lightbulb,slow,1,60,52,1.73,5.512,5.922,1.074,0.0,6.143
-rl_ep0074_s1,rl,74,1,move_slider_right,slow,1,60,26,0.87,10.842,10.591,0.977,0.0,
-rl_ep0074_s2,rl,74,2,rotate_blue_block_right,slow,0,60,264,8.8,3.427,3.034,0.885,0.053,4.649
-rl_ep0075_s0,rl,75,0,move_slider_right,moving,1,42,34,1.13,11.537,9.042,0.784,0.0,10.315
-rl_ep0076_s0,rl,76,0,rotate_blue_block_left,slow,0,50,126,4.2,1.886,2.809,1.49,0.081,5.764
-rl_ep0076_s1,rl,76,1,turn_off_lightbulb,moving,1,52,140,4.67,9.519,7.183,0.755,0.0,8.552
-rl_ep0076_s2,rl,76,2,lift_pink_block_table,moving,1,44,140,4.67,10.926,7.982,0.731,0.0,12.154
-rl_ep0076_s3,rl,76,3,place_in_slider,moving,1,50,106,3.53,13.963,9.723,0.696,0.019,16.748
-rl_ep0076_s4,rl,76,4,lift_red_block_slider,moving,0,60,156,5.2,2.358,8.058,3.417,0.0,12.825
-rl_ep0077_s0,rl,77,0,turn_off_led,moving,0,36,156,5.2,7.955,5.657,0.711,0.064,7.35
-rl_ep0077_s1,rl,77,1,move_slider_left,slow,1,44,296,9.87,8.924,5.362,0.601,0.034,6.989
-rl_ep0077_s2,rl,77,2,open_drawer,moving,1,60,214,7.13,8.081,11.513,1.425,0.0,14.359
-rl_ep0077_s3,rl,77,3,rotate_blue_block_right,slow,0,60,238,7.93,2.851,2.476,0.869,0.042,5.541
-rl_ep0078_s0,rl,78,0,lift_blue_block_slider,moving,0,56,106,3.53,7.746,8.121,1.048,0.0,10.404
-rl_ep0079_s0,rl,79,0,rotate_red_block_left,slow,0,60,94,3.13,3.472,1.816,0.523,0.043,2.973
-rl_ep0079_s1,rl,79,1,lift_pink_block_table,moving,1,56,162,5.4,6.13,4.347,0.709,0.075,10.436
-rl_ep0080_s0,rl,80,0,push_pink_block_left,moving,1,42,200,6.67,10.18,11.046,1.085,0.0,13.645
-rl_ep0080_s1,rl,80,1,turn_on_lightbulb,moving,0,46,268,8.93,13.555,5.731,0.423,0.015,10.561
-rl_ep0080_s2,rl,80,2,lift_pink_block_table,moving,0,56,64,2.13,9.956,12.54,1.26,0.0,14.651
-rl_ep0080_s3,rl,80,3,place_in_drawer,moving,1,14,162,5.4,7.958,7.708,0.969,0.012,10.671
-rl_ep0081_s0,rl,81,0,open_drawer,moving,1,40,114,3.8,9.492,10.153,1.07,0.0,11.432
-rl_ep0081_s1,rl,81,1,move_slider_right,moving,1,48,182,6.07,10.805,8.156,0.755,0.1,15.554
-rl_ep0081_s2,rl,81,2,lift_red_block_slider,moving,0,54,300,10.0,7.556,7.888,1.044,0.013,15.845
-rl_ep0082_s0,rl,82,0,lift_red_block_slider,moving,0,56,108,3.6,7.93,8.549,1.078,0.0,11.82
-rl_ep0082_s1,rl,82,1,place_in_drawer,moving,1,2,36,1.2,0.952,11.697,12.28,0.0,11.476
-rl_ep0082_s2,rl,82,2,turn_on_led,moving,0,28,68,2.27,7.086,5.803,0.819,0.0,7.258
-rl_ep0082_s3,rl,82,3,close_drawer,moving,1,58,94,3.13,8.437,11.381,1.349,0.0,14.034
-rl_ep0082_s4,rl,82,4,lift_blue_block_table,slow,1,40,268,8.93,8.365,4.024,0.481,0.12,6.319
-rl_ep0083_s0,rl,83,0,push_into_drawer,moving,1,40,94,3.13,10.208,13.61,1.333,0.022,16.816
-rl_ep0084_s0,rl,84,0,move_slider_right,slow,1,48,96,3.2,12.854,5.356,0.417,0.0,5.953
-rl_ep0084_s1,rl,84,1,push_red_block_left,moving,1,58,208,6.93,6.223,4.424,0.711,0.029,7.189
-rl_ep0084_s2,rl,84,2,turn_off_lightbulb,moving,1,38,168,5.6,12.656,8.301,0.656,0.0,9.495
-rl_ep0084_s3,rl,84,3,lift_blue_block_slider,moving,0,60,290,9.67,10.729,5.334,0.497,0.014,7.527
-rl_ep0085_s0,rl,85,0,lift_pink_block_slider,slow,0,48,282,9.4,6.488,4.455,0.687,0.014,6.86
-rl_ep0086_s0,rl,86,0,move_slider_right,moving,1,60,230,7.67,9.663,8.082,0.836,0.105,20.694
-rl_ep0086_s1,rl,86,1,turn_on_led,slow,0,60,196,6.53,4.961,3.521,0.71,0.052,6.003
-rl_ep0086_s2,rl,86,2,lift_pink_block_slider,moving,0,42,262,8.73,7.979,6.221,0.78,0.023,12.045
-rl_ep0086_s3,rl,86,3,place_in_drawer,moving,1,14,300,10.0,8.048,10.615,1.319,0.007,12.791
-rl_ep0086_s4,rl,86,4,lift_pink_block_drawer,moving,0,38,88,2.93,11.825,6.195,0.524,0.047,7.994
-rl_ep0087_s0,rl,87,0,push_pink_block_right,moving,1,60,176,5.87,7.191,5.982,0.832,0.023,9.611
-rl_ep0087_s1,rl,87,1,close_drawer,moving,1,54,56,1.87,7.949,13.498,1.698,0.0,13.473
-rl_ep0087_s2,rl,87,2,lift_red_block_slider,slow,0,46,46,1.53,9.863,5.241,0.531,0.0,6.513
-rl_ep0087_s3,rl,87,3,stack_block,moving,1,30,208,6.93,5.767,5.919,1.026,0.01,9.942
-rl_ep0087_s4,rl,87,4,move_slider_right,slow,1,58,30,1.0,13.01,1.639,0.126,0.286,
-rl_ep0088_s0,rl,88,0,push_blue_block_left,moving,0,48,220,7.33,9.346,3.564,0.381,0.027,10.939
-rl_ep0089_s0,rl,89,0,close_drawer,moving,1,50,64,2.13,7.383,13.546,1.835,0.0,13.673
-rl_ep0089_s1,rl,89,1,lift_red_block_slider,moving,1,46,210,7.0,9.441,5.661,0.6,0.0,7.507
-rl_ep0089_s2,rl,89,2,place_in_slider,moving,1,60,130,4.33,9.795,5.418,0.553,0.094,16.767
-rl_ep0090_s0,rl,90,0,rotate_blue_block_left,slow,0,60,276,9.2,2.265,2.835,1.251,0.167,5.694
-rl_ep0090_s1,rl,90,1,turn_off_lightbulb,moving,1,60,182,6.07,9.96,6.836,0.686,0.0,12.914
-rl_ep0090_s2,rl,90,2,move_slider_right,moving,1,60,176,5.87,14.255,3.125,0.219,0.205,9.122
-rl_ep0091_s0,rl,91,0,turn_on_led,moving,0,48,182,6.07,6.583,4.927,0.748,0.044,7.2
-rl_ep0091_s1,rl,91,1,rotate_blue_block_right,slow,0,60,230,7.67,3.583,3.116,0.87,0.07,6.386
-rl_ep0091_s2,rl,91,2,lift_blue_block_table,moving,1,12,72,2.4,4.45,10.777,2.422,0.0,12.903
-rl_ep0091_s3,rl,91,3,stack_block,moving,0,44,240,8.0,5.734,5.625,0.981,0.084,10.005
-rl_ep0091_s4,rl,91,4,lift_red_block_slider,moving,0,52,168,5.6,9.615,6.83,0.71,0.0,11.077
-rl_ep0092_s0,rl,92,0,open_drawer,moving,1,42,232,7.73,9.202,9.918,1.078,0.0,13.568
-rl_ep0092_s1,rl,92,1,turn_off_led,moving,0,26,166,5.53,8.655,4.146,0.479,0.073,7.151
-rl_ep0092_s2,rl,92,2,push_pink_block_right,moving,1,40,104,3.47,7.876,6.223,0.79,0.02,8.047
-rl_ep0092_s3,rl,92,3,move_slider_right,moving,1,60,42,1.4,12.045,9.178,0.762,0.0,10.799
-rl_ep0092_s4,rl,92,4,push_into_drawer,moving,1,60,166,5.53,8.362,5.206,0.622,0.0,8.796
-rl_ep0093_s0,rl,93,0,push_pink_block_right,moving,1,60,296,9.87,5.883,3.066,0.521,0.014,8.218
-rl_ep0093_s1,rl,93,1,lift_blue_block_slider,slow,1,60,26,0.87,7.32,15.958,2.18,0.0,
-rl_ep0093_s2,rl,93,2,place_in_slider,moving,1,34,180,6.0,11.528,4.517,0.392,0.011,12.168
-rl_ep0093_s3,rl,93,3,turn_on_lightbulb,moving,1,28,144,4.8,7.788,6.518,0.837,0.0,8.624
-rl_ep0093_s4,rl,93,4,move_slider_right,slow,1,56,18,0.6,14.044,3.48,0.248,0.125,
-rl_ep0094_s0,rl,94,0,rotate_pink_block_right,moving,0,58,172,5.73,2.547,4.656,1.828,0.024,12.464
-rl_ep0094_s1,rl,94,1,move_slider_left,moving,1,60,236,7.87,7.464,4.727,0.633,0.025,9.83
-rl_ep0094_s2,rl,94,2,close_drawer,moving,1,60,228,7.6,13.867,10.246,0.739,0.0,14.774
-rl_ep0094_s3,rl,94,3,turn_off_led,moving,0,32,296,9.87,7.929,4.863,0.613,0.068,9.663
-rl_ep0094_s4,rl,94,4,lift_pink_block_table,moving,0,50,168,5.6,11.186,4.023,0.36,0.012,9.468
-rl_ep0095_s0,rl,95,0,close_drawer,moving,1,50,184,6.13,7.974,11.822,1.483,0.0,14.42
-rl_ep0095_s1,rl,95,1,move_slider_right,moving,1,38,294,9.8,8.071,4.627,0.573,0.014,24.984
-rl_ep0095_s2,rl,95,2,turn_on_led,moving,1,40,108,3.6,7.605,6.309,0.83,0.038,8.99
-rl_ep0095_s3,rl,95,3,rotate_red_block_left,moving,0,60,244,8.13,5.518,2.659,0.482,0.115,7.245
-rl_ep0096_s0,rl,96,0,lift_pink_block_table,moving,1,34,120,4.0,10.81,12.484,1.155,0.0,12.871
-rl_ep0096_s1,rl,96,1,stack_block,slow,1,60,208,6.93,5.328,4.228,0.794,0.019,6.948
-rl_ep0096_s2,rl,96,2,turn_on_lightbulb,moving,0,56,182,6.07,12.117,6.958,0.574,0.0,10.145
-rl_ep0096_s3,rl,96,3,unstack_block,moving,1,60,72,2.4,3.685,12.723,3.452,0.0,14.913
-rl_ep0097_s0,rl,97,0,close_drawer,moving,1,46,182,6.07,8.165,10.762,1.318,0.0,16.042
-rl_ep0097_s1,rl,97,1,move_slider_left,moving,1,38,280,9.33,11.255,6.362,0.565,0.022,10.854
-rl_ep0097_s2,rl,97,2,rotate_pink_block_left,slow,0,60,188,6.27,2.775,2.309,0.832,0.106,4.458
-rl_ep0097_s3,rl,97,3,turn_on_led,moving,1,36,268,8.93,4.117,5.453,1.324,0.075,8.512
-rl_ep0097_s4,rl,97,4,lift_red_block_slider,moving,0,42,292,9.73,9.664,8.964,0.928,0.007,13.829
-rl_ep0098_s0,rl,98,0,move_slider_left,moving,1,38,42,1.4,11.251,6.387,0.568,0.0,7.637
-rl_ep0098_s1,rl,98,1,push_red_block_right,slow,1,54,36,1.2,7.583,3.983,0.525,0.0,4.019
-rl_ep0099_s0,rl,99,0,rotate_red_block_right,slow,1,60,158,5.27,3.15,2.6,0.825,0.051,4.722
-rl_ep0099_s1,rl,99,1,turn_on_lightbulb,moving,0,26,176,5.87,6.876,7.383,1.074,0.0,14.12
-rl_ep0099_s2,rl,99,2,move_slider_right,moving,1,54,228,7.6,13.436,7.334,0.546,0.07,22.268
-rl_ep0099_s3,rl,99,3,open_drawer,moving,1,42,106,3.53,9.791,13.062,1.334,0.0,12.873
-rl_ep0099_s4,rl,99,4,lift_blue_block_table,moving,0,26,66,2.2,9.086,6.281,0.691,0.0,8.028
+clip,model,episode,subtask_index,subtask,instruction,verdict,held_end,lead_frames,wait_frames,wait_s,work_speed_median,after_speed_median,ratio_after_over_work,still_frac,max_burst_0p5s
+sft_ep0000_s0,sft,0,0,rotate_blue_block_right,take the blue block and rotate it to the right,slow,0,60,260,8.67,3.096,2.683,0.867,0.109,5.869
+sft_ep0000_s1,sft,0,1,move_slider_right,push the sliding door to the right side,slow,1,60,198,6.6,7.49,5.249,0.701,0.02,6.908
+sft_ep0000_s2,sft,0,2,lift_red_block_slider,lift the red block from the sliding cabinet,moving,0,60,162,5.4,5.047,6.915,1.37,0.0,8.432
+sft_ep0001_s0,sft,1,0,turn_off_led,press the button to turn off the led light,slow,0,60,104,3.47,4.547,2.929,0.644,0.096,4.533
+sft_ep0002_s0,sft,2,0,lift_pink_block_slider,lift the pink block from the sliding cabinet,slow,0,60,38,1.27,5.548,6.26,1.128,0.0,5.77
+sft_ep0003_s0,sft,3,0,rotate_blue_block_right,take the blue block and rotate it to the right,slow,1,60,66,2.2,3.118,5.681,1.822,0.03,6.051
+sft_ep0003_s1,sft,3,1,lift_pink_block_table,grasp and lift the pink block,slow,1,42,248,8.27,6.526,3.019,0.463,0.04,4.364
+sft_ep0003_s2,sft,3,2,place_in_slider,store the grasped block in the sliding cabinet,moving,1,18,202,6.73,4.143,7.427,1.793,0.05,11.815
+sft_ep0003_s3,sft,3,3,move_slider_left,push the sliding door to the left side,moving,1,60,278,9.27,6.749,9.069,1.344,0.007,12.782
+sft_ep0003_s4,sft,3,4,open_drawer,pull the handle to open the drawer,moving,1,60,160,5.33,5.179,7.173,1.385,0.0,12.05
+sft_ep0004_s0,sft,4,0,open_drawer,pull the handle to open the drawer,moving,1,54,190,6.33,6.927,6.822,0.985,0.0,9.532
+sft_ep0004_s1,sft,4,1,lift_pink_block_table,grasp and lift the pink block,moving,0,48,294,9.8,5.999,7.292,1.216,0.014,9.777
+sft_ep0004_s2,sft,4,2,place_in_slider,store the grasped block in the sliding cabinet,moving,1,60,224,7.47,7.645,5.914,0.774,0.018,11.951
+sft_ep0004_s3,sft,4,3,turn_on_lightbulb,use the switch to turn on the light bulb,slow,0,52,196,6.53,7.76,2.76,0.356,0.031,5.505
+sft_ep0005_s0,sft,5,0,push_blue_block_left,go push the blue block left,moving,1,60,176,5.87,5.868,5.244,0.894,0.0,8.721
+sft_ep0005_s1,sft,5,1,close_drawer,push the handle to close the drawer,moving,1,60,284,9.47,7.008,7.399,1.056,0.014,11.959
+sft_ep0005_s2,sft,5,2,lift_red_block_slider,lift the red block from the sliding cabinet,slow,0,58,96,3.2,7.361,2.746,0.373,0.106,4.575
+sft_ep0005_s3,sft,5,3,place_in_slider,store the grasped block in the sliding cabinet,moving,1,38,250,8.33,6.886,4.872,0.707,0.065,13.646
+sft_ep0005_s4,sft,5,4,turn_off_lightbulb,use the switch to turn off the light bulb,slow,0,60,208,6.93,9.015,4.902,0.544,0.039,6.642
+sft_ep0006_s0,sft,6,0,open_drawer,pull the handle to open the drawer,slow,1,58,18,0.6,6.258,12.05,1.925,0.0,
+sft_ep0006_s1,sft,6,1,rotate_red_block_right,take the red block and rotate it to the right,slow,0,60,128,4.27,3.146,2.124,0.675,0.219,5.245
+sft_ep0006_s2,sft,6,2,turn_on_led,press the button to turn on the led light,slow,1,50,262,8.73,6.449,2.386,0.37,0.177,4.007
+sft_ep0006_s3,sft,6,3,lift_pink_block_table,grasp and lift the pink block,slow,0,60,174,5.8,4.812,3.768,0.783,0.034,5.318
+sft_ep0006_s4,sft,6,4,stack_block,stack the grasped block,slow,1,60,26,0.87,5.242,5.205,0.993,0.0,
+sft_ep0007_s0,sft,7,0,push_pink_block_right,go push the pink block right,moving,0,60,234,7.8,3.791,3.144,0.829,0.034,7.011
+sft_ep0007_s1,sft,7,1,lift_pink_block_table,grasp and lift the pink block,moving,0,22,226,7.53,2.938,7.355,2.503,0.009,8.959
+sft_ep0007_s2,sft,7,2,place_in_slider,store the grasped block in the sliding cabinet,moving,1,60,258,8.6,8.02,7.479,0.933,0.008,11.998
+sft_ep0008_s0,sft,8,0,open_drawer,pull the handle to open the drawer,moving,1,60,42,1.4,6.125,11.801,1.927,0.0,13.013
+sft_ep0008_s1,sft,8,1,push_red_block_right,go push the red block right,moving,1,60,262,8.73,5.233,4.473,0.855,0.015,7.835
+sft_ep0008_s2,sft,8,2,move_slider_left,push the sliding door to the left side,slow,1,60,22,0.73,5.678,7.741,1.363,0.0,
+sft_ep0009_s0,sft,9,0,push_red_block_left,go push the red block left,slow,1,60,38,1.27,3.514,3.406,0.969,0.0,4.844
+sft_ep0009_s1,sft,9,1,lift_blue_block_table,grasp and lift the blue block,moving,1,58,102,3.4,5.86,10.299,1.757,0.02,13.708
+sft_ep0009_s2,sft,9,2,place_in_slider,store the grasped block in the sliding cabinet,moving,1,38,154,5.13,7.621,3.922,0.515,0.158,7.02
+sft_ep0009_s3,sft,9,3,turn_on_lightbulb,use the switch to turn on the light bulb,moving,1,60,136,4.53,7.559,5.213,0.69,0.0,7.224
+sft_ep0009_s4,sft,9,4,move_slider_right,push the sliding door to the right side,slow,1,60,132,4.4,7.378,4.931,0.668,0.015,6.993
+sft_ep0010_s0,sft,10,0,rotate_blue_block_left,take the blue block and rotate it to the left,slow,1,60,24,0.8,1.722,3.576,2.077,0.0,
+sft_ep0010_s1,sft,10,1,lift_blue_block_table,grasp and lift the blue block,slow,1,48,18,0.6,4.013,11.868,2.957,0.0,
+sft_ep0010_s2,sft,10,2,place_in_drawer,store the grasped block in the drawer,moving,1,52,52,1.73,8.233,8.454,1.027,0.0,8.315
+sft_ep0010_s3,sft,10,3,move_slider_right,push the sliding door to the right side,slow,1,48,18,0.6,10.149,6.357,0.626,0.0,
+sft_ep0010_s4,sft,10,4,turn_off_lightbulb,use the switch to turn off the light bulb,slow,1,60,208,6.93,4.749,4.055,0.854,0.019,5.107
+sft_ep0011_s0,sft,11,0,lift_pink_block_slider,lift the pink block from the sliding cabinet,slow,0,60,166,5.53,6.326,4.41,0.697,0.024,6.123
+sft_ep0012_s0,sft,12,0,move_slider_left,push the sliding door to the left side,moving,1,56,90,3.0,6.729,5.552,0.825,0.0,11.213
+sft_ep0012_s1,sft,12,1,rotate_red_block_left,take the red block and rotate it to the left,slow,0,60,192,6.4,2.244,2.188,0.975,0.083,3.407
+sft_ep0012_s2,sft,12,2,turn_off_led,press the button to turn off the led light,slow,0,60,234,7.8,3.099,3.218,1.038,0.214,5.708
+sft_ep0012_s3,sft,12,3,lift_pink_block_table,grasp and lift the pink block,slow,1,60,126,4.2,3.566,1.819,0.51,0.081,3.941
+sft_ep0013_s0,sft,13,0,turn_on_led,press the button to turn on the led light,slow,1,60,302,10.07,4.236,2.936,0.693,0.093,5.511
+sft_ep0013_s1,sft,13,1,close_drawer,push the handle to close the drawer,moving,1,60,246,8.2,4.603,6.433,1.398,0.0,9.903
+sft_ep0014_s0,sft,14,0,lift_red_block_slider,lift the red block from the sliding cabinet,moving,0,60,124,4.13,6.014,4.925,0.819,0.016,7.461
+sft_ep0014_s1,sft,14,1,stack_block,stack the grasped block,moving,1,44,212,7.07,5.97,5.621,0.942,0.009,8.127
+sft_ep0014_s2,sft,14,2,move_slider_left,push the sliding door to the left side,moving,1,44,288,9.6,8.235,8.592,1.043,0.0,11.197
+sft_ep0014_s3,sft,14,3,turn_off_led,press the button to turn off the led light,slow,1,26,204,6.8,4.387,2.255,0.514,0.208,4.962
+sft_ep0014_s4,sft,14,4,open_drawer,pull the handle to open the drawer,moving,1,60,256,8.53,4.996,6.567,1.314,0.008,11.871
+sft_ep0015_s0,sft,15,0,move_slider_left,push the sliding door to the left side,moving,1,52,214,7.13,7.884,7.529,0.955,0.019,12.122
+sft_ep0015_s1,sft,15,1,push_pink_block_left,go push the pink block left,slow,1,60,218,7.27,4.646,2.455,0.528,0.12,5.28
+sft_ep0015_s2,sft,15,2,open_drawer,pull the handle to open the drawer,moving,1,60,128,4.27,5.667,7.073,1.248,0.0,8.34
+sft_ep0015_s3,sft,15,3,turn_on_lightbulb,use the switch to turn on the light bulb,slow,1,52,266,8.87,7.891,3.707,0.47,0.03,5.242
+sft_ep0015_s4,sft,15,4,lift_blue_block_table,grasp and lift the blue block,slow,0,60,54,1.8,2.982,2.125,0.713,0.259,2.993
+sft_ep0016_s0,sft,16,0,push_red_block_left,go push the red block left,slow,1,60,182,6.07,4.62,4.646,1.006,0.0,6.201
+sft_ep0016_s1,sft,16,1,lift_pink_block_slider,lift the pink block from the sliding cabinet,moving,0,46,224,7.47,6.352,4.763,0.75,0.054,8.62
+sft_ep0017_s0,sft,17,0,push_red_block_left,go push the red block left,slow,1,60,166,5.53,5.119,3.274,0.64,0.072,5.219
+sft_ep0017_s1,sft,17,1,move_slider_right,push the sliding door to the right side,slow,1,60,124,4.13,8.568,4.806,0.561,0.0,6.239
+sft_ep0017_s2,sft,17,2,lift_blue_block_slider,lift the blue block from the sliding cabinet,slow,0,60,104,3.47,5.045,3.921,0.777,0.096,4.939
+sft_ep0018_s0,sft,18,0,turn_on_lightbulb,use the switch to turn on the light bulb,moving,0,60,154,5.13,7.749,5.056,0.653,0.0,7.055
+sft_ep0019_s0,sft,19,0,move_slider_left,push the sliding door to the left side,moving,1,52,270,9.0,7.149,7.966,1.114,0.022,10.592
+sft_ep0019_s1,sft,19,1,lift_red_block_table,grasp and lift the red block,slow,0,60,36,1.2,7.477,3.023,0.404,0.056,3.173
+sft_ep0020_s0,sft,20,0,open_drawer,pull the handle to open the drawer,moving,1,60,168,5.6,6.551,9.317,1.422,0.0,11.619
+sft_ep0020_s1,sft,20,1,turn_on_lightbulb,use the switch to turn on the light bulb,moving,1,60,118,3.93,6.452,5.405,0.838,0.0,7.205
+sft_ep0020_s2,sft,20,2,push_red_block_left,go push the red block left,slow,1,60,208,6.93,4.28,4.056,0.948,0.0,6.334
+sft_ep0020_s3,sft,20,3,move_slider_left,push the sliding door to the left side,moving,1,52,180,6.0,5.465,10.383,1.9,0.0,11.878
+sft_ep0020_s4,sft,20,4,push_into_drawer,slide the block that it falls into the drawer,slow,1,60,88,2.93,3.494,5.971,1.709,0.0,6.986
+sft_ep0021_s0,sft,21,0,move_slider_right,push the sliding door to the right side,moving,1,60,108,3.6,8.766,4.537,0.518,0.037,7.417
+sft_ep0021_s1,sft,21,1,turn_off_lightbulb,use the switch to turn off the light bulb,moving,1,60,222,7.4,7.476,5.429,0.726,0.0,8.522
+sft_ep0021_s2,sft,21,2,lift_pink_block_table,grasp and lift the pink block,moving,0,60,186,6.2,5.636,6.471,1.148,0.0,7.92
+sft_ep0021_s3,sft,21,3,place_in_drawer,store the grasped block in the drawer,moving,1,20,162,5.4,6.787,8.423,1.241,0.0,11.967
+sft_ep0021_s4,sft,21,4,lift_pink_block_drawer,Take the pink block from the drawer,moving,0,50,112,3.73,8.719,10.527,1.207,0.018,12.747
+sft_ep0023_s0,sft,23,0,turn_on_led,press the button to turn on the led light,slow,1,60,128,4.27,4.842,3.496,0.722,0.094,5.063
+sft_ep0023_s1,sft,23,1,move_slider_left,push the sliding door to the left side,moving,1,60,110,3.67,6.818,10.214,1.498,0.0,10.593
+sft_ep0023_s2,sft,23,2,lift_blue_block_table,grasp and lift the blue block,moving,1,58,272,9.07,5.727,4.702,0.821,0.037,9.243
+sft_ep0023_s3,sft,23,3,stack_block,stack the grasped block,moving,1,28,92,3.07,4.843,4.008,0.828,0.0,7.107
+sft_ep0023_s4,sft,23,4,unstack_block,remove the stacked block,moving,1,26,80,2.67,2.112,7.159,3.39,0.0,8.854
+sft_ep0024_s0,sft,24,0,rotate_blue_block_right,take the blue block and rotate it to the right,slow,0,60,220,7.33,3.847,2.743,0.713,0.127,4.853
+sft_ep0024_s1,sft,24,1,open_drawer,pull the handle to open the drawer,moving,1,60,194,6.47,5.478,8.409,1.535,0.0,10.698
+sft_ep0024_s2,sft,24,2,turn_off_led,press the button to turn off the led light,slow,1,42,30,1.0,6.179,1.062,0.172,0.429,
+sft_ep0024_s3,sft,24,3,lift_blue_block_table,grasp and lift the blue block,slow,1,60,40,1.33,5.324,2.165,0.407,0.3,2.395
+sft_ep0024_s4,sft,24,4,place_in_slider,store the grasped block in the sliding cabinet,moving,0,60,124,4.13,3.05,7.575,2.484,0.0,9.803
+sft_ep0025_s0,sft,25,0,lift_blue_block_slider,lift the blue block from the sliding cabinet,moving,0,60,254,8.47,5.141,5.387,1.048,0.008,9.515
+sft_ep0025_s1,sft,25,1,stack_block,stack the grasped block,slow,1,60,130,4.33,4.452,4.423,0.993,0.015,5.709
+sft_ep0025_s2,sft,25,2,turn_off_led,press the button to turn off the led light,slow,1,60,242,8.07,4.76,3.308,0.695,0.033,4.657
+sft_ep0025_s3,sft,25,3,unstack_block,remove the stacked block,slow,1,50,106,3.53,5.29,3.543,0.67,0.057,4.634
+sft_ep0026_s0,sft,26,0,push_blue_block_right,go push the blue block right,moving,1,60,242,8.07,4.624,5.961,1.289,0.058,8.69
+sft_ep0026_s1,sft,26,1,open_drawer,pull the handle to open the drawer,moving,1,60,266,8.87,5.965,10.062,1.687,0.0,11.711
+sft_ep0026_s2,sft,26,2,lift_pink_block_slider,lift the pink block from the sliding cabinet,moving,1,60,38,1.27,6.733,6.629,0.985,0.0,7.753
+sft_ep0026_s3,sft,26,3,place_in_slider,store the grasped block in the sliding cabinet,slow,1,60,32,1.07,1.97,1.815,0.921,0.0,1.971
+sft_ep0028_s0,sft,28,0,turn_off_lightbulb,use the switch to turn off the light bulb,moving,1,60,180,6.0,8.733,5.238,0.6,0.011,7.045
+sft_ep0028_s1,sft,28,1,rotate_blue_block_left,take the blue block and rotate it to the left,slow,1,60,58,1.93,3.049,5.137,1.685,0.0,5.336
+sft_ep0028_s2,sft,28,2,move_slider_left,push the sliding door to the left side,moving,1,60,262,8.73,5.796,7.204,1.243,0.023,10.409
+sft_ep0028_s3,sft,28,3,open_drawer,pull the handle to open the drawer,moving,1,60,144,4.8,5.062,9.537,1.884,0.0,12.199
+sft_ep0028_s4,sft,28,4,lift_red_block_table,grasp and lift the red block,moving,0,30,272,9.07,6.531,7.69,1.177,0.0,8.756
+sft_ep0029_s0,sft,29,0,lift_red_block_table,grasp and lift the red block,slow,0,42,244,8.13,5.684,3.123,0.549,0.058,6.06
+sft_ep0029_s1,sft,29,1,stack_block,stack the grasped block,slow,0,60,218,7.27,3.439,3.796,1.104,0.019,5.355
+sft_ep0030_s0,sft,30,0,lift_blue_block_table,grasp and lift the blue block,slow,0,40,236,7.87,6.367,3.59,0.564,0.034,5.155
+sft_ep0031_s0,sft,31,0,lift_pink_block_table,grasp and lift the pink block,slow,0,56,180,6.0,5.493,2.7,0.491,0.056,3.79
+sft_ep0032_s0,sft,32,0,rotate_pink_block_left,take the pink block and rotate it to the left,slow,0,60,302,10.07,2.099,2.902,1.382,0.113,6.329
+sft_ep0032_s1,sft,32,1,lift_pink_block_table,grasp and lift the pink block,moving,0,60,72,2.4,2.54,7.64,3.008,0.0,10.037
+sft_ep0032_s2,sft,32,2,stack_block,stack the grasped block,moving,1,60,286,9.53,1.801,6.446,3.58,0.014,8.319
+sft_ep0032_s3,sft,32,3,unstack_block,remove the stacked block,slow,1,40,42,1.4,5.476,2.688,0.491,0.2,2.509
+sft_ep0032_s4,sft,32,4,turn_off_led,press the button to turn off the led light,slow,1,58,196,6.53,8.393,3.095,0.369,0.103,6.053
+sft_ep0033_s0,sft,33,0,turn_off_led,press the button to turn off the led light,slow,0,60,182,6.07,4.193,3.071,0.732,0.156,5.602
+sft_ep0033_s1,sft,33,1,open_drawer,pull the handle to open the drawer,moving,1,60,274,9.13,8.66,7.7,0.889,0.0,10.375
+sft_ep0033_s2,sft,33,2,push_pink_block_left,go push the pink block left,slow,0,60,102,3.4,4.728,2.527,0.534,0.06,3.851
+sft_ep0033_s3,sft,33,3,lift_blue_block_table,grasp and lift the blue block,moving,0,60,274,9.13,6.62,6.818,1.03,0.015,11.587
+sft_ep0034_s0,sft,34,0,move_slider_right,push the sliding door to the right side,moving,1,60,270,9.0,8.869,5.325,0.6,0.0,14.796
+sft_ep0034_s1,sft,34,1,push_blue_block_left,go push the blue block left,slow,1,60,74,2.47,6.203,3.803,0.613,0.056,4.338
+sft_ep0034_s2,sft,34,2,open_drawer,pull the handle to open the drawer,moving,1,60,232,7.73,7.598,6.012,0.791,0.026,9.562
+sft_ep0034_s3,sft,34,3,lift_red_block_table,grasp and lift the red block,moving,0,30,286,9.53,5.685,4.679,0.823,0.07,12.15
+sft_ep0034_s4,sft,34,4,stack_block,stack the grasped block,slow,1,60,30,1.0,8.416,3.914,0.465,0.0,
+sft_ep0035_s0,sft,35,0,lift_red_block_slider,lift the red block from the sliding cabinet,moving,1,60,120,4.0,7.405,8.832,1.193,0.0,9.95
+sft_ep0035_s1,sft,35,1,place_in_slider,store the grasped block in the sliding cabinet,moving,1,52,198,6.6,9.808,4.889,0.498,0.03,8.645
+sft_ep0036_s0,sft,36,0,move_slider_right,push the sliding door to the right side,slow,1,60,162,5.4,7.343,4.869,0.663,0.013,6.335
+sft_ep0036_s1,sft,36,1,turn_off_lightbulb,use the switch to turn off the light bulb,moving,1,60,196,6.53,4.896,1.134,0.232,0.423,7.801
+sft_ep0037_s0,sft,37,0,turn_off_lightbulb,use the switch to turn off the light bulb,moving,1,52,282,9.4,9.777,4.906,0.502,0.014,7.31
+sft_ep0037_s1,sft,37,1,push_red_block_right,go push the red block right,slow,1,60,134,4.47,5.411,3.577,0.661,0.045,4.291
+sft_ep0037_s2,sft,37,2,push_into_drawer,slide the block that it falls into the drawer,moving,1,60,142,4.73,4.587,2.86,0.623,0.114,8.46
+sft_ep0037_s3,sft,37,3,move_slider_left,push the sliding door to the left side,moving,1,50,152,5.07,8.557,8.409,0.983,0.0,13.171
+sft_ep0037_s4,sft,37,4,close_drawer,push the handle to close the drawer,moving,1,60,290,9.67,6.773,6.536,0.965,0.014,10.08
+sft_ep0038_s0,sft,38,0,open_drawer,pull the handle to open the drawer,moving,1,54,72,2.4,7.403,8.441,1.14,0.0,10.767
+sft_ep0038_s1,sft,38,1,move_slider_right,push the sliding door to the right side,slow,1,60,158,5.27,9.198,4.379,0.476,0.127,5.911
+sft_ep0039_s0,sft,39,0,turn_on_led,press the button to turn on the led light,slow,0,42,138,4.6,4.758,3.53,0.742,0.088,5.7
+sft_ep0039_s1,sft,39,1,rotate_pink_block_right,take the pink block and rotate it to the right,slow,1,60,286,9.53,3.588,3.199,0.892,0.042,6.125
+sft_ep0039_s2,sft,39,2,move_slider_right,push the sliding door to the right side,moving,1,60,194,6.47,9.243,20.326,2.199,0.0,29.901
+sft_ep0040_s0,sft,40,0,move_slider_right,push the sliding door to the right side,slow,1,60,300,10.0,9.527,4.728,0.496,0.007,6.601
+sft_ep0040_s1,sft,40,1,close_drawer,push the handle to close the drawer,moving,1,60,188,6.27,7.756,8.22,1.06,0.021,9.934
+sft_ep0040_s2,sft,40,2,push_pink_block_left,go push the pink block left,moving,1,60,288,9.6,6.601,7.613,1.153,0.0,9.007
+sft_ep0040_s3,sft,40,3,lift_pink_block_table,grasp and lift the pink block,slow,1,44,22,0.73,6.523,6.927,1.062,0.0,
+sft_ep0040_s4,sft,40,4,place_in_slider,store the grasped block in the sliding cabinet,moving,0,20,148,4.93,3.568,10.42,2.921,0.041,14.19
+sft_ep0041_s0,sft,41,0,move_slider_right,push the sliding door to the right side,moving,1,60,254,8.47,7.497,4.429,0.591,0.031,10.584
+sft_ep0042_s0,sft,42,0,move_slider_left,push the sliding door to the left side,moving,1,54,134,4.47,7.46,9.21,1.234,0.0,13.371
+sft_ep0042_s1,sft,42,1,push_pink_block_left,go push the pink block left,moving,1,60,158,5.27,5.225,5.862,1.122,0.013,10.605
+sft_ep0042_s2,sft,42,2,lift_blue_block_slider,lift the blue block from the sliding cabinet,slow,0,60,136,4.53,6.946,3.117,0.449,0.015,4.665
+sft_ep0043_s0,sft,43,0,rotate_pink_block_right,take the pink block and rotate it to the right,slow,1,60,82,2.73,2.388,5.215,2.184,0.0,6.042
+sft_ep0043_s1,sft,43,1,lift_pink_block_table,grasp and lift the pink block,moving,1,60,240,8.0,3.319,2.59,0.78,0.158,7.255
+sft_ep0043_s2,sft,43,2,place_in_slider,store the grasped block in the sliding cabinet,moving,1,60,38,1.27,3.705,9.144,2.468,0.158,10.517
+sft_ep0044_s0,sft,44,0,lift_blue_block_table,grasp and lift the blue block,moving,1,50,98,3.27,8.237,10.581,1.285,0.042,10.881
+sft_ep0044_s1,sft,44,1,place_in_slider,store the grasped block in the sliding cabinet,moving,1,40,226,7.53,9.081,6.629,0.73,0.027,9.839
+sft_ep0044_s2,sft,44,2,turn_on_led,press the button to turn on the led light,slow,0,60,230,7.67,4.71,3.465,0.736,0.052,5.512
+sft_ep0047_s0,sft,47,0,lift_red_block_slider,lift the red block from the sliding cabinet,moving,0,60,68,2.27,6.738,8.321,1.235,0.0,8.736
+sft_ep0048_s0,sft,48,0,rotate_blue_block_left,take the blue block and rotate it to the left,slow,1,60,54,1.8,2.255,2.676,1.187,0.0,4.268
+sft_ep0048_s1,sft,48,1,move_slider_left,push the sliding door to the left side,moving,1,46,224,7.47,6.78,10.157,1.498,0.0,11.939
+sft_ep0048_s2,sft,48,2,open_drawer,pull the handle to open the drawer,moving,1,60,294,9.8,3.593,8.579,2.387,0.007,10.365
+sft_ep0048_s3,sft,48,3,lift_red_block_slider,lift the red block from the sliding cabinet,moving,0,60,282,9.4,8.086,6.824,0.844,0.007,10.214
+sft_ep0048_s4,sft,48,4,place_in_drawer,store the grasped block in the drawer,moving,1,8,208,6.93,4.036,8.488,2.103,0.01,11.258
+sft_ep0049_s0,sft,49,0,lift_red_block_table,grasp and lift the red block,moving,1,48,294,9.8,7.328,8.574,1.17,0.0,10.985
+sft_ep0049_s1,sft,49,1,place_in_drawer,store the grasped block in the drawer,moving,1,26,266,8.87,5.663,6.087,1.075,0.023,9.923
+sft_ep0049_s2,sft,49,2,rotate_blue_block_right,take the blue block and rotate it to the right,slow,1,60,20,0.67,3.115,3.988,1.28,0.0,
+sft_ep0049_s3,sft,49,3,lift_pink_block_slider,lift the pink block from the sliding cabinet,moving,1,60,50,1.67,5.71,10.349,1.812,0.0,13.071
+sft_ep0050_s0,sft,50,0,open_drawer,pull the handle to open the drawer,moving,1,60,40,1.33,6.042,13.973,2.313,0.0,14.618
+sft_ep0050_s1,sft,50,1,push_blue_block_right,go push the blue block right,moving,1,60,296,9.87,6.416,4.362,0.68,0.027,7.123
+sft_ep0050_s2,sft,50,2,move_slider_left,push the sliding door to the left side,moving,1,44,252,8.4,6.524,8.084,1.239,0.016,11.991
+sft_ep0050_s3,sft,50,3,push_into_drawer,slide the block that it falls into the drawer,moving,1,60,290,9.67,3.993,6.44,1.613,0.021,8.367
+sft_ep0050_s4,sft,50,4,lift_blue_block_drawer,Take the blue block from the drawer,slow,0,56,120,4.0,8.788,3.394,0.386,0.034,4.598
+sft_ep0051_s0,sft,51,0,rotate_red_block_right,take the red block and rotate it to the right,slow,1,60,58,1.93,2.801,2.46,0.878,0.172,4.009
+sft_ep0051_s1,sft,51,1,lift_pink_block_slider,lift the pink block from the sliding cabinet,slow,0,60,164,5.47,8.113,5.566,0.686,0.012,6.869
+sft_ep0052_s0,sft,52,0,turn_on_led,press the button to turn on the led light,slow,1,38,122,4.07,5.605,2.587,0.461,0.133,3.545
+sft_ep0052_s1,sft,52,1,push_pink_block_left,go push the pink block left,moving,1,60,270,9.0,8.028,5.448,0.679,0.037,9.28
+sft_ep0053_s0,sft,53,0,turn_on_led,press the button to turn on the led light,slow,0,42,252,8.4,5.203,3.369,0.648,0.096,5.589
+sft_ep0053_s1,sft,53,1,open_drawer,pull the handle to open the drawer,moving,1,60,82,2.73,6.293,8.126,1.291,0.0,9.626
+sft_ep0053_s2,sft,53,2,rotate_pink_block_left,take the pink block and rotate it to the left,slow,1,58,154,5.13,3.013,3.04,1.009,0.092,4.434
+sft_ep0053_s3,sft,53,3,lift_blue_block_table,grasp and lift the blue block,slow,0,60,110,3.67,4.452,2.872,0.645,0.111,4.297
+sft_ep0054_s0,sft,54,0,turn_off_led,press the button to turn off the led light,slow,0,38,272,9.07,5.304,3.207,0.605,0.178,6.717
+sft_ep0054_s1,sft,54,1,close_drawer,push the handle to close the drawer,moving,1,60,246,8.2,5.761,5.077,0.881,0.0,9.627
+sft_ep0054_s2,sft,54,2,move_slider_left,push the sliding door to the left side,moving,1,58,56,1.87,8.382,6.409,0.765,0.0,7.981
+sft_ep0055_s0,sft,55,0,close_drawer,push the handle to close the drawer,moving,1,60,294,9.8,5.784,6.473,1.119,0.007,11.0
+sft_ep0055_s1,sft,55,1,push_red_block_left,go push the red block left,slow,1,60,92,3.07,4.377,2.825,0.645,0.022,3.819
+sft_ep0055_s2,sft,55,2,lift_red_block_table,grasp and lift the red block,slow,0,60,138,4.6,3.368,3.021,0.897,0.029,6.262
+sft_ep0055_s3,sft,55,3,stack_block,stack the grasped block,moving,1,44,170,5.67,4.254,4.33,1.018,0.047,7.797
+sft_ep0056_s0,sft,56,0,move_slider_right,push the sliding door to the right side,slow,1,60,142,4.73,6.76,4.555,0.674,0.0,6.92
+sft_ep0056_s1,sft,56,1,push_into_drawer,slide the block that it falls into the drawer,moving,1,60,58,1.93,2.959,4.933,1.667,0.034,7.331
+sft_ep0056_s2,sft,56,2,lift_red_block_slider,lift the red block from the sliding cabinet,moving,0,60,282,9.4,5.323,9.155,1.72,0.007,11.796
+sft_ep0057_s0,sft,57,0,push_blue_block_left,go push the blue block left,slow,1,60,28,0.93,6.437,3.719,0.578,0.0,
+sft_ep0057_s1,sft,57,1,push_into_drawer,slide the block that it falls into the drawer,slow,1,60,248,8.27,7.754,3.492,0.45,0.04,6.48
+sft_ep0057_s2,sft,57,2,lift_blue_block_drawer,Take the blue block from the drawer,moving,0,34,226,7.53,6.539,4.048,0.619,0.018,7.285
+sft_ep0058_s0,sft,58,0,move_slider_right,push the sliding door to the right side,slow,1,60,192,6.4,5.981,4.949,0.827,0.0,6.575
+sft_ep0058_s1,sft,58,1,turn_off_lightbulb,use the switch to turn off the light bulb,slow,1,44,160,5.33,6.473,3.945,0.609,0.025,5.45
+sft_ep0058_s2,sft,58,2,close_drawer,push the handle to close the drawer,slow,1,60,24,0.8,6.239,7.09,1.136,0.0,
+sft_ep0058_s3,sft,58,3,rotate_blue_block_right,take the blue block and rotate it to the right,moving,0,60,282,9.4,3.527,3.141,0.89,0.071,7.253
+sft_ep0059_s0,sft,59,0,turn_off_lightbulb,use the switch to turn off the light bulb,slow,1,60,104,3.47,6.968,4.973,0.714,0.038,6.19
+sft_ep0060_s0,sft,60,0,turn_on_lightbulb,use the switch to turn on the light bulb,slow,1,60,42,1.4,6.987,3.443,0.493,0.0,4.3
+sft_ep0060_s1,sft,60,1,move_slider_left,push the sliding door to the left side,moving,1,60,232,7.73,5.119,11.144,2.177,0.0,14.137
+sft_ep0062_s0,sft,62,0,rotate_pink_block_left,take the pink block and rotate it to the left,slow,1,60,274,9.13,2.314,2.66,1.149,0.11,4.267
+sft_ep0062_s1,sft,62,1,turn_on_led,press the button to turn on the led light,slow,1,50,282,9.4,4.523,3.607,0.798,0.071,6.064
+sft_ep0062_s2,sft,62,2,lift_red_block_slider,lift the red block from the sliding cabinet,slow,0,60,92,3.07,4.596,2.376,0.517,0.196,3.317
+sft_ep0062_s3,sft,62,3,stack_block,stack the grasped block,slow,1,60,34,1.13,5.628,3.511,0.624,0.0,4.192
+sft_ep0062_s4,sft,62,4,close_drawer,push the handle to close the drawer,moving,1,60,158,5.27,5.545,6.123,1.104,0.0,9.596
+sft_ep0063_s0,sft,63,0,move_slider_right,push the sliding door to the right side,moving,1,60,256,8.53,8.406,4.023,0.479,0.023,11.479
+sft_ep0063_s1,sft,63,1,lift_red_block_slider,lift the red block from the sliding cabinet,moving,1,60,194,6.47,2.905,5.744,1.977,0.01,8.411
+sft_ep0063_s2,sft,63,2,place_in_slider,store the grasped block in the sliding cabinet,slow,1,60,36,1.2,5.147,1.866,0.363,0.059,2.048
+sft_ep0063_s3,sft,63,3,open_drawer,pull the handle to open the drawer,moving,1,60,202,6.73,4.513,8.779,1.945,0.0,12.353
+sft_ep0063_s4,sft,63,4,turn_on_led,press the button to turn on the led light,slow,1,42,116,3.87,6.622,3.228,0.487,0.105,4.612
+sft_ep0064_s0,sft,64,0,open_drawer,pull the handle to open the drawer,moving,1,56,80,2.67,6.424,8.019,1.248,0.0,9.179
+sft_ep0065_s0,sft,65,0,open_drawer,pull the handle to open the drawer,moving,1,52,266,8.87,7.01,8.844,1.262,0.015,10.346
+sft_ep0065_s1,sft,65,1,turn_on_led,press the button to turn on the led light,slow,0,34,294,9.8,8.358,3.137,0.375,0.096,4.795
+sft_ep0065_s2,sft,65,2,move_slider_right,push the sliding door to the right side,moving,1,50,58,1.93,7.873,6.747,0.857,0.0,7.2
+sft_ep0065_s3,sft,65,3,lift_pink_block_table,grasp and lift the pink block,moving,0,60,176,5.87,4.966,6.564,1.322,0.0,8.147
+sft_ep0066_s0,sft,66,0,rotate_pink_block_right,take the pink block and rotate it to the right,slow,1,60,90,3.0,1.932,2.029,1.05,0.111,2.859
+sft_ep0067_s0,sft,67,0,lift_pink_block_table,grasp and lift the pink block,slow,0,52,86,2.87,6.855,4.324,0.631,0.024,6.83
+sft_ep0067_s1,sft,67,1,stack_block,stack the grasped block,slow,1,56,76,2.53,7.724,5.138,0.665,0.0,5.959
+sft_ep0067_s2,sft,67,2,unstack_block,remove the stacked block,slow,1,60,270,9.0,4.726,2.68,0.567,0.052,6.694
+sft_ep0067_s3,sft,67,3,turn_on_lightbulb,use the switch to turn on the light bulb,slow,0,46,78,2.6,5.895,3.393,0.576,0.0,4.215
+sft_ep0067_s4,sft,67,4,push_red_block_left,go push the red block left,slow,1,60,80,2.67,3.332,3.031,0.91,0.0,5.098
+sft_ep0068_s0,sft,68,0,push_pink_block_left,go push the pink block left,slow,0,60,52,1.73,4.571,3.241,0.709,0.0,3.471
+sft_ep0068_s1,sft,68,1,lift_blue_block_table,grasp and lift the blue block,moving,1,60,52,1.73,6.527,10.908,1.671,0.04,10.201
+sft_ep0068_s2,sft,68,2,place_in_drawer,store the grasped block in the drawer,moving,1,32,240,8.0,10.709,8.731,0.815,0.008,12.407
+sft_ep0068_s3,sft,68,3,close_drawer,push the handle to close the drawer,moving,1,58,98,3.27,6.828,6.665,0.976,0.0,8.942
+sft_ep0068_s4,sft,68,4,move_slider_right,push the sliding door to the right side,moving,1,48,246,8.2,8.451,3.912,0.463,0.025,7.354
+sft_ep0069_s0,sft,69,0,open_drawer,pull the handle to open the drawer,moving,1,54,184,6.13,7.022,7.895,1.124,0.011,9.79
+sft_ep0069_s1,sft,69,1,turn_off_led,press the button to turn off the led light,slow,0,44,262,8.73,8.297,2.656,0.32,0.131,4.449
+sft_ep0069_s2,sft,69,2,push_pink_block_left,go push the pink block left,moving,1,60,174,5.8,5.427,4.652,0.857,0.0,8.004
+sft_ep0069_s3,sft,69,3,move_slider_left,push the sliding door to the left side,moving,1,50,236,7.87,6.336,6.709,1.059,0.009,11.549
+sft_ep0069_s4,sft,69,4,lift_pink_block_table,grasp and lift the pink block,slow,0,48,248,8.27,4.683,3.909,0.835,0.057,5.935
+sft_ep0070_s0,sft,70,0,close_drawer,push the handle to close the drawer,moving,1,60,34,1.13,6.096,8.077,1.325,0.0,7.867
+sft_ep0070_s1,sft,70,1,rotate_blue_block_right,take the blue block and rotate it to the right,slow,1,60,176,5.87,2.378,3.78,1.59,0.102,5.748
+sft_ep0070_s2,sft,70,2,turn_off_led,press the button to turn off the led light,slow,0,60,146,4.87,2.439,3.558,1.459,0.137,4.433
+sft_ep0070_s3,sft,70,3,move_slider_right,push the sliding door to the right side,slow,1,56,98,3.27,6.065,1.243,0.205,0.388,3.471
+sft_ep0071_s0,sft,71,0,open_drawer,pull the handle to open the drawer,moving,1,60,134,4.47,5.846,8.276,1.416,0.03,8.65
+sft_ep0071_s1,sft,71,1,push_red_block_left,go push the red block left,slow,1,60,156,5.2,3.844,3.659,0.952,0.013,5.139
+sft_ep0071_s2,sft,71,2,turn_off_lightbulb,use the switch to turn off the light bulb,slow,1,60,250,8.33,7.587,4.453,0.587,0.0,6.981
+sft_ep0071_s3,sft,71,3,lift_pink_block_slider,lift the pink block from the sliding cabinet,moving,0,60,252,8.4,7.276,8.729,1.2,0.008,10.286
+sft_ep0072_s0,sft,72,0,move_slider_right,push the sliding door to the right side,moving,1,60,220,7.33,8.449,4.599,0.544,0.018,7.508
+sft_ep0072_s1,sft,72,1,push_pink_block_left,go push the pink block left,moving,1,60,290,9.67,4.925,5.194,1.055,0.014,8.878
+sft_ep0072_s2,sft,72,2,lift_blue_block_slider,lift the blue block from the sliding cabinet,moving,0,60,198,6.6,7.4,5.591,0.756,0.01,10.035
+sft_ep0072_s3,sft,72,3,place_in_drawer,store the grasped block in the drawer,moving,1,26,122,4.07,4.648,6.311,1.358,0.05,10.15
+sft_ep0072_s4,sft,72,4,turn_off_led,press the button to turn off the led light,slow,0,38,40,1.33,8.763,1.349,0.154,0.316,2.643
+sft_ep0074_s0,sft,74,0,turn_off_lightbulb,use the switch to turn off the light bulb,moving,1,60,82,2.73,7.998,6.78,0.848,0.0,8.952
+sft_ep0074_s1,sft,74,1,move_slider_right,push the sliding door to the right side,slow,1,60,186,6.2,7.119,3.172,0.446,0.022,5.566
+sft_ep0074_s2,sft,74,2,rotate_blue_block_right,take the blue block and rotate it to the right,slow,1,60,24,0.8,2.998,3.203,1.068,0.0,
+sft_ep0074_s3,sft,74,3,lift_blue_block_table,grasp and lift the blue block,moving,1,34,258,8.6,4.517,6.834,1.513,0.008,12.707
+sft_ep0074_s4,sft,74,4,stack_block,stack the grasped block,moving,1,60,286,9.53,4.565,4.568,1.001,0.007,9.232
+sft_ep0075_s0,sft,75,0,move_slider_right,push the sliding door to the right side,moving,1,60,58,1.93,8.909,8.786,0.986,0.0,10.109
+sft_ep0076_s0,sft,76,0,rotate_blue_block_left,take the blue block and rotate it to the left,slow,0,60,132,4.4,2.067,1.842,0.891,0.212,5.752
+sft_ep0077_s0,sft,77,0,turn_off_led,press the button to turn off the led light,slow,0,40,278,9.27,5.189,2.752,0.53,0.109,4.596
+sft_ep0077_s1,sft,77,1,move_slider_left,push the sliding door to the left side,moving,1,60,286,9.53,7.323,8.448,1.154,0.0,9.709
+sft_ep0077_s2,sft,77,2,open_drawer,pull the handle to open the drawer,slow,1,60,28,0.93,3.54,13.047,3.686,0.0,
+sft_ep0077_s3,sft,77,3,rotate_blue_block_right,take the blue block and rotate it to the right,slow,1,60,186,6.2,3.392,2.405,0.709,0.185,4.625
+sft_ep0077_s4,sft,77,4,lift_blue_block_table,grasp and lift the blue block,moving,0,60,252,8.4,2.165,3.047,1.407,0.04,11.742
+sft_ep0078_s0,sft,78,0,lift_blue_block_slider,lift the blue block from the sliding cabinet,slow,0,60,242,8.07,5.909,3.593,0.608,0.05,6.308
+sft_ep0079_s0,sft,79,0,rotate_red_block_left,take the red block and rotate it to the left,slow,0,60,262,8.73,3.311,2.776,0.839,0.154,6.104
+sft_ep0079_s1,sft,79,1,lift_pink_block_table,grasp and lift the pink block,moving,1,50,254,8.47,4.62,3.667,0.794,0.008,7.941
+sft_ep0080_s0,sft,80,0,push_pink_block_left,go push the pink block left,slow,1,60,18,0.6,5.032,10.765,2.139,0.0,
+sft_ep0080_s1,sft,80,1,turn_on_lightbulb,use the switch to turn on the light bulb,slow,1,60,46,1.53,8.456,4.119,0.487,0.0,4.822
+sft_ep0080_s2,sft,80,2,lift_pink_block_table,grasp and lift the pink block,moving,0,60,120,4.0,8.01,6.474,0.808,0.117,9.46
+sft_ep0081_s0,sft,81,0,open_drawer,pull the handle to open the drawer,moving,1,60,38,1.27,6.597,11.348,1.72,0.0,11.546
+sft_ep0081_s1,sft,81,1,move_slider_right,push the sliding door to the right side,moving,1,60,90,3.0,7.015,4.765,0.679,0.0,7.749
+sft_ep0081_s2,sft,81,2,lift_red_block_slider,lift the red block from the sliding cabinet,moving,0,60,202,6.73,4.45,4.53,1.018,0.02,9.192
+sft_ep0082_s0,sft,82,0,lift_red_block_slider,lift the red block from the sliding cabinet,moving,0,60,94,3.13,6.806,4.087,0.6,0.043,7.115
+sft_ep0083_s0,sft,83,0,push_into_drawer,slide the block that it falls into the drawer,moving,1,60,216,7.2,5.738,6.047,1.054,0.0,12.184
+sft_ep0084_s0,sft,84,0,move_slider_right,push the sliding door to the right side,moving,1,60,286,9.53,6.451,4.773,0.74,0.099,7.632
+sft_ep0084_s1,sft,84,1,push_red_block_left,go push the red block left,slow,1,60,240,8.0,4.913,2.89,0.588,0.017,5.244
+sft_ep0084_s2,sft,84,2,turn_off_lightbulb,use the switch to turn off the light bulb,slow,1,60,52,1.73,5.185,1.448,0.279,0.385,4.186
+sft_ep0084_s3,sft,84,3,lift_blue_block_slider,lift the blue block from the sliding cabinet,slow,1,60,26,0.87,6.71,9.26,1.38,0.0,
+sft_ep0084_s4,sft,84,4,stack_block,stack the grasped block,moving,0,26,264,8.8,7.392,5.671,0.767,0.008,11.936
+sft_ep0085_s0,sft,85,0,lift_pink_block_slider,lift the pink block from the sliding cabinet,moving,0,60,132,4.4,4.853,7.004,1.443,0.0,9.609
+sft_ep0086_s0,sft,86,0,move_slider_right,push the sliding door to the right side,slow,1,60,152,5.07,7.742,4.241,0.548,0.026,6.77
+sft_ep0086_s1,sft,86,1,turn_on_led,press the button to turn on the led light,slow,1,46,124,4.13,4.632,2.742,0.592,0.129,4.546
+sft_ep0086_s2,sft,86,2,lift_pink_block_slider,lift the pink block from the sliding cabinet,moving,0,58,140,4.67,6.416,5.696,0.888,0.0,7.531
+sft_ep0088_s0,sft,88,0,push_blue_block_left,go push the blue block left,moving,1,60,156,5.2,5.819,5.712,0.982,0.0,8.436
+sft_ep0088_s1,sft,88,1,close_drawer,push the handle to close the drawer,moving,1,60,156,5.2,5.943,7.841,1.319,0.0,11.383
+sft_ep0088_s2,sft,88,2,turn_off_lightbulb,use the switch to turn off the light bulb,moving,1,50,296,9.87,9.097,4.169,0.458,0.007,8.552
+sft_ep0088_s3,sft,88,3,lift_blue_block_table,grasp and lift the blue block,slow,1,60,214,7.13,4.308,2.178,0.506,0.056,4.204
+sft_ep0089_s0,sft,89,0,close_drawer,push the handle to close the drawer,slow,1,60,18,0.6,5.527,5.06,0.916,0.0,
+sft_ep0089_s1,sft,89,1,lift_red_block_slider,lift the red block from the sliding cabinet,moving,0,60,104,3.47,7.174,4.417,0.616,0.058,7.297
+sft_ep0090_s0,sft,90,0,rotate_blue_block_left,take the blue block and rotate it to the left,slow,0,60,94,3.13,2.918,3.942,1.351,0.022,4.773
+sft_ep0090_s1,sft,90,1,turn_off_lightbulb,use the switch to turn off the light bulb,slow,1,60,162,5.4,3.608,2.666,0.739,0.1,3.375
+sft_ep0090_s2,sft,90,2,move_slider_right,push the sliding door to the right side,slow,1,60,262,8.73,10.216,4.301,0.421,0.031,6.76
+sft_ep0090_s3,sft,90,3,open_drawer,pull the handle to open the drawer,moving,1,60,198,6.6,5.263,10.093,1.918,0.0,12.729
+sft_ep0090_s4,sft,90,4,lift_red_block_slider,lift the red block from the sliding cabinet,slow,0,60,268,8.93,7.321,4.542,0.62,0.03,6.123
+sft_ep0091_s0,sft,91,0,turn_on_led,press the button to turn on the led light,slow,0,44,64,2.13,3.983,2.631,0.66,0.097,3.675
+sft_ep0091_s1,sft,91,1,rotate_blue_block_right,take the blue block and rotate it to the right,slow,1,60,162,5.4,2.526,2.304,0.912,0.123,4.854
+sft_ep0091_s2,sft,91,2,lift_blue_block_table,grasp and lift the blue block,moving,0,32,198,6.6,4.343,8.115,1.869,0.0,9.917
+sft_ep0091_s3,sft,91,3,stack_block,stack the grasped block,slow,0,38,114,3.8,5.898,4.547,0.771,0.0,5.325
+sft_ep0091_s4,sft,91,4,lift_red_block_slider,lift the red block from the sliding cabinet,moving,0,60,180,6.0,5.793,5.656,0.976,0.078,7.777
+sft_ep0092_s0,sft,92,0,open_drawer,pull the handle to open the drawer,moving,1,56,302,10.07,6.485,8.447,1.303,0.02,10.963
+sft_ep0092_s1,sft,92,1,turn_off_led,press the button to turn off the led light,slow,1,50,228,7.6,5.659,2.934,0.518,0.133,5.876
+sft_ep0092_s2,sft,92,2,push_pink_block_right,go push the pink block right,slow,1,60,106,3.53,4.316,4.447,1.03,0.057,6.117
+sft_ep0092_s3,sft,92,3,move_slider_right,push the sliding door to the right side,slow,1,60,34,1.13,8.865,3.362,0.379,0.294,3.081
+sft_ep0092_s4,sft,92,4,push_into_drawer,slide the block that it falls into the drawer,moving,1,60,68,2.27,4.585,7.334,1.6,0.0,9.196
+sft_ep0094_s0,sft,94,0,rotate_pink_block_right,take the pink block and rotate it to the right,slow,0,60,268,8.93,2.198,4.108,1.869,0.045,5.173
+sft_ep0094_s1,sft,94,1,move_slider_left,push the sliding door to the left side,moving,1,40,94,3.13,6.607,8.957,1.356,0.022,9.744
+sft_ep0094_s2,sft,94,2,close_drawer,push the handle to close the drawer,moving,1,60,248,8.27,7.554,8.867,1.174,0.0,10.584
+sft_ep0094_s3,sft,94,3,turn_off_led,press the button to turn off the led light,slow,1,40,96,3.2,4.895,2.613,0.534,0.34,4.441
+sft_ep0094_s4,sft,94,4,lift_pink_block_table,grasp and lift the pink block,moving,0,54,208,6.93,6.43,5.702,0.887,0.039,11.543
+sft_ep0095_s0,sft,95,0,close_drawer,push the handle to close the drawer,moving,1,60,166,5.53,6.134,7.68,1.252,0.024,9.622
+sft_ep0095_s1,sft,95,1,move_slider_right,push the sliding door to the right side,slow,1,58,292,9.73,8.818,4.54,0.515,0.069,6.842
+sft_ep0095_s2,sft,95,2,turn_on_led,press the button to turn on the led light,slow,1,60,178,5.93,5.155,3.357,0.651,0.091,4.805
+sft_ep0095_s3,sft,95,3,rotate_red_block_left,take the red block and rotate it to the left,slow,0,60,280,9.33,2.986,2.991,1.002,0.179,6.027
+sft_ep0096_s0,sft,96,0,lift_pink_block_table,grasp and lift the pink block,moving,1,54,230,7.67,6.715,9.561,1.424,0.035,11.871
+sft_ep0096_s1,sft,96,1,stack_block,stack the grasped block,moving,1,60,196,6.53,4.776,4.385,0.918,0.052,7.86
+sft_ep0096_s2,sft,96,2,turn_on_lightbulb,use the switch to turn on the light bulb,slow,0,60,262,8.73,9.472,4.322,0.456,0.015,6.41
+sft_ep0096_s3,sft,96,3,unstack_block,remove the stacked block,moving,1,60,300,10.0,8.735,1.289,0.148,0.467,9.931
+sft_ep0097_s0,sft,97,0,close_drawer,push the handle to close the drawer,moving,1,60,176,5.87,6.057,8.227,1.358,0.0,11.123
+sft_ep0097_s1,sft,97,1,move_slider_left,push the sliding door to the left side,moving,1,54,58,1.93,6.962,10.878,1.563,0.0,10.873
+sft_ep0097_s2,sft,97,2,rotate_pink_block_left,take the pink block and rotate it to the left,slow,1,60,46,1.53,2.547,3.58,1.406,0.0,4.104
+sft_ep0097_s3,sft,97,3,turn_on_led,press the button to turn on the led light,slow,0,42,208,6.93,5.286,3.305,0.625,0.058,4.959
+sft_ep0097_s4,sft,97,4,lift_red_block_slider,lift the red block from the sliding cabinet,slow,1,60,30,1.0,6.138,9.782,1.594,0.0,
+sft_ep0098_s0,sft,98,0,move_slider_left,push the sliding door to the left side,moving,1,52,220,7.33,7.878,9.558,1.213,0.0,12.545
+sft_ep0098_s1,sft,98,1,push_red_block_right,go push the red block right,slow,1,60,250,8.33,3.773,3.468,0.919,0.016,5.64
+sft_ep0098_s2,sft,98,2,push_into_drawer,slide the block that it falls into the drawer,slow,1,56,64,2.13,5.041,5.339,1.059,0.0,6.855
+sft_ep0098_s3,sft,98,3,turn_on_led,press the button to turn on the led light,slow,0,42,212,7.07,5.447,3.099,0.569,0.057,5.557
+sft_ep0098_s4,sft,98,4,close_drawer,push the handle to close the drawer,slow,1,60,130,4.33,6.021,3.804,0.632,0.062,6.796
+sft_ep0099_s0,sft,99,0,rotate_red_block_right,take the red block and rotate it to the right,slow,0,60,272,9.07,3.521,2.934,0.833,0.111,4.917
+sft_ep0099_s1,sft,99,1,turn_on_lightbulb,use the switch to turn on the light bulb,moving,1,32,276,9.2,4.997,4.112,0.823,0.014,7.988
+sft_ep0099_s2,sft,99,2,move_slider_right,push the sliding door to the right side,moving,1,60,182,6.07,8.248,3.662,0.444,0.044,7.088
+sft_ep0099_s3,sft,99,3,open_drawer,pull the handle to open the drawer,moving,1,60,176,5.87,5.499,6.413,1.166,0.0,10.524
+sft_ep0099_s4,sft,99,4,lift_blue_block_table,grasp and lift the blue block,moving,1,48,220,7.33,5.672,5.751,1.014,0.101,12.696
+rl_ep0000_s0,rl,0,0,rotate_blue_block_right,take the blue block and rotate it to the right,moving,0,52,260,8.67,3.291,4.52,1.373,0.039,9.018
+rl_ep0000_s1,rl,0,1,move_slider_right,push the sliding door to the right side,moving,1,60,198,6.6,11.918,6.026,0.506,0.141,13.34
+rl_ep0000_s2,rl,0,2,lift_red_block_slider,lift the red block from the sliding cabinet,moving,1,60,162,5.4,7.041,8.058,1.144,0.025,13.515
+rl_ep0000_s3,rl,0,3,place_in_slider,store the grasped block in the sliding cabinet,moving,1,48,94,3.13,13.039,15.745,1.207,0.0,20.521
+rl_ep0000_s4,rl,0,4,turn_off_lightbulb,use the switch to turn off the light bulb,moving,1,60,104,3.47,10.666,8.997,0.844,0.0,10.446
+rl_ep0001_s0,rl,1,0,turn_off_led,press the button to turn off the led light,slow,1,26,28,0.93,8.498,5.613,0.66,0.0,
+rl_ep0001_s1,rl,1,1,push_into_drawer,slide the block that it falls into the drawer,moving,1,60,38,1.27,8.253,11.963,1.449,0.0,11.404
+rl_ep0001_s2,rl,1,2,lift_blue_block_drawer,Take the blue block from the drawer,slow,1,40,20,0.67,9.038,11.987,1.326,0.0,
+rl_ep0001_s3,rl,1,3,place_in_slider,store the grasped block in the sliding cabinet,slow,1,44,66,2.2,7.035,5.404,0.768,0.0,6.587
+rl_ep0001_s4,rl,1,4,close_drawer,push the handle to close the drawer,moving,1,60,248,8.27,9.513,8.721,0.917,0.0,12.881
+rl_ep0002_s0,rl,2,0,lift_pink_block_slider,lift the pink block from the sliding cabinet,moving,0,52,202,6.73,8.434,7.588,0.9,0.01,11.99
+rl_ep0003_s0,rl,3,0,rotate_blue_block_right,take the blue block and rotate it to the right,slow,0,60,160,5.33,3.463,3.698,1.068,0.013,5.819
+rl_ep0003_s1,rl,3,1,lift_pink_block_table,grasp and lift the pink block,moving,1,36,190,6.33,7.761,9.361,1.206,0.011,15.218
+rl_ep0004_s0,rl,4,0,open_drawer,pull the handle to open the drawer,moving,1,36,226,7.53,9.618,12.11,1.259,0.0,15.745
+rl_ep0004_s1,rl,4,1,lift_pink_block_table,grasp and lift the pink block,moving,0,30,196,6.53,9.316,11.386,1.222,0.0,13.447
+rl_ep0005_s0,rl,5,0,push_blue_block_left,go push the blue block left,moving,0,46,176,5.87,11.08,4.04,0.365,0.045,12.008
+rl_ep0006_s0,rl,6,0,open_drawer,pull the handle to open the drawer,moving,1,44,96,3.2,8.761,12.553,1.433,0.0,13.698
+rl_ep0006_s1,rl,6,1,rotate_red_block_right,take the red block and rotate it to the right,slow,0,60,250,8.33,3.061,4.006,1.309,0.008,6.333
+rl_ep0006_s2,rl,6,2,turn_on_led,press the button to turn on the led light,moving,1,52,208,6.93,9.613,5.338,0.555,0.039,7.829
+rl_ep0006_s3,rl,6,3,lift_pink_block_table,grasp and lift the pink block,slow,1,34,18,0.6,10.046,12.506,1.245,0.0,
+rl_ep0006_s4,rl,6,4,stack_block,stack the grasped block,slow,1,32,130,4.33,10.778,4.258,0.395,0.047,6.184
+rl_ep0007_s0,rl,7,0,push_pink_block_right,go push the pink block right,moving,1,60,262,8.73,5.334,4.581,0.859,0.015,8.611
+rl_ep0007_s1,rl,7,1,lift_pink_block_table,grasp and lift the pink block,moving,0,42,174,5.8,5.685,8.541,1.502,0.0,10.9
+rl_ep0008_s0,rl,8,0,open_drawer,pull the handle to open the drawer,moving,1,44,234,7.8,8.37,9.055,1.082,0.009,14.916
+rl_ep0008_s1,rl,8,1,push_red_block_right,go push the red block right,moving,1,50,226,7.53,7.415,3.021,0.407,0.062,12.482
+rl_ep0008_s2,rl,8,2,move_slider_left,push the sliding door to the left side,moving,1,60,258,8.6,9.33,6.441,0.69,0.116,13.835
+rl_ep0008_s3,rl,8,3,lift_pink_block_slider,lift the pink block from the sliding cabinet,moving,1,44,68,2.27,8.068,9.666,1.198,0.0,11.488
+rl_ep0009_s0,rl,9,0,push_red_block_left,go push the red block left,moving,1,56,264,8.8,9.899,7.2,0.727,0.008,11.297
+rl_ep0009_s1,rl,9,1,lift_blue_block_table,grasp and lift the blue block,slow,1,56,22,0.73,12.665,9.631,0.76,0.0,
+rl_ep0009_s2,rl,9,2,place_in_slider,store the grasped block in the sliding cabinet,moving,1,6,172,5.73,4.561,8.917,1.955,0.0,12.745
+rl_ep0009_s3,rl,9,3,turn_on_lightbulb,use the switch to turn on the light bulb,moving,0,32,38,1.27,9.531,6.482,0.68,0.0,7.571
+rl_ep0009_s4,rl,9,4,move_slider_right,push the sliding door to the right side,slow,1,52,102,3.4,13.824,1.097,0.079,0.46,3.665
+rl_ep0010_s0,rl,10,0,rotate_blue_block_left,take the blue block and rotate it to the left,slow,0,56,154,5.13,1.66,2.58,1.554,0.197,6.531
+rl_ep0011_s0,rl,11,0,lift_pink_block_slider,lift the pink block from the sliding cabinet,moving,1,58,132,4.4,8.305,8.536,1.028,0.0,11.272
+rl_ep0011_s1,rl,11,1,place_in_slider,store the grasped block in the sliding cabinet,slow,1,48,26,0.87,11.105,12.94,1.165,0.0,
+rl_ep0011_s2,rl,11,2,turn_on_lightbulb,use the switch to turn on the light bulb,slow,1,46,18,0.6,11.295,13.465,1.192,0.0,
+rl_ep0011_s3,rl,11,3,rotate_blue_block_right,take the blue block and rotate it to the right,slow,1,60,52,1.73,3.988,1.864,0.467,0.28,4.679
+rl_ep0011_s4,rl,11,4,open_drawer,pull the handle to open the drawer,slow,1,52,20,0.67,8.48,15.681,1.849,0.0,
+rl_ep0012_s0,rl,12,0,move_slider_left,push the sliding door to the left side,moving,1,34,208,6.93,12.269,4.841,0.395,0.0,7.981
+rl_ep0012_s1,rl,12,1,rotate_red_block_left,take the red block and rotate it to the left,slow,0,60,166,5.53,3.942,3.234,0.82,0.084,6.394
+rl_ep0012_s2,rl,12,2,turn_off_led,press the button to turn off the led light,slow,1,60,202,6.73,4.084,4.099,1.004,0.05,6.638
+rl_ep0012_s3,rl,12,3,lift_pink_block_table,grasp and lift the pink block,moving,1,30,90,3.0,8.1,9.856,1.217,0.023,10.797
+rl_ep0012_s4,rl,12,4,place_in_slider,store the grasped block in the sliding cabinet,moving,0,40,192,6.4,5.438,8.262,1.519,0.062,10.891
+rl_ep0013_s0,rl,13,0,turn_on_led,press the button to turn on the led light,moving,1,20,236,7.87,10.956,5.041,0.46,0.068,7.317
+rl_ep0013_s1,rl,13,1,close_drawer,push the handle to close the drawer,moving,1,60,126,4.2,8.632,7.436,0.861,0.0,12.189
+rl_ep0013_s2,rl,13,2,push_red_block_right,go push the red block right,moving,1,60,148,4.93,5.04,4.23,0.839,0.0,7.49
+rl_ep0013_s3,rl,13,3,lift_red_block_table,grasp and lift the red block,moving,0,32,302,10.07,4.138,4.813,1.163,0.007,10.167
+rl_ep0014_s0,rl,14,0,lift_red_block_slider,lift the red block from the sliding cabinet,moving,0,56,298,9.93,7.717,9.012,1.168,0.007,14.975
+rl_ep0015_s0,rl,15,0,move_slider_left,push the sliding door to the left side,moving,1,36,212,7.07,11.827,6.113,0.517,0.047,8.586
+rl_ep0015_s1,rl,15,1,push_pink_block_left,go push the pink block left,moving,1,60,288,9.6,14.318,5.512,0.385,0.028,11.645
+rl_ep0016_s0,rl,16,0,push_red_block_left,go push the red block left,moving,1,60,256,8.53,5.709,3.776,0.661,0.047,11.599
+rl_ep0016_s1,rl,16,1,lift_pink_block_slider,lift the pink block from the sliding cabinet,moving,0,44,214,7.13,8.618,4.929,0.572,0.057,8.728
+rl_ep0016_s2,rl,16,2,stack_block,stack the grasped block,moving,0,60,218,7.27,7.694,4.164,0.541,0.102,9.382
+rl_ep0017_s0,rl,17,0,push_red_block_left,go push the red block left,moving,1,60,266,8.87,5.855,4.911,0.839,0.045,16.591
+rl_ep0017_s1,rl,17,1,move_slider_right,push the sliding door to the right side,moving,1,40,54,1.8,6.962,6.639,0.954,0.0,8.906
+rl_ep0017_s2,rl,17,2,lift_blue_block_slider,lift the blue block from the sliding cabinet,moving,1,46,182,6.07,7.991,4.774,0.597,0.033,9.807
+rl_ep0017_s3,rl,17,3,place_in_slider,store the grasped block in the sliding cabinet,moving,1,48,222,7.4,13.733,5.631,0.41,0.0,7.408
+rl_ep0017_s4,rl,17,4,turn_on_lightbulb,use the switch to turn on the light bulb,moving,0,60,258,8.6,9.631,7.022,0.729,0.0,12.189
+rl_ep0018_s0,rl,18,0,turn_on_lightbulb,use the switch to turn on the light bulb,moving,0,42,168,5.6,12.374,7.41,0.599,0.0,10.146
+rl_ep0018_s1,rl,18,1,push_red_block_right,go push the red block right,moving,0,60,124,4.13,6.706,9.077,1.353,0.0,12.287
+rl_ep0018_s2,rl,18,2,move_slider_left,push the sliding door to the left side,moving,1,38,106,3.53,9.366,7.622,0.814,0.0,9.873
+rl_ep0019_s0,rl,19,0,move_slider_left,push the sliding door to the left side,moving,1,38,154,5.13,10.095,6.954,0.689,0.0,10.444
+rl_ep0019_s1,rl,19,1,lift_red_block_table,grasp and lift the red block,moving,0,44,222,7.4,12.063,10.111,0.838,0.009,12.462
+rl_ep0019_s2,rl,19,2,place_in_slider,store the grasped block in the sliding cabinet,moving,1,46,270,9.0,12.125,6.882,0.568,0.015,11.086
+rl_ep0019_s3,rl,19,3,turn_on_lightbulb,use the switch to turn on the light bulb,slow,0,32,38,1.27,10.62,6.012,0.566,0.0,6.477
+rl_ep0019_s4,rl,19,4,close_drawer,push the handle to close the drawer,moving,1,60,284,9.47,8.11,6.809,0.84,0.007,13.31
+rl_ep0020_s0,rl,20,0,open_drawer,pull the handle to open the drawer,moving,1,46,168,5.6,8.198,11.765,1.435,0.0,16.137
+rl_ep0020_s1,rl,20,1,turn_on_lightbulb,use the switch to turn on the light bulb,moving,0,56,120,4.0,12.417,7.585,0.611,0.0,10.162
+rl_ep0020_s2,rl,20,2,push_red_block_left,go push the red block left,moving,0,54,208,6.93,5.525,5.375,0.973,0.038,14.319
+rl_ep0020_s3,rl,20,3,move_slider_left,push the sliding door to the left side,moving,0,52,180,6.0,11.039,5.973,0.541,0.0,10.178
+rl_ep0020_s4,rl,20,4,push_into_drawer,slide the block that it falls into the drawer,slow,1,60,88,2.93,11.902,5.086,0.427,0.023,5.675
+rl_ep0021_s0,rl,21,0,move_slider_right,push the sliding door to the right side,slow,1,52,110,3.67,9.486,4.241,0.447,0.056,6.934
+rl_ep0021_s1,rl,21,1,turn_off_lightbulb,use the switch to turn off the light bulb,moving,1,42,222,7.4,10.928,6.306,0.577,0.0,9.965
+rl_ep0021_s2,rl,21,2,lift_pink_block_table,grasp and lift the pink block,moving,1,30,186,6.2,9.847,10.082,1.024,0.0,10.76
+rl_ep0021_s3,rl,21,3,place_in_drawer,store the grasped block in the drawer,moving,1,26,162,5.4,6.113,10.527,1.722,0.0,17.033
+rl_ep0021_s4,rl,21,4,lift_pink_block_drawer,Take the pink block from the drawer,moving,0,60,112,3.73,6.467,5.825,0.901,0.0,9.657
+rl_ep0022_s0,rl,22,0,rotate_pink_block_right,take the pink block and rotate it to the right,moving,0,56,234,7.8,2.636,5.048,1.915,0.0,12.027
+rl_ep0022_s1,rl,22,1,open_drawer,pull the handle to open the drawer,moving,1,60,128,4.27,10.06,14.341,1.426,0.031,15.463
+rl_ep0022_s2,rl,22,2,lift_blue_block_table,grasp and lift the blue block,moving,0,42,110,3.67,9.323,6.484,0.695,0.0,11.14
+rl_ep0022_s3,rl,22,3,place_in_slider,store the grasped block in the sliding cabinet,slow,1,42,270,9.0,11.91,2.751,0.231,0.037,4.839
+rl_ep0022_s4,rl,22,4,turn_off_lightbulb,use the switch to turn off the light bulb,moving,1,60,92,3.07,7.121,7.91,1.111,0.0,11.192
+rl_ep0023_s0,rl,23,0,turn_on_led,press the button to turn on the led light,slow,1,44,80,2.67,6.973,3.675,0.527,0.125,5.313
+rl_ep0023_s1,rl,23,1,move_slider_left,push the sliding door to the left side,moving,1,40,220,7.33,10.125,5.469,0.54,0.009,8.689
+rl_ep0023_s2,rl,23,2,lift_blue_block_table,grasp and lift the blue block,moving,1,60,194,6.47,10.287,5.33,0.518,0.041,12.74
+rl_ep0024_s0,rl,24,0,rotate_blue_block_right,take the blue block and rotate it to the right,slow,1,60,40,1.33,2.748,5.578,2.03,0.0,5.885
+rl_ep0024_s1,rl,24,1,open_drawer,pull the handle to open the drawer,moving,1,46,124,4.13,8.453,10.567,1.25,0.0,14.722
+rl_ep0024_s2,rl,24,2,turn_off_led,press the button to turn off the led light,moving,1,20,256,8.53,8.102,4.743,0.585,0.094,7.533
+rl_ep0024_s3,rl,24,3,lift_blue_block_table,grasp and lift the blue block,moving,0,40,130,4.33,11.489,8.355,0.727,0.0,11.354
+rl_ep0024_s4,rl,24,4,place_in_slider,store the grasped block in the sliding cabinet,moving,1,40,242,8.07,13.189,7.808,0.592,0.008,10.475
+rl_ep0025_s0,rl,25,0,lift_blue_block_slider,lift the blue block from the sliding cabinet,moving,1,58,106,3.53,7.618,8.453,1.11,0.019,13.524
+rl_ep0025_s1,rl,25,1,stack_block,stack the grasped block,moving,0,20,86,2.87,7.657,6.683,0.873,0.0,9.399
+rl_ep0025_s2,rl,25,2,turn_off_led,press the button to turn off the led light,moving,1,60,242,8.07,7.712,5.304,0.688,0.041,13.556
+rl_ep0026_s0,rl,26,0,push_blue_block_right,go push the blue block right,slow,1,40,38,1.27,7.103,4.827,0.68,0.0,4.83
+rl_ep0026_s1,rl,26,1,open_drawer,pull the handle to open the drawer,moving,1,48,32,1.07,10.17,8.701,0.856,0.0,11.618
+rl_ep0026_s2,rl,26,2,lift_pink_block_slider,lift the pink block from the sliding cabinet,moving,0,56,208,6.93,10.742,5.568,0.518,0.0,11.353
+rl_ep0026_s3,rl,26,3,place_in_slider,store the grasped block in the sliding cabinet,moving,1,58,112,3.73,14.662,14.881,1.015,0.0,17.391
+rl_ep0027_s0,rl,27,0,push_red_block_right,go push the red block right,moving,1,60,58,1.93,6.538,8.48,1.297,0.0,10.071
+rl_ep0027_s1,rl,27,1,turn_on_lightbulb,use the switch to turn on the light bulb,moving,0,28,262,8.73,6.452,6.898,1.069,0.0,10.383
+rl_ep0027_s2,rl,27,2,push_into_drawer,slide the block that it falls into the drawer,moving,1,60,144,4.8,7.145,5.306,0.743,0.0,9.086
+rl_ep0027_s3,rl,27,3,move_slider_left,push the sliding door to the left side,moving,1,42,272,9.07,12.54,6.049,0.482,0.052,9.411
+rl_ep0027_s4,rl,27,4,close_drawer,push the handle to close the drawer,moving,1,60,244,8.13,9.19,5.855,0.637,0.0,12.043
+rl_ep0028_s0,rl,28,0,turn_off_lightbulb,use the switch to turn off the light bulb,moving,1,60,218,7.27,11.268,7.655,0.679,0.019,12.156
+rl_ep0028_s1,rl,28,1,rotate_blue_block_left,take the blue block and rotate it to the left,slow,1,60,82,2.73,4.29,1.636,0.381,0.325,3.195
+rl_ep0028_s2,rl,28,2,move_slider_left,push the sliding door to the left side,moving,1,36,236,7.87,7.305,6.879,0.942,0.0,11.026
+rl_ep0029_s0,rl,29,0,lift_red_block_table,grasp and lift the red block,moving,0,28,180,6.0,7.876,5.125,0.651,0.022,9.205
+rl_ep0029_s1,rl,29,1,stack_block,stack the grasped block,moving,1,60,132,4.4,7.003,5.703,0.814,0.046,7.206
+rl_ep0029_s2,rl,29,2,unstack_block,remove the stacked block,moving,1,18,302,10.07,5.244,3.566,0.68,0.093,8.668
+rl_ep0029_s3,rl,29,3,open_drawer,pull the handle to open the drawer,moving,1,60,72,2.4,8.033,10.986,1.368,0.0,11.313
+rl_ep0029_s4,rl,29,4,turn_on_led,press the button to turn on the led light,moving,1,34,286,9.53,7.941,5.933,0.747,0.014,7.905
+rl_ep0030_s0,rl,30,0,lift_blue_block_table,grasp and lift the blue block,moving,1,26,42,1.4,8.791,8.83,1.004,0.0,11.455
+rl_ep0030_s1,rl,30,1,place_in_drawer,store the grasped block in the drawer,moving,1,30,196,6.53,12.114,8.796,0.726,0.0,12.787
+rl_ep0031_s0,rl,31,0,lift_pink_block_table,grasp and lift the pink block,moving,1,34,274,9.13,10.396,8.995,0.865,0.0,13.024
+rl_ep0031_s1,rl,31,1,place_in_slider,store the grasped block in the sliding cabinet,moving,1,44,102,3.4,12.664,9.542,0.753,0.0,13.712
+rl_ep0032_s0,rl,32,0,rotate_pink_block_left,take the pink block and rotate it to the left,slow,0,60,208,6.93,2.944,2.658,0.903,0.038,5.578
+rl_ep0032_s1,rl,32,1,lift_pink_block_table,grasp and lift the pink block,moving,0,60,270,9.0,3.538,5.146,1.454,0.059,8.638
+rl_ep0032_s2,rl,32,2,stack_block,stack the grasped block,slow,0,60,74,2.47,5.887,3.271,0.556,0.0,5.226
+rl_ep0033_s0,rl,33,0,turn_off_led,press the button to turn off the led light,moving,1,24,286,9.53,7.707,5.762,0.748,0.063,7.763
+rl_ep0033_s1,rl,33,1,open_drawer,pull the handle to open the drawer,slow,1,52,30,1.0,10.604,18.562,1.751,0.0,
+rl_ep0033_s2,rl,33,2,push_pink_block_left,go push the pink block left,moving,1,46,120,4.0,10.546,8.229,0.78,0.033,12.263
+rl_ep0033_s3,rl,33,3,lift_blue_block_table,grasp and lift the blue block,moving,0,48,200,6.67,12.971,9.068,0.699,0.0,13.619
+rl_ep0033_s4,rl,33,4,place_in_slider,store the grasped block in the sliding cabinet,moving,1,56,48,1.6,12.014,6.164,0.513,0.0,8.624
+rl_ep0034_s0,rl,34,0,move_slider_right,push the sliding door to the right side,moving,1,42,162,5.4,12.401,5.902,0.476,0.05,16.283
+rl_ep0034_s1,rl,34,1,push_blue_block_left,go push the blue block left,moving,1,60,196,6.53,7.018,3.653,0.521,0.0,9.007
+rl_ep0035_s0,rl,35,0,lift_red_block_slider,lift the red block from the sliding cabinet,moving,0,44,282,9.4,9.167,7.076,0.772,0.007,12.063
+rl_ep0035_s1,rl,35,1,place_in_slider,store the grasped block in the sliding cabinet,moving,1,58,134,4.47,12.308,11.445,0.93,0.0,12.899
+rl_ep0035_s2,rl,35,2,move_slider_right,push the sliding door to the right side,moving,1,30,142,4.73,7.453,8.121,1.09,0.0,10.575
+rl_ep0036_s0,rl,36,0,move_slider_right,push the sliding door to the right side,moving,1,42,290,9.67,12.977,2.281,0.176,0.292,40.25
+rl_ep0037_s0,rl,37,0,turn_off_lightbulb,use the switch to turn off the light bulb,moving,0,42,158,5.27,12.332,6.59,0.534,0.0,9.653
+rl_ep0037_s1,rl,37,1,push_red_block_right,go push the red block right,moving,1,52,32,1.07,9.664,6.279,0.65,0.0,7.759
+rl_ep0038_s0,rl,38,0,open_drawer,pull the handle to open the drawer,moving,1,42,286,9.53,9.64,11.369,1.179,0.007,14.284
+rl_ep0038_s1,rl,38,1,move_slider_right,push the sliding door to the right side,moving,1,54,194,6.47,9.816,5.845,0.595,0.0,11.457
+rl_ep0038_s2,rl,38,2,push_blue_block_right,go push the blue block right,moving,1,60,116,3.87,5.036,6.855,1.361,0.0,7.973
+rl_ep0038_s3,rl,38,3,lift_blue_block_table,grasp and lift the blue block,moving,1,34,302,10.07,5.242,9.762,1.862,0.013,16.295
+rl_ep0038_s4,rl,38,4,place_in_slider,store the grasped block in the sliding cabinet,moving,1,42,190,6.33,10.547,4.94,0.468,0.011,9.308
+rl_ep0039_s0,rl,39,0,turn_on_led,press the button to turn on the led light,moving,0,56,288,9.6,5.895,4.287,0.727,0.126,10.733
+rl_ep0039_s1,rl,39,1,rotate_pink_block_right,take the pink block and rotate it to the right,slow,1,60,20,0.67,3.808,7.471,1.962,0.0,
+rl_ep0039_s2,rl,39,2,move_slider_right,push the sliding door to the right side,moving,1,52,148,4.93,14.271,8.016,0.562,0.0,26.121
+rl_ep0039_s3,rl,39,3,close_drawer,push the handle to close the drawer,moving,1,60,254,8.47,7.51,7.359,0.98,0.0,13.349
+rl_ep0040_s0,rl,40,0,move_slider_right,push the sliding door to the right side,moving,1,50,134,4.47,10.745,6.194,0.576,0.0,10.103
+rl_ep0040_s1,rl,40,1,close_drawer,push the handle to close the drawer,moving,1,60,158,5.27,9.339,9.022,0.966,0.0,13.275
+rl_ep0040_s2,rl,40,2,push_pink_block_left,go push the pink block left,moving,1,60,136,4.53,11.124,6.331,0.569,0.0,13.606
+rl_ep0040_s3,rl,40,3,lift_pink_block_table,grasp and lift the pink block,moving,1,16,168,5.6,6.603,6.144,0.93,0.0,8.139
+rl_ep0040_s4,rl,40,4,place_in_slider,store the grasped block in the sliding cabinet,moving,1,16,82,2.73,5.128,15.541,3.03,0.0,18.664
+rl_ep0041_s0,rl,41,0,move_slider_right,push the sliding door to the right side,moving,1,44,242,8.07,10.153,6.475,0.638,0.083,19.02
+rl_ep0041_s1,rl,41,1,push_into_drawer,slide the block that it falls into the drawer,moving,1,60,38,1.27,6.248,11.041,1.767,0.0,13.492
+rl_ep0041_s2,rl,41,2,turn_off_led,press the button to turn off the led light,moving,1,12,136,4.53,4.423,5.537,1.252,0.03,7.549
+rl_ep0041_s3,rl,41,3,lift_pink_block_drawer,Take the pink block from the drawer,slow,0,44,96,3.2,13.295,3.355,0.252,0.083,4.472
+rl_ep0042_s0,rl,42,0,move_slider_left,push the sliding door to the left side,moving,1,36,232,7.73,10.036,5.936,0.591,0.0,9.015
+rl_ep0042_s1,rl,42,1,push_pink_block_left,go push the pink block left,moving,1,60,220,7.33,5.665,3.249,0.573,0.092,9.419
+rl_ep0042_s2,rl,42,2,lift_blue_block_slider,lift the blue block from the sliding cabinet,moving,0,48,280,9.33,10.072,8.387,0.833,0.014,13.119
+rl_ep0043_s0,rl,43,0,rotate_pink_block_right,take the pink block and rotate it to the right,slow,1,60,68,2.27,3.106,5.007,1.612,0.0,5.946
+rl_ep0043_s1,rl,43,1,lift_pink_block_table,grasp and lift the pink block,moving,1,60,48,1.6,4.32,12.246,2.835,0.042,10.797
+rl_ep0043_s2,rl,43,2,place_in_slider,store the grasped block in the sliding cabinet,moving,1,20,54,1.8,11.709,11.961,1.021,0.0,11.741
+rl_ep0043_s3,rl,43,3,open_drawer,pull the handle to open the drawer,moving,1,46,226,7.53,7.428,9.302,1.252,0.009,11.117
+rl_ep0043_s4,rl,43,4,lift_blue_block_slider,lift the blue block from the sliding cabinet,moving,0,54,294,9.8,9.014,6.338,0.703,0.007,12.897
+rl_ep0044_s0,rl,44,0,lift_blue_block_table,grasp and lift the blue block,moving,1,42,282,9.4,8.706,10.032,1.152,0.007,11.86
+rl_ep0044_s1,rl,44,1,place_in_slider,store the grasped block in the sliding cabinet,moving,1,44,208,6.93,10.749,5.579,0.519,0.058,10.425
+rl_ep0044_s2,rl,44,2,turn_on_led,press the button to turn on the led light,moving,1,32,292,9.73,9.687,4.816,0.497,0.103,8.425
+rl_ep0045_s0,rl,45,0,rotate_pink_block_right,take the pink block and rotate it to the right,slow,1,60,20,0.67,2.23,5.272,2.365,0.0,
+rl_ep0045_s1,rl,45,1,turn_off_led,press the button to turn off the led light,slow,1,24,50,1.67,8.261,4.411,0.534,0.04,4.467
+rl_ep0045_s2,rl,45,2,lift_pink_block_table,grasp and lift the pink block,moving,1,60,264,8.8,3.069,8.114,2.644,0.0,12.781
+rl_ep0045_s3,rl,45,3,place_in_slider,store the grasped block in the sliding cabinet,moving,1,12,40,1.33,13.973,8.406,0.602,0.0,9.572
+rl_ep0046_s0,rl,46,0,turn_off_lightbulb,use the switch to turn off the light bulb,moving,0,42,252,8.4,12.338,7.151,0.58,0.008,12.265
+rl_ep0046_s1,rl,46,1,push_pink_block_left,go push the pink block left,moving,1,60,290,9.67,9.353,5.51,0.589,0.014,13.64
+rl_ep0046_s2,rl,46,2,move_slider_left,push the sliding door to the left side,moving,1,56,120,4.0,13.036,4.395,0.337,0.0,7.556
+rl_ep0046_s3,rl,46,3,open_drawer,pull the handle to open the drawer,moving,1,60,58,1.93,8.837,12.184,1.379,0.0,12.615
+rl_ep0047_s0,rl,47,0,lift_red_block_slider,lift the red block from the sliding cabinet,moving,0,56,296,9.87,9.793,7.348,0.75,0.0,12.716
+rl_ep0047_s1,rl,47,1,stack_block,stack the grasped block,moving,1,24,122,4.07,8.452,6.671,0.789,0.083,9.762
+rl_ep0047_s2,rl,47,2,turn_on_led,press the button to turn on the led light,moving,0,56,272,9.07,12.113,4.202,0.347,0.126,7.97
+rl_ep0048_s0,rl,48,0,rotate_blue_block_left,take the blue block and rotate it to the left,moving,0,58,252,8.4,2.468,2.103,0.852,0.136,7.462
+rl_ep0048_s1,rl,48,1,move_slider_left,push the sliding door to the left side,moving,1,52,82,2.73,7.251,5.184,0.715,0.025,8.284
+rl_ep0048_s2,rl,48,2,open_drawer,pull the handle to open the drawer,moving,1,60,154,5.13,9.106,12.811,1.407,0.0,13.718
+rl_ep0048_s3,rl,48,3,lift_red_block_slider,lift the red block from the sliding cabinet,moving,0,52,110,3.67,9.142,8.919,0.976,0.037,11.064
+rl_ep0048_s4,rl,48,4,place_in_drawer,store the grasped block in the drawer,moving,1,8,82,2.73,6.021,4.015,0.667,0.049,13.341
+rl_ep0049_s0,rl,49,0,lift_red_block_table,grasp and lift the red block,moving,0,34,272,9.07,10.991,10.937,0.995,0.007,17.196
+rl_ep0049_s1,rl,49,1,place_in_drawer,store the grasped block in the drawer,moving,1,14,246,8.2,6.865,10.576,1.541,0.0,19.205
+rl_ep0049_s2,rl,49,2,rotate_blue_block_right,take the blue block and rotate it to the right,slow,0,60,56,1.87,3.031,2.062,0.68,0.296,3.581
+rl_ep0050_s0,rl,50,0,open_drawer,pull the handle to open the drawer,moving,1,44,294,9.8,9.106,11.171,1.227,0.0,13.104
+rl_ep0050_s1,rl,50,1,push_blue_block_right,go push the blue block right,moving,1,48,94,3.13,8.355,7.831,0.937,0.0,9.007
+rl_ep0050_s2,rl,50,2,move_slider_left,push the sliding door to the left side,moving,1,38,138,4.6,10.164,5.475,0.539,0.029,9.394
+rl_ep0050_s3,rl,50,3,push_into_drawer,slide the block that it falls into the drawer,moving,1,60,170,5.67,12.192,7.819,0.641,0.047,14.222
+rl_ep0050_s4,rl,50,4,lift_blue_block_drawer,Take the blue block from the drawer,moving,0,44,204,6.8,11.043,3.758,0.34,0.069,8.013
+rl_ep0051_s0,rl,51,0,rotate_red_block_right,take the red block and rotate it to the right,slow,1,60,142,4.73,3.979,4.057,1.019,0.042,6.028
+rl_ep0051_s1,rl,51,1,lift_pink_block_slider,lift the pink block from the sliding cabinet,moving,0,60,58,1.93,11.149,6.607,0.593,0.0,8.359
+rl_ep0051_s2,rl,51,2,stack_block,stack the grasped block,moving,0,42,284,9.47,6.792,6.578,0.968,0.028,16.783
+rl_ep0051_s3,rl,51,3,turn_on_led,press the button to turn on the led light,moving,0,60,214,7.13,5.656,5.398,0.955,0.047,8.167
+rl_ep0051_s4,rl,51,4,open_drawer,pull the handle to open the drawer,slow,1,54,28,0.93,9.704,17.357,1.789,0.0,
+rl_ep0052_s0,rl,52,0,turn_on_led,press the button to turn on the led light,moving,1,26,248,8.27,8.302,4.727,0.569,0.081,7.153
+rl_ep0052_s1,rl,52,1,push_pink_block_left,go push the pink block left,moving,0,60,226,7.53,5.998,10.664,1.778,0.027,17.721
+rl_ep0053_s0,rl,53,0,turn_on_led,press the button to turn on the led light,moving,1,26,192,6.4,9.022,5.098,0.565,0.084,7.595
+rl_ep0053_s1,rl,53,1,open_drawer,pull the handle to open the drawer,moving,1,52,160,5.33,11.836,11.908,1.006,0.013,12.136
+rl_ep0053_s2,rl,53,2,rotate_pink_block_left,take the pink block and rotate it to the left,slow,1,58,26,0.87,2.04,4.899,2.402,0.0,
+rl_ep0053_s3,rl,53,3,lift_blue_block_table,grasp and lift the blue block,moving,1,36,282,9.4,7.455,9.522,1.277,0.029,14.898
+rl_ep0053_s4,rl,53,4,place_in_drawer,store the grasped block in the drawer,moving,1,16,222,7.4,10.528,9.919,0.942,0.027,17.156
+rl_ep0054_s0,rl,54,0,turn_off_led,press the button to turn off the led light,slow,1,22,106,3.53,8.951,3.884,0.434,0.077,5.523
+rl_ep0054_s1,rl,54,1,close_drawer,push the handle to close the drawer,slow,1,60,20,0.67,8.149,6.757,0.829,0.0,
+rl_ep0054_s2,rl,54,2,move_slider_left,push the sliding door to the left side,moving,1,58,44,1.47,8.481,13.36,1.575,0.0,12.53
+rl_ep0054_s3,rl,54,3,push_pink_block_right,go push the pink block right,moving,1,60,232,7.73,4.792,4.931,1.029,0.017,8.448
+rl_ep0054_s4,rl,54,4,lift_red_block_slider,lift the red block from the sliding cabinet,slow,0,54,60,2.0,9.813,5.076,0.517,0.034,6.789
+rl_ep0055_s0,rl,55,0,close_drawer,push the handle to close the drawer,moving,1,52,164,5.47,7.432,9.501,1.278,0.012,12.991
+rl_ep0055_s1,rl,55,1,push_red_block_left,go push the red block left,moving,1,60,274,9.13,4.853,4.82,0.993,0.015,17.075
+rl_ep0055_s2,rl,55,2,lift_red_block_table,grasp and lift the red block,moving,0,36,282,9.4,6.286,1.183,0.188,0.436,12.979
+rl_ep0056_s0,rl,56,0,move_slider_right,push the sliding door to the right side,moving,1,48,36,1.2,11.842,6.913,0.584,0.0,8.509
+rl_ep0056_s1,rl,56,1,push_into_drawer,slide the block that it falls into the drawer,moving,1,24,158,5.27,8.786,5.386,0.613,0.013,11.489
+rl_ep0056_s2,rl,56,2,lift_red_block_slider,lift the red block from the sliding cabinet,moving,0,46,258,8.6,8.202,8.4,1.024,0.008,16.231
+rl_ep0057_s0,rl,57,0,push_blue_block_left,go push the blue block left,slow,0,28,36,1.2,11.554,3.573,0.309,0.0,3.871
+rl_ep0058_s0,rl,58,0,move_slider_right,push the sliding door to the right side,slow,1,44,114,3.8,11.954,3.956,0.331,0.053,6.458
+rl_ep0058_s1,rl,58,1,turn_off_lightbulb,use the switch to turn off the light bulb,moving,0,60,80,2.67,7.489,7.524,1.005,0.0,10.909
+rl_ep0058_s2,rl,58,2,close_drawer,push the handle to close the drawer,moving,1,60,140,4.67,10.622,7.951,0.749,0.058,10.355
+rl_ep0058_s3,rl,58,3,rotate_blue_block_right,take the blue block and rotate it to the right,slow,0,60,266,8.87,4.797,2.445,0.51,0.106,6.138
+rl_ep0058_s4,rl,58,4,lift_blue_block_table,grasp and lift the blue block,moving,1,46,292,9.73,2.975,4.24,1.425,0.0,8.999
+rl_ep0059_s0,rl,59,0,turn_off_lightbulb,use the switch to turn off the light bulb,moving,0,44,58,1.93,10.774,9.549,0.886,0.0,13.154
+rl_ep0059_s1,rl,59,1,push_blue_block_left,go push the blue block left,slow,1,60,176,5.87,5.038,3.15,0.625,0.023,5.584
+rl_ep0060_s0,rl,60,0,turn_on_lightbulb,use the switch to turn on the light bulb,moving,0,38,90,3.0,11.799,5.239,0.444,0.0,8.716
+rl_ep0060_s1,rl,60,1,move_slider_left,push the sliding door to the left side,moving,1,60,94,3.13,8.829,4.832,0.547,0.043,9.484
+rl_ep0060_s2,rl,60,2,push_blue_block_right,go push the blue block right,slow,1,56,86,2.87,5.61,4.52,0.806,0.0,5.261
+rl_ep0060_s3,rl,60,3,lift_blue_block_table,grasp and lift the blue block,slow,0,60,76,2.53,3.878,5.219,1.346,0.0,5.682
+rl_ep0060_s4,rl,60,4,stack_block,stack the grasped block,moving,1,46,270,9.0,10.196,4.616,0.453,0.007,9.746
+rl_ep0061_s0,rl,61,0,push_blue_block_right,go push the blue block right,slow,1,42,80,2.67,6.156,3.945,0.641,0.0,6.33
+rl_ep0061_s1,rl,61,1,move_slider_right,push the sliding door to the right side,slow,1,60,80,2.67,11.778,2.022,0.172,0.275,5.047
+rl_ep0061_s2,rl,61,2,turn_on_lightbulb,use the switch to turn on the light bulb,slow,1,60,52,1.73,7.846,3.87,0.493,0.0,6.377
+rl_ep0061_s3,rl,61,3,lift_red_block_table,grasp and lift the red block,moving,1,60,52,1.73,5.765,13.245,2.298,0.0,14.043
+rl_ep0062_s0,rl,62,0,rotate_pink_block_left,take the pink block and rotate it to the left,slow,1,60,98,3.27,1.469,4.169,2.838,0.0,5.176
+rl_ep0062_s1,rl,62,1,turn_on_led,press the button to turn on the led light,moving,1,26,246,8.2,9.434,4.577,0.485,0.041,7.461
+rl_ep0062_s2,rl,62,2,lift_red_block_slider,lift the red block from the sliding cabinet,moving,0,46,184,6.13,6.285,8.522,1.356,0.0,11.601
+rl_ep0062_s3,rl,62,3,stack_block,stack the grasped block,moving,1,34,262,8.73,10.611,5.607,0.528,0.015,11.858
+rl_ep0062_s4,rl,62,4,close_drawer,push the handle to close the drawer,moving,1,60,174,5.8,7.369,12.447,1.689,0.023,15.017
+rl_ep0063_s0,rl,63,0,move_slider_right,push the sliding door to the right side,moving,1,44,234,7.8,12.024,8.423,0.701,0.017,19.702
+rl_ep0063_s1,rl,63,1,lift_red_block_slider,lift the red block from the sliding cabinet,moving,1,56,248,8.27,7.532,3.57,0.474,0.033,8.92
+rl_ep0063_s2,rl,63,2,place_in_slider,store the grasped block in the sliding cabinet,moving,1,38,34,1.13,14.902,18.103,1.215,0.0,17.708
+rl_ep0063_s3,rl,63,3,open_drawer,pull the handle to open the drawer,moving,1,44,178,5.93,8.092,11.978,1.48,0.0,15.652
+rl_ep0063_s4,rl,63,4,turn_on_led,press the button to turn on the led light,moving,0,32,148,4.93,8.965,6.959,0.776,0.096,9.357
+rl_ep0064_s0,rl,64,0,open_drawer,pull the handle to open the drawer,moving,1,42,100,3.33,8.857,13.466,1.52,0.0,13.251
+rl_ep0064_s1,rl,64,1,push_pink_block_right,go push the pink block right,moving,1,44,146,4.87,7.386,6.675,0.904,0.014,9.415
+rl_ep0064_s2,rl,64,2,lift_red_block_table,grasp and lift the red block,moving,1,40,136,4.53,10.772,6.434,0.597,0.0,9.413
+rl_ep0065_s0,rl,65,0,open_drawer,pull the handle to open the drawer,moving,1,40,250,8.33,8.837,9.678,1.095,0.0,16.279
+rl_ep0065_s1,rl,65,1,turn_on_led,press the button to turn on the led light,slow,1,52,252,8.4,7.109,4.72,0.664,0.063,6.901
+rl_ep0065_s2,rl,65,2,move_slider_right,push the sliding door to the right side,moving,1,44,196,6.53,9.491,6.338,0.668,0.021,9.531
+rl_ep0065_s3,rl,65,3,lift_pink_block_table,grasp and lift the pink block,moving,0,20,220,7.33,7.658,10.099,1.319,0.018,12.358
+rl_ep0065_s4,rl,65,4,place_in_drawer,store the grasped block in the drawer,moving,1,10,290,9.67,6.885,9.411,1.367,0.007,19.008
+rl_ep0066_s0,rl,66,0,rotate_pink_block_right,take the pink block and rotate it to the right,moving,0,46,198,6.6,2.478,5.73,2.312,0.0,8.654
+rl_ep0066_s1,rl,66,1,lift_pink_block_table,grasp and lift the pink block,moving,1,60,122,4.07,4.764,6.055,1.271,0.017,10.429
+rl_ep0066_s2,rl,66,2,place_in_slider,store the grasped block in the sliding cabinet,slow,1,28,40,1.33,9.515,4.676,0.491,0.0,5.537
+rl_ep0066_s3,rl,66,3,move_slider_right,push the sliding door to the right side,moving,1,44,176,5.87,13.098,5.183,0.396,0.023,10.018
+rl_ep0066_s4,rl,66,4,lift_blue_block_slider,lift the blue block from the sliding cabinet,moving,0,54,84,2.8,7.612,9.631,1.265,0.0,12.295
+rl_ep0067_s0,rl,67,0,lift_pink_block_table,grasp and lift the pink block,slow,0,34,186,6.2,10.925,2.849,0.261,0.043,5.802
+rl_ep0068_s0,rl,68,0,push_pink_block_left,go push the pink block left,moving,1,48,258,8.6,11.703,6.592,0.563,0.039,12.874
+rl_ep0068_s1,rl,68,1,lift_blue_block_table,grasp and lift the blue block,moving,0,56,286,9.53,13.169,9.11,0.692,0.0,13.056
+rl_ep0068_s2,rl,68,2,place_in_drawer,store the grasped block in the drawer,moving,1,12,58,1.93,9.03,10.921,1.209,0.0,15.185
+rl_ep0068_s3,rl,68,3,close_drawer,push the handle to close the drawer,moving,1,60,250,8.33,9.741,10.121,1.039,0.008,14.935
+rl_ep0068_s4,rl,68,4,move_slider_right,push the sliding door to the right side,moving,1,38,132,4.4,10.254,7.039,0.687,0.0,8.326
+rl_ep0069_s0,rl,69,0,open_drawer,pull the handle to open the drawer,slow,1,44,28,0.93,8.008,16.005,1.999,0.0,
+rl_ep0069_s1,rl,69,1,turn_off_led,press the button to turn off the led light,moving,0,22,278,9.27,9.954,4.425,0.445,0.072,8.182
+rl_ep0069_s2,rl,69,2,push_pink_block_left,go push the pink block left,moving,1,60,286,9.53,11.837,3.954,0.334,0.063,14.209
+rl_ep0069_s3,rl,69,3,move_slider_left,push the sliding door to the left side,slow,1,54,28,0.93,11.453,4.386,0.383,0.071,
+rl_ep0069_s4,rl,69,4,lift_pink_block_table,grasp and lift the pink block,moving,0,38,186,6.2,9.627,8.187,0.85,0.0,10.654
+rl_ep0070_s0,rl,70,0,close_drawer,push the handle to close the drawer,moving,1,52,252,8.4,7.518,10.987,1.461,0.008,15.18
+rl_ep0070_s1,rl,70,1,rotate_blue_block_right,take the blue block and rotate it to the right,moving,0,60,242,8.07,2.927,3.773,1.289,0.017,7.082
+rl_ep0070_s2,rl,70,2,turn_off_led,press the button to turn off the led light,moving,0,44,136,4.53,10.906,4.716,0.432,0.075,7.288
+rl_ep0070_s3,rl,70,3,move_slider_right,push the sliding door to the right side,moving,1,36,262,8.73,11.348,7.174,0.632,0.062,42.032
+rl_ep0071_s0,rl,71,0,open_drawer,pull the handle to open the drawer,moving,1,40,50,1.67,8.732,8.742,1.001,0.0,10.45
+rl_ep0071_s1,rl,71,1,push_red_block_left,go push the red block left,slow,1,50,18,0.6,8.78,4.654,0.53,0.0,
+rl_ep0071_s2,rl,71,2,turn_off_lightbulb,use the switch to turn off the light bulb,moving,1,48,46,1.53,11.044,6.312,0.572,0.0,8.757
+rl_ep0071_s3,rl,71,3,lift_pink_block_slider,lift the pink block from the sliding cabinet,moving,0,60,120,4.0,11.908,9.287,0.78,0.033,12.742
+rl_ep0071_s4,rl,71,4,place_in_slider,store the grasped block in the sliding cabinet,moving,1,42,48,1.6,14.848,7.455,0.502,0.0,9.1
+rl_ep0072_s0,rl,72,0,move_slider_right,push the sliding door to the right side,slow,1,44,38,1.27,11.209,4.058,0.362,0.0,5.068
+rl_ep0072_s1,rl,72,1,push_pink_block_left,go push the pink block left,slow,1,60,90,3.0,6.0,4.569,0.761,0.0,5.911
+rl_ep0072_s2,rl,72,2,lift_blue_block_slider,lift the blue block from the sliding cabinet,moving,0,54,204,6.8,8.888,8.15,0.917,0.0,12.643
+rl_ep0072_s3,rl,72,3,place_in_drawer,store the grasped block in the drawer,moving,1,14,166,5.53,7.145,7.98,1.117,0.0,16.659
+rl_ep0072_s4,rl,72,4,turn_off_led,press the button to turn off the led light,slow,1,2,94,3.13,3.196,3.502,1.096,0.106,5.923
+rl_ep0073_s0,rl,73,0,push_red_block_left,go push the red block left,moving,1,56,288,9.6,10.164,8.836,0.869,0.014,13.365
+rl_ep0073_s1,rl,73,1,turn_on_led,press the button to turn on the led light,moving,1,22,216,7.2,9.332,4.824,0.517,0.056,8.104
+rl_ep0073_s2,rl,73,2,lift_pink_block_slider,lift the pink block from the sliding cabinet,moving,0,44,198,6.6,9.701,7.616,0.785,0.0,12.476
+rl_ep0073_s3,rl,73,3,place_in_drawer,store the grasped block in the drawer,moving,1,8,286,9.53,6.36,6.878,1.081,0.021,11.91
+rl_ep0073_s4,rl,73,4,move_slider_right,push the sliding door to the right side,moving,1,38,242,8.07,9.648,2.91,0.302,0.225,45.968
+rl_ep0074_s0,rl,74,0,turn_off_lightbulb,use the switch to turn off the light bulb,slow,1,60,52,1.73,5.512,5.922,1.074,0.0,6.143
+rl_ep0074_s1,rl,74,1,move_slider_right,push the sliding door to the right side,slow,1,60,26,0.87,10.842,10.591,0.977,0.0,
+rl_ep0074_s2,rl,74,2,rotate_blue_block_right,take the blue block and rotate it to the right,slow,0,60,264,8.8,3.427,3.034,0.885,0.053,4.649
+rl_ep0075_s0,rl,75,0,move_slider_right,push the sliding door to the right side,moving,1,42,34,1.13,11.537,9.042,0.784,0.0,10.315
+rl_ep0076_s0,rl,76,0,rotate_blue_block_left,take the blue block and rotate it to the left,slow,0,50,126,4.2,1.886,2.809,1.49,0.081,5.764
+rl_ep0076_s1,rl,76,1,turn_off_lightbulb,use the switch to turn off the light bulb,moving,1,52,140,4.67,9.519,7.183,0.755,0.0,8.552
+rl_ep0076_s2,rl,76,2,lift_pink_block_table,grasp and lift the pink block,moving,1,44,140,4.67,10.926,7.982,0.731,0.0,12.154
+rl_ep0076_s3,rl,76,3,place_in_slider,store the grasped block in the sliding cabinet,moving,1,50,106,3.53,13.963,9.723,0.696,0.019,16.748
+rl_ep0076_s4,rl,76,4,lift_red_block_slider,lift the red block from the sliding cabinet,moving,0,60,156,5.2,2.358,8.058,3.417,0.0,12.825
+rl_ep0077_s0,rl,77,0,turn_off_led,press the button to turn off the led light,moving,0,36,156,5.2,7.955,5.657,0.711,0.064,7.35
+rl_ep0077_s1,rl,77,1,move_slider_left,push the sliding door to the left side,slow,1,44,296,9.87,8.924,5.362,0.601,0.034,6.989
+rl_ep0077_s2,rl,77,2,open_drawer,pull the handle to open the drawer,moving,1,60,214,7.13,8.081,11.513,1.425,0.0,14.359
+rl_ep0077_s3,rl,77,3,rotate_blue_block_right,take the blue block and rotate it to the right,slow,0,60,238,7.93,2.851,2.476,0.869,0.042,5.541
+rl_ep0078_s0,rl,78,0,lift_blue_block_slider,lift the blue block from the sliding cabinet,moving,0,56,106,3.53,7.746,8.121,1.048,0.0,10.404
+rl_ep0079_s0,rl,79,0,rotate_red_block_left,take the red block and rotate it to the left,slow,0,60,94,3.13,3.472,1.816,0.523,0.043,2.973
+rl_ep0079_s1,rl,79,1,lift_pink_block_table,grasp and lift the pink block,moving,1,56,162,5.4,6.13,4.347,0.709,0.075,10.436
+rl_ep0080_s0,rl,80,0,push_pink_block_left,go push the pink block left,moving,1,42,200,6.67,10.18,11.046,1.085,0.0,13.645
+rl_ep0080_s1,rl,80,1,turn_on_lightbulb,use the switch to turn on the light bulb,moving,0,46,268,8.93,13.555,5.731,0.423,0.015,10.561
+rl_ep0080_s2,rl,80,2,lift_pink_block_table,grasp and lift the pink block,moving,0,56,64,2.13,9.956,12.54,1.26,0.0,14.651
+rl_ep0080_s3,rl,80,3,place_in_drawer,store the grasped block in the drawer,moving,1,14,162,5.4,7.958,7.708,0.969,0.012,10.671
+rl_ep0081_s0,rl,81,0,open_drawer,pull the handle to open the drawer,moving,1,40,114,3.8,9.492,10.153,1.07,0.0,11.432
+rl_ep0081_s1,rl,81,1,move_slider_right,push the sliding door to the right side,moving,1,48,182,6.07,10.805,8.156,0.755,0.1,15.554
+rl_ep0081_s2,rl,81,2,lift_red_block_slider,lift the red block from the sliding cabinet,moving,0,54,300,10.0,7.556,7.888,1.044,0.013,15.845
+rl_ep0082_s0,rl,82,0,lift_red_block_slider,lift the red block from the sliding cabinet,moving,0,56,108,3.6,7.93,8.549,1.078,0.0,11.82
+rl_ep0082_s1,rl,82,1,place_in_drawer,store the grasped block in the drawer,moving,1,2,36,1.2,0.952,11.697,12.28,0.0,11.476
+rl_ep0082_s2,rl,82,2,turn_on_led,press the button to turn on the led light,moving,0,28,68,2.27,7.086,5.803,0.819,0.0,7.258
+rl_ep0082_s3,rl,82,3,close_drawer,push the handle to close the drawer,moving,1,58,94,3.13,8.437,11.381,1.349,0.0,14.034
+rl_ep0082_s4,rl,82,4,lift_blue_block_table,grasp and lift the blue block,slow,1,40,268,8.93,8.365,4.024,0.481,0.12,6.319
+rl_ep0083_s0,rl,83,0,push_into_drawer,slide the block that it falls into the drawer,moving,1,40,94,3.13,10.208,13.61,1.333,0.022,16.816
+rl_ep0084_s0,rl,84,0,move_slider_right,push the sliding door to the right side,slow,1,48,96,3.2,12.854,5.356,0.417,0.0,5.953
+rl_ep0084_s1,rl,84,1,push_red_block_left,go push the red block left,moving,1,58,208,6.93,6.223,4.424,0.711,0.029,7.189
+rl_ep0084_s2,rl,84,2,turn_off_lightbulb,use the switch to turn off the light bulb,moving,1,38,168,5.6,12.656,8.301,0.656,0.0,9.495
+rl_ep0084_s3,rl,84,3,lift_blue_block_slider,lift the blue block from the sliding cabinet,moving,0,60,290,9.67,10.729,5.334,0.497,0.014,7.527
+rl_ep0085_s0,rl,85,0,lift_pink_block_slider,lift the pink block from the sliding cabinet,slow,0,48,282,9.4,6.488,4.455,0.687,0.014,6.86
+rl_ep0086_s0,rl,86,0,move_slider_right,push the sliding door to the right side,moving,1,60,230,7.67,9.663,8.082,0.836,0.105,20.694
+rl_ep0086_s1,rl,86,1,turn_on_led,press the button to turn on the led light,slow,0,60,196,6.53,4.961,3.521,0.71,0.052,6.003
+rl_ep0086_s2,rl,86,2,lift_pink_block_slider,lift the pink block from the sliding cabinet,moving,0,42,262,8.73,7.979,6.221,0.78,0.023,12.045
+rl_ep0086_s3,rl,86,3,place_in_drawer,store the grasped block in the drawer,moving,1,14,300,10.0,8.048,10.615,1.319,0.007,12.791
+rl_ep0086_s4,rl,86,4,lift_pink_block_drawer,Take the pink block from the drawer,moving,0,38,88,2.93,11.825,6.195,0.524,0.047,7.994
+rl_ep0087_s0,rl,87,0,push_pink_block_right,go push the pink block right,moving,1,60,176,5.87,7.191,5.982,0.832,0.023,9.611
+rl_ep0087_s1,rl,87,1,close_drawer,push the handle to close the drawer,moving,1,54,56,1.87,7.949,13.498,1.698,0.0,13.473
+rl_ep0087_s2,rl,87,2,lift_red_block_slider,lift the red block from the sliding cabinet,slow,0,46,46,1.53,9.863,5.241,0.531,0.0,6.513
+rl_ep0087_s3,rl,87,3,stack_block,stack the grasped block,moving,1,30,208,6.93,5.767,5.919,1.026,0.01,9.942
+rl_ep0087_s4,rl,87,4,move_slider_right,push the sliding door to the right side,slow,1,58,30,1.0,13.01,1.639,0.126,0.286,
+rl_ep0088_s0,rl,88,0,push_blue_block_left,go push the blue block left,moving,0,48,220,7.33,9.346,3.564,0.381,0.027,10.939
+rl_ep0089_s0,rl,89,0,close_drawer,push the handle to close the drawer,moving,1,50,64,2.13,7.383,13.546,1.835,0.0,13.673
+rl_ep0089_s1,rl,89,1,lift_red_block_slider,lift the red block from the sliding cabinet,moving,1,46,210,7.0,9.441,5.661,0.6,0.0,7.507
+rl_ep0089_s2,rl,89,2,place_in_slider,store the grasped block in the sliding cabinet,moving,1,60,130,4.33,9.795,5.418,0.553,0.094,16.767
+rl_ep0090_s0,rl,90,0,rotate_blue_block_left,take the blue block and rotate it to the left,slow,0,60,276,9.2,2.265,2.835,1.251,0.167,5.694
+rl_ep0090_s1,rl,90,1,turn_off_lightbulb,use the switch to turn off the light bulb,moving,1,60,182,6.07,9.96,6.836,0.686,0.0,12.914
+rl_ep0090_s2,rl,90,2,move_slider_right,push the sliding door to the right side,moving,1,60,176,5.87,14.255,3.125,0.219,0.205,9.122
+rl_ep0091_s0,rl,91,0,turn_on_led,press the button to turn on the led light,moving,0,48,182,6.07,6.583,4.927,0.748,0.044,7.2
+rl_ep0091_s1,rl,91,1,rotate_blue_block_right,take the blue block and rotate it to the right,slow,0,60,230,7.67,3.583,3.116,0.87,0.07,6.386
+rl_ep0091_s2,rl,91,2,lift_blue_block_table,grasp and lift the blue block,moving,1,12,72,2.4,4.45,10.777,2.422,0.0,12.903
+rl_ep0091_s3,rl,91,3,stack_block,stack the grasped block,moving,0,44,240,8.0,5.734,5.625,0.981,0.084,10.005
+rl_ep0091_s4,rl,91,4,lift_red_block_slider,lift the red block from the sliding cabinet,moving,0,52,168,5.6,9.615,6.83,0.71,0.0,11.077
+rl_ep0092_s0,rl,92,0,open_drawer,pull the handle to open the drawer,moving,1,42,232,7.73,9.202,9.918,1.078,0.0,13.568
+rl_ep0092_s1,rl,92,1,turn_off_led,press the button to turn off the led light,moving,0,26,166,5.53,8.655,4.146,0.479,0.073,7.151
+rl_ep0092_s2,rl,92,2,push_pink_block_right,go push the pink block right,moving,1,40,104,3.47,7.876,6.223,0.79,0.02,8.047
+rl_ep0092_s3,rl,92,3,move_slider_right,push the sliding door to the right side,moving,1,60,42,1.4,12.045,9.178,0.762,0.0,10.799
+rl_ep0092_s4,rl,92,4,push_into_drawer,slide the block that it falls into the drawer,moving,1,60,166,5.53,8.362,5.206,0.622,0.0,8.796
+rl_ep0093_s0,rl,93,0,push_pink_block_right,go push the pink block right,moving,1,60,296,9.87,5.883,3.066,0.521,0.014,8.218
+rl_ep0093_s1,rl,93,1,lift_blue_block_slider,lift the blue block from the sliding cabinet,slow,1,60,26,0.87,7.32,15.958,2.18,0.0,
+rl_ep0093_s2,rl,93,2,place_in_slider,store the grasped block in the sliding cabinet,moving,1,34,180,6.0,11.528,4.517,0.392,0.011,12.168
+rl_ep0093_s3,rl,93,3,turn_on_lightbulb,use the switch to turn on the light bulb,moving,1,28,144,4.8,7.788,6.518,0.837,0.0,8.624
+rl_ep0093_s4,rl,93,4,move_slider_right,push the sliding door to the right side,slow,1,56,18,0.6,14.044,3.48,0.248,0.125,
+rl_ep0094_s0,rl,94,0,rotate_pink_block_right,take the pink block and rotate it to the right,moving,0,58,172,5.73,2.547,4.656,1.828,0.024,12.464
+rl_ep0094_s1,rl,94,1,move_slider_left,push the sliding door to the left side,moving,1,60,236,7.87,7.464,4.727,0.633,0.025,9.83
+rl_ep0094_s2,rl,94,2,close_drawer,push the handle to close the drawer,moving,1,60,228,7.6,13.867,10.246,0.739,0.0,14.774
+rl_ep0094_s3,rl,94,3,turn_off_led,press the button to turn off the led light,moving,0,32,296,9.87,7.929,4.863,0.613,0.068,9.663
+rl_ep0094_s4,rl,94,4,lift_pink_block_table,grasp and lift the pink block,moving,0,50,168,5.6,11.186,4.023,0.36,0.012,9.468
+rl_ep0095_s0,rl,95,0,close_drawer,push the handle to close the drawer,moving,1,50,184,6.13,7.974,11.822,1.483,0.0,14.42
+rl_ep0095_s1,rl,95,1,move_slider_right,push the sliding door to the right side,moving,1,38,294,9.8,8.071,4.627,0.573,0.014,24.984
+rl_ep0095_s2,rl,95,2,turn_on_led,press the button to turn on the led light,moving,1,40,108,3.6,7.605,6.309,0.83,0.038,8.99
+rl_ep0095_s3,rl,95,3,rotate_red_block_left,take the red block and rotate it to the left,moving,0,60,244,8.13,5.518,2.659,0.482,0.115,7.245
+rl_ep0096_s0,rl,96,0,lift_pink_block_table,grasp and lift the pink block,moving,1,34,120,4.0,10.81,12.484,1.155,0.0,12.871
+rl_ep0096_s1,rl,96,1,stack_block,stack the grasped block,slow,1,60,208,6.93,5.328,4.228,0.794,0.019,6.948
+rl_ep0096_s2,rl,96,2,turn_on_lightbulb,use the switch to turn on the light bulb,moving,0,56,182,6.07,12.117,6.958,0.574,0.0,10.145
+rl_ep0096_s3,rl,96,3,unstack_block,remove the stacked block,moving,1,60,72,2.4,3.685,12.723,3.452,0.0,14.913
+rl_ep0097_s0,rl,97,0,close_drawer,push the handle to close the drawer,moving,1,46,182,6.07,8.165,10.762,1.318,0.0,16.042
+rl_ep0097_s1,rl,97,1,move_slider_left,push the sliding door to the left side,moving,1,38,280,9.33,11.255,6.362,0.565,0.022,10.854
+rl_ep0097_s2,rl,97,2,rotate_pink_block_left,take the pink block and rotate it to the left,slow,0,60,188,6.27,2.775,2.309,0.832,0.106,4.458
+rl_ep0097_s3,rl,97,3,turn_on_led,press the button to turn on the led light,moving,1,36,268,8.93,4.117,5.453,1.324,0.075,8.512
+rl_ep0097_s4,rl,97,4,lift_red_block_slider,lift the red block from the sliding cabinet,moving,0,42,292,9.73,9.664,8.964,0.928,0.007,13.829
+rl_ep0098_s0,rl,98,0,move_slider_left,push the sliding door to the left side,moving,1,38,42,1.4,11.251,6.387,0.568,0.0,7.637
+rl_ep0098_s1,rl,98,1,push_red_block_right,go push the red block right,slow,1,54,36,1.2,7.583,3.983,0.525,0.0,4.019
+rl_ep0099_s0,rl,99,0,rotate_red_block_right,take the red block and rotate it to the right,slow,1,60,158,5.27,3.15,2.6,0.825,0.051,4.722
+rl_ep0099_s1,rl,99,1,turn_on_lightbulb,use the switch to turn on the light bulb,moving,0,26,176,5.87,6.876,7.383,1.074,0.0,14.12
+rl_ep0099_s2,rl,99,2,move_slider_right,push the sliding door to the right side,moving,1,54,228,7.6,13.436,7.334,0.546,0.07,22.268
+rl_ep0099_s3,rl,99,3,open_drawer,pull the handle to open the drawer,moving,1,42,106,3.53,9.791,13.062,1.334,0.0,12.873
+rl_ep0099_s4,rl,99,4,lift_blue_block_table,grasp and lift the blue block,moving,0,26,66,2.2,9.086,6.281,0.691,0.0,8.028

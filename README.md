@@ -50,6 +50,10 @@
 `index.csv` 의 `verdict_auto` 는 속도 규칙이 자동으로 낸 판정 (`stopped`, `slow`, `moving`) 이라 사람 라벨과
 비교할 대상이다. 같은 열에 있는 `held_end` 는 대기 끝에 성공이 남았는지, `wait_s` 는 대기 길이다.
 
+**정책에 준 지시문은 `instruction` 열에 있다.** 영상에는 subtask 이름 (`move_slider_left`) 이 뜨고, 그때 정책이
+받은 문장 (`push the sliding door to the left side`) 은 `index.csv` 와 `annotation.csv` 에 같이 넣었다. 평가가
+쓴 것과 같은 CALVIN 주석 (validation) 이고 subtask 34 종마다 하나씩이다.
+
 ## 속도 데이터로 그림 그리기
 
     import pandas as pd, matplotlib.pyplot as plt
